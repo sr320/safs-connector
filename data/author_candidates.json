@@ -1,0 +1,3071 @@
+{
+ "adam-summers": [
+  {
+   "id": "A5012847693",
+   "display_name": "Adam P. Summers",
+   "orcid": "0000-0003-1930-9748",
+   "works_count": 462,
+   "cited_by_count": 7689,
+   "uw_years": [
+    2004,
+    2026
+   ],
+   "other_institutions": [
+    "New Mexico State University",
+    "Idaho State University",
+    "University of Nebraska–Lincoln",
+    "Gonzaga University",
+    "Utah State University",
+    "Museum of Vertebrate Zoology",
+    "Harvard University",
+    "Duke University"
+   ],
+   "topic_ids": [
+    "T11387",
+    "T12319",
+    "T13100",
+    "T11170",
+    "T10955"
+   ],
+   "topics": [
+    "Ichthyology and Marine Biology",
+    "Fish Biology and Ecology Studies",
+    "Comparative Animal Anatomy Studies",
+    "Biomimetic flight and propulsion mechanisms",
+    "Paleontology and Evolutionary Biology"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Earth and Planetary Sciences",
+    "Engineering",
+    "Environmental Science",
+    "Medicine"
+   ],
+   "top_titles": [
+    "2021: SlicerMorph: An open and extensible platform to retrieve, visualize and analyse 3D morphology",
+    "2017: Open data and digital morphology",
+    "2021: Bio-inspired geotechnical engineering: principles, current work, opportunities and challenges",
+    "2013: Stick tight: suction adhesion on irregular surfaces in the northern clingfish",
+    "2000: Stiffening the stingray skeleton ? an investigation of durophagy in Myliobatid stingrays (Chondrichthyes, Batoidea, Myliobatidae)",
+    "2005: Batoid wing skeletal structure: Novel morphologies, mechanical implications, and phylogenetic patterns",
+    "2007: Linkage mechanics and power amplification of the mantis shrimp's strike",
+    "2008: Three‐dimensional computer analysis of white shark jaw mechanics: how hard can a great white bite?"
+   ]
+  }
+ ],
+ "amy-van-cise": [
+  {
+   "id": "A5051527707",
+   "display_name": "Amy M. Van Cise",
+   "orcid": "0000-0002-0613-4072",
+   "works_count": 28,
+   "cited_by_count": 537,
+   "uw_years": [
+    2022,
+    2026
+   ],
+   "other_institutions": [
+    "NOAA National Marine Fisheries Service",
+    "National Oceanic and Atmospheric Administration",
+    "Scripps Institution of Oceanography",
+    "University of California San Diego",
+    "NOAA National Marine Fisheries Service Southwest Fisheries Science Center",
+    "Cascadia Research Collective",
+    "NOAA National Marine Fisheries Service Northwest Fisheries Science Center",
+    "Woods Hole Oceanographic Institution"
+   ],
+   "topic_ids": [
+    "T10659",
+    "T10012",
+    "T10199",
+    "T12640",
+    "T11665"
+   ],
+   "topics": [
+    "Marine animal studies overview",
+    "Genetic diversity and population structure",
+    "Wildlife Ecology and Conservation",
+    "Environmental DNA in Biodiversity Studies",
+    "Animal Vocal Communication and Behavior"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Biochemistry, Genetics and Molecular Biology",
+    "Environmental Science"
+   ],
+   "top_titles": [
+    "2016: Genomic Methods Take the Plunge: Recent Advances in High-Throughput Sequencing of Marine Mammals",
+    "2025: Observation Bias in Metabarcoding",
+    "2020: Marine mammal skin microbiotas are influenced by host phylogeny",
+    "2020: Skin microbiome of beluga whales: spatial, temporal, and health-related dynamics",
+    "2017: Familial social structure and socially driven genetic differentiation in Hawaiian short‐finned pilot whales",
+    "2019: Oceanographic barriers, divergence, and admixture: Phylogeography and taxonomy of two putative subspecies of short‐finned pilot whale",
+    "2016: Redrawing the map: mt DNA provides new insight into the distribution and diversity of short‐finned pilot whales in the Pacific Ocean",
+    "2022: A Collection of Best Practices for the Collection and Analysis of Bioacoustic Data"
+   ]
+  },
+  {
+   "id": "A5048580347",
+   "display_name": "Amy Van Cise",
+   "orcid": null,
+   "works_count": 9,
+   "cited_by_count": 286,
+   "uw_years": [
+    2025,
+    2025
+   ],
+   "other_institutions": [
+    "NOAA National Marine Fisheries Service",
+    "National Oceanic and Atmospheric Administration",
+    "NOAA National Marine Fisheries Service Northwest Fisheries Science Center"
+   ],
+   "topic_ids": [
+    "T10659",
+    "T10230",
+    "T10015",
+    "T11791",
+    "T12640"
+   ],
+   "topics": [
+    "Marine animal studies overview",
+    "Marine and fisheries research",
+    "Genomics and Phylogenetic Studies",
+    "Microbial Community Ecology and Physiology",
+    "Environmental DNA in Biodiversity Studies"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Biochemistry, Genetics and Molecular Biology",
+    "Environmental Science"
+   ],
+   "top_titles": [
+    "2022: Toward quantitative metabarcoding",
+    "2023: Signal and noise in metabarcoding data",
+    "2012: Journey to the Center of the Gyre: The Fate of the Tohoku Tsunami Debris Field",
+    "2010: Distribution and Catch Rates of Zooplankton around the South Shetland Islands, Antarctica",
+    "2009: Distribution, abundance and behavior of seabirds and mammals at sea",
+    "2010: Phytoplankton Studies in the South Shetland Islands",
+    "2025: Group dynamics, behavior, and tidal state Dr.calling in beluga whales",
+    "2025: Toward sustainable seaweed aquaculture: delphinid occurrence at macroalgae farms in the Caribbean Sea"
+   ]
+  }
+ ],
+ "andre-punt": [
+  {
+   "id": "A5060216580",
+   "display_name": "André Eric Punt",
+   "orcid": "0000-0001-8489-2488",
+   "works_count": 599,
+   "cited_by_count": 26789,
+   "uw_years": [
+    1993,
+    2026
+   ],
+   "other_institutions": [
+    "NOAA National Marine Fisheries Service",
+    "Australian National University",
+    "CSIRO Oceans and Atmosphere",
+    "Commonwealth Scientific and Industrial Research Organisation",
+    "Australian Bureau of Agricultural and Resource Economics and Sciences",
+    "National Oceanic and Atmospheric Administration",
+    "Food and Agriculture Organization of the United Nations",
+    "Unilever (United Kingdom)"
+   ],
+   "topic_ids": [
+    "T10230",
+    "T10302",
+    "T10482",
+    "T13546",
+    "T10659"
+   ],
+   "topics": [
+    "Marine and fisheries research",
+    "Fish Ecology and Management Studies",
+    "Mathematical and Theoretical Epidemiology and Ecology Models",
+    "Census and Population Estimation",
+    "Marine animal studies overview"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Environmental Science",
+    "Mathematics"
+   ],
+   "top_titles": [
+    "2004: Standardizing catch and effort data: a review of recent approaches",
+    "2014: Management strategy evaluation: best practices",
+    "1997: Fisheries stock assessment and decision analysis: the Bayesian approach",
+    "2012: A review of integrated analysis in fisheries stock assessment",
+    "2005: Which ecological indicators can robustly detect effects of fishing?",
+    "2012: Multispecies fisheries management and conservation: tactical applications using models of intermediate complexity",
+    "2008: Integrating genetic data into management of marine resources: how can we do it better?",
+    "2010: Ecosystem-based fisheries management requires a change to the selective fishing philosophy"
+   ]
+  },
+  {
+   "id": "A5136954314",
+   "display_name": "Andre Punt",
+   "orcid": null,
+   "works_count": 18,
+   "cited_by_count": 13,
+   "uw_years": [
+    2026,
+    2026
+   ],
+   "other_institutions": [
+    "Commonwealth Scientific and Industrial Research Organisation"
+   ],
+   "topic_ids": [
+    "T10230",
+    "T10302",
+    "T11387",
+    "T10199",
+    "T10005"
+   ],
+   "topics": [
+    "Marine and fisheries research",
+    "Fish Ecology and Management Studies",
+    "Ichthyology and Marine Biology",
+    "Wildlife Ecology and Conservation",
+    "Ecology and Vegetation Dynamics Studies"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Environmental Science"
+   ],
+   "top_titles": [
+    "2014: Orange Roughy (Hoplostethus atlanticus) Eastern Zone stock assessment incorporating data up to 2014",
+    "2009: Thomson, R.B. and Punt, A.E. 2009c. Stock assessment update for school shark Galeorhinus galeus based on data to 2008, re-analysis for SharkRAG meeting 17-18 November 2009. (Presented to the SharkRAG 17-18 November 2009)",
+    "2026: Supplementary Material from Three decades of classifying threatened species: Lessons learned from and about the IUCN Red List Criteria for quantifying extinction risk",
+    "2010: Gummy shark assessment for 2010, using data to the end of 2009. Presented to sharkRAG August 2010",
+    "2026: FRDC Tiger Prawns-MICE project synthesis materials",
+    "2026: A global database of pinniped abundance trends for 29 species and 573 sites",
+    "2026: Supplementary material from \"Three decades of classifying threatened species: Lessons learned from and about the IUCN Red List Criteria for quantifying extinction risk\"",
+    "2025: Compound climate events threaten tropical semi-enclosed marine ecosystems"
+   ]
+  }
+ ],
+ "andrea-burton": [
+  {
+   "id": "A5097866921",
+   "display_name": "Andrea R. Burton",
+   "orcid": null,
+   "works_count": 2,
+   "cited_by_count": 6,
+   "uw_years": [
+    2026,
+    2026
+   ],
+   "other_institutions": [],
+   "topic_ids": [
+    "T10072",
+    "T10726",
+    "T11047",
+    "T11756",
+    "T12182"
+   ],
+   "topics": [
+    "Science Education and Pedagogy",
+    "Career Development and Diversity",
+    "Gender Diversity and Inequality",
+    "Mentoring and Academic Development",
+    "Evolution and Science Education"
+   ],
+   "fields": [
+    "Arts and Humanities",
+    "Psychology",
+    "Social Sciences"
+   ],
+   "top_titles": [
+    "2017: Mentoring Relationships of Professional Indian Women",
+    "2026: Anthropocentric Thinking about Antibiotic Resistance and Ecosystems: Relations between Explanations and Misconceptions in American Undergraduates from Urban and Rural Backgrounds"
+   ]
+  }
+ ],
+ "andrew-berdahl": [
+  {
+   "id": "A5076555421",
+   "display_name": "Andrew M. Berdahl",
+   "orcid": "0000-0002-5057-0103",
+   "works_count": 78,
+   "cited_by_count": 2601,
+   "uw_years": [
+    2018,
+    2026
+   ],
+   "other_institutions": [
+    "Santa Fe Institute",
+    "University of Calgary",
+    "Princeton University"
+   ],
+   "topic_ids": [
+    "T10174",
+    "T10230",
+    "T10199",
+    "T10302",
+    "T10482"
+   ],
+   "topics": [
+    "Animal Behavior and Reproduction",
+    "Marine and fisheries research",
+    "Wildlife Ecology and Conservation",
+    "Fish Ecology and Management Studies",
+    "Mathematical and Theoretical Epidemiology and Ecology Models"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Environmental Science",
+    "Mathematics"
+   ],
+   "top_titles": [
+    "2013: Emergent Sensing of Complex Environments by Mobile Animal Groups",
+    "2018: Collective animal navigation and migratory culture: from theoretical models to empirical evidence",
+    "2023: Beyond collective intelligence: Collective adaptation",
+    "2020: Ecological insights from three decades of animal movement tracking across a changing Arctic",
+    "2018: Inferring the rules of social interaction in migrating caribou",
+    "2011: Signalling and the Evolution of Cooperative Foraging in Dynamic Environments",
+    "2018: Collective movement in ecology: from emerging technologies to conservation and management",
+    "2014: A collective navigation hypothesis for homeward migration in anadromous salmonids"
+   ]
+  },
+  {
+   "id": "A5160643743",
+   "display_name": "Andrew Berdahl",
+   "orcid": "0000-0002-5057-0103",
+   "works_count": 1,
+   "cited_by_count": 0,
+   "uw_years": [
+    2026,
+    2026
+   ],
+   "other_institutions": [],
+   "topic_ids": [
+    "T11500",
+    "T12325",
+    "T14299"
+   ],
+   "topics": [
+    "Evacuation and Crowd Dynamics",
+    "Urban Design and Spatial Analysis",
+    "Complex Systems and Dynamics"
+   ],
+   "fields": [
+    "Physics and Astronomy",
+    "Social Sciences"
+   ],
+   "top_titles": [
+    "2026: Trail systems self-organize through individual route optimization"
+   ]
+  }
+ ],
+ "carter-smith": [
+  {
+   "id": "A5107791866",
+   "display_name": "C. Daniel Smith",
+   "orcid": null,
+   "works_count": 122,
+   "cited_by_count": 7566,
+   "uw_years": [
+    2000,
+    2000
+   ],
+   "other_institutions": [
+    "Mayo Clinic",
+    "University of Wisconsin–Madison",
+    "Emory University",
+    "Emory University Hospital",
+    "Piedmont Atlanta Hospital",
+    "University of Illinois Chicago",
+    "Emory Clinic",
+    "Mayo Clinic in Florida"
+   ],
+   "topic_ids": [
+    "T10671",
+    "T11658",
+    "T10619",
+    "T12053",
+    "T10569"
+   ],
+   "topics": [
+    "Gastroesophageal reflux and treatments",
+    "Esophageal and GI Pathology",
+    "Esophageal Cancer Research and Treatment",
+    "Minimally Invasive Surgical Techniques",
+    "Bariatric Surgery and Outcomes"
+   ],
+   "fields": [
+    "Medicine"
+   ],
+   "top_titles": [
+    "2005: Virtual Reality Simulation for the Operating Room: Proficiency-Based Training as a Paradigm Shift in Surgical Skills Training",
+    "2007: Proficiency-based virtual reality training significantly reduces the error rate for residents during their first 10 laparoscopic cholecystectomies",
+    "2001: Bile Duct Injury During Laparoscopic Cholecystectomy: Results of a National Survey",
+    "2008: Mesh complications after prosthetic reinforcement of hiatal closure: a 28-case series",
+    "1999: Laparoscopic Fundoplication Failures: Patterns of Failure and Response to Fundoplication Revision",
+    "2013: Esophageal Sphincter Device for Gastroesophageal Reflux Disease",
+    "2007: Who will fail laparoscopic Nissen fundoplication? Preoperative prediction of long-term outcomes",
+    "2015: Long-term Outcomes of Patients Receiving a Magnetic Sphincter Augmentation Device for Gastroesophageal Reflux"
+   ]
+  },
+  {
+   "id": "A5021985027",
+   "display_name": "Carter S. Smith",
+   "orcid": "0000-0002-6652-3010",
+   "works_count": 59,
+   "cited_by_count": 2567,
+   "uw_years": [
+    2024,
+    2026
+   ],
+   "other_institutions": [
+    "Broad Institute",
+    "University of North Carolina at Chapel Hill",
+    "Northeastern University",
+    "Montclair State University",
+    "Duke University",
+    "Western Kentucky University"
+   ],
+   "topic_ids": [
+    "T10779",
+    "T10647",
+    "T12414",
+    "T10643",
+    "T10765"
+   ],
+   "topics": [
+    "Coastal wetland ecosystem dynamics",
+    "Coastal and Marine Dynamics",
+    "Coastal and Marine Management",
+    "Marine and coastal plant biology",
+    "Marine Biology and Ecology Research"
+   ],
+   "fields": [
+    "Earth and Planetary Sciences",
+    "Environmental Science"
+   ],
+   "top_titles": [
+    "1948: Grains, Phases, and Interfaces an Interpretation of Microstructure",
+    "2016: Ecological Consequences of Shoreline Hardening: A Meta-Analysis",
+    "2020: Challenges for Restoration of Coastal Marine Ecosystems in the Anthropocene",
+    "2020: Coming to Terms With Living Shorelines: A Scoping Review of Novel Restoration Strategies for Shoreline Protection",
+    "2023: Herbivory limits success of vegetation restoration globally",
+    "2020: Priorities and Motivations of Marine Coastal Restoration Research",
+    "2018: Living shorelines enhanced the resilience of saltmarshes to Hurricane Matthew (2016)",
+    "2017: Hurricane damage along natural and hardened estuarine shorelines: Using homeowner experiences to promote nature-based coastal protection"
+   ]
+  }
+ ],
+ "chelsea-wood": [
+  {
+   "id": "A5064675633",
+   "display_name": "Chelsea L. Wood",
+   "orcid": "0000-0003-2738-3139",
+   "works_count": 197,
+   "cited_by_count": 5630,
+   "uw_years": [
+    2017,
+    2026
+   ],
+   "other_institutions": [
+    "Dartmouth College",
+    "North Carolina State University",
+    "University of Colorado Boulder",
+    "Cornell University",
+    "University of Michigan",
+    "University of Colorado System",
+    "National Center for Ecological Analysis and Synthesis",
+    "Hopkins Marine Station"
+   ],
+   "topic_ids": [
+    "T10815",
+    "T12492",
+    "T12234",
+    "T10695",
+    "T10765"
+   ],
+   "topics": [
+    "Parasite Biology and Host Interactions",
+    "Zoonotic diseases and public health",
+    "Mollusks and Parasites Studies",
+    "Parasites and Host Interactions",
+    "Marine Biology and Ecology Research"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Earth and Planetary Sciences",
+    "Immunology and Microbiology",
+    "Medicine"
+   ],
+   "top_titles": [
+    "2020: Parasite Biodiversity",
+    "2007: Parasites alter community structure",
+    "2012: Biodiversity and disease: a synthesis of ecological perspectives on Lyme disease transmission",
+    "2019: Towards common ground in the biodiversity–disease debate",
+    "2014: Does biodiversity protect humans against infectious disease?",
+    "2016: Global Assessment of Schistosomiasis Control Over the Past Century Shows Targeting the Snail Intermediate Host Works Best",
+    "2020: A global parasite conservation plan",
+    "2015: A world without parasites: exploring the hidden ecology of infection"
+   ]
+  }
+ ],
+ "chris-anderson": [
+  {
+   "id": "A5006140547",
+   "display_name": "Christopher D. Anderson",
+   "orcid": "0000-0002-0053-2002",
+   "works_count": 409,
+   "cited_by_count": 14686,
+   "uw_years": [
+    2014,
+    2015
+   ],
+   "other_institutions": [
+    "Broad Institute",
+    "Boston University",
+    "Northwestern University",
+    "University of North Carolina at Chapel Hill",
+    "University of Southern California",
+    "Universitat Autònoma de Barcelona",
+    "University of Copenhagen",
+    "Jagiellonian University"
+   ],
+   "topic_ids": [
+    "T10227",
+    "T11763",
+    "T10261",
+    "T13648",
+    "T10420"
+   ],
+   "topics": [
+    "Acute Ischemic Stroke Management",
+    "Intracerebral and Subarachnoid Hemorrhage Research",
+    "Genetic Associations and Epidemiology",
+    "Cerebrovascular and genetic disorders",
+    "Intracranial Aneurysms: Treatment and Complications"
+   ],
+   "fields": [
+    "Biochemistry, Genetics and Molecular Biology",
+    "Medicine"
+   ],
+   "top_titles": [
+    "2018: Multiancestry genome-wide association study of 520,000 subjects identifies 32 loci associated with stroke and stroke subtypes",
+    "2018: Multi-ethnic genome-wide association study for atrial fibrillation",
+    "2022: Stroke genetics informs drug discovery and risk prediction across ancestries",
+    "2018: Type 2 diabetes genetic loci informed by multi-trait associations point to disease mechanisms and subtypes: A soft clustering analysis",
+    "2021: ECG-Based Deep Learning and Clinical Risk Factors to Predict Atrial Fibrillation",
+    "2017: Large-scale analyses of common and rare variants identify 12 new loci associated with atrial fibrillation",
+    "2014: Meta-analysis of Genome-wide Association Studies Identifies 1q22 as a Susceptibility Locus for Intracerebral Hemorrhage",
+    "2010: Variants at APOE influence risk of deep and lobar intracerebral hemorrhage"
+   ]
+  },
+  {
+   "id": "A5102727589",
+   "display_name": "Christopher M. Anderson",
+   "orcid": "0000-0003-0472-7218",
+   "works_count": 145,
+   "cited_by_count": 4907,
+   "uw_years": [
+    2012,
+    2025
+   ],
+   "other_institutions": [
+    "California Institute of Technology",
+    "National Oceanic and Atmospheric Administration",
+    "University of Wisconsin–Madison",
+    "University of Rhode Island",
+    "Colby College",
+    "University of Florida",
+    "NOAA National Marine Fisheries Service Alaska Fisheries Science Center",
+    "Pacific States Marine Fisheries Commission"
+   ],
+   "topic_ids": [
+    "T10039",
+    "T10230",
+    "T12917",
+    "T10477",
+    "T10646"
+   ],
+   "topics": [
+    "Stellar, planetary, and galactic studies",
+    "Marine and fisheries research",
+    "Astronomy and Astrophysical Research",
+    "Astrophysics and Star Formation Studies",
+    "Experimental Behavioral Economics Studies"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Economics, Econometrics and Finance",
+    "Physics and Astronomy"
+   ],
+   "top_titles": [
+    "2020: Effective fisheries management instrumental in improving fish stock status",
+    "2015: The Fishery Performance Indicators: A Management Tool for Triple Bottom Line Outcomes",
+    "2004: Do non-strategic sanctions obey the law of demand? The demand for punishment in the voluntary contribution mechanism",
+    "2018: Three pillars of sustainability in fisheries",
+    "2025: Illuminating the multidimensional contributions of small-scale fisheries",
+    "1975: The peculiar object HD 44179 /'The red rectangle'/",
+    "2021: Identifying management actions that promote sustainable fisheries",
+    "2008: A game-theoretic analysis of competition among container port hubs: the case of Busan and Shanghai 1"
+   ]
+  },
+  {
+   "id": "A5008017730",
+   "display_name": "Christopher Anderson",
+   "orcid": "0000-0002-8560-3438",
+   "works_count": 83,
+   "cited_by_count": 1073,
+   "uw_years": [
+    1992,
+    1992
+   ],
+   "other_institutions": [
+    "University of North Carolina at Chapel Hill",
+    "Brigham and Women's Hospital",
+    "Harvard University",
+    "University of Rochester Medicine",
+    "UNC Lineberger Comprehensive Cancer Center",
+    "University of Rochester"
+   ],
+   "topic_ids": [
+    "T10167",
+    "T14185",
+    "T12576",
+    "T11243",
+    "T10118"
+   ],
+   "topics": [
+    "Influenza Virus Research Studies",
+    "Research, Science, and Academia",
+    "vaccines and immunoinformatics approaches",
+    "Respiratory viral infections research",
+    "SARS-CoV-2 and COVID-19 Research"
+   ],
+   "fields": [
+    "Biochemistry, Genetics and Molecular Biology",
+    "Business, Management and Accounting",
+    "Medicine"
+   ],
+   "top_titles": [
+    "2001: Activation of sickle red blood cell adhesion via integrin-associated protein/CD47–induced signal transduction",
+    "2001: Integrin-associated protein is an adhesion receptor on sickle red blood cells for immobilized thrombospondin",
+    "2018: Antigenic cartography of H1N1 influenza viruses using sequence-based antigenic distance calculation",
+    "2017: Natural and directed antigenic drift of the H1 influenza virus hemagglutinin stalk domain",
+    "2014: Essential Role of Elmo1 in Dock2-Dependent Lymphocyte Migration",
+    "2019: CX3CR1 as a respiratory syncytial virus receptor in pediatric human lung",
+    "2019: Broad Hemagglutinin-Specific Memory B Cell Expansion by Seasonal Influenza Virus Infection Reflects Early-Life Imprinting and Adaptation to the Infecting Virus",
+    "2017: Antigenicity of the 2015–2016 seasonal H1N1 human influenza virus HA and NA proteins"
+   ]
+  },
+  {
+   "id": "A5002778302",
+   "display_name": "Christopher Todd Anderson",
+   "orcid": "0000-0001-7155-8640",
+   "works_count": 32,
+   "cited_by_count": 635,
+   "uw_years": [
+    2022,
+    2022
+   ],
+   "other_institutions": [
+    "Froedtert Hospital",
+    "Medical University of South Carolina",
+    "University of California, Los Angeles",
+    "Medical College of Wisconsin",
+    "Columbia University Irving Medical Center",
+    "Hospital of the University of Pennsylvania",
+    "University of Alabama at Birmingham",
+    "NeuroPace (United States)"
+   ],
+   "topic_ids": [
+    "T10094",
+    "T10919",
+    "T10429",
+    "T12580",
+    "T10465"
+   ],
+   "topics": [
+    "Epilepsy research and treatment",
+    "Deep Brain Stimulation and Movement Disorders",
+    "EEG and Brain-Computer Interfaces",
+    "Vagus Nerve Stimulation Research",
+    "Neurobiology of Language and Bilingualism"
+   ],
+   "fields": [
+    "Medicine",
+    "Neuroscience"
+   ],
+   "top_titles": [
+    "2015: Day–Night Patterns of Epileptiform Activity in 65 Patients With Long-Term Ambulatory Electrocorticography",
+    "2020: Temporal lobe regions essential for preserved picture naming after left temporal epilepsy surgery",
+    "2008: Sensitivity and specificity of video alone versus electroencephalography alone for the diagnosis of partial seizures",
+    "2013: The TARC/sICAM5 Ratio in Patient Plasma is a Candidate Biomarker for Drug Resistant Epilepsy",
+    "2023: A multicenter retrospective study of patients treated in the thalamus with responsive neurostimulation",
+    "2013: Epilepsy Surgery: Factors That Affect Patient Decision-Making in Choosing or Deferring a Procedure",
+    "2022: Prediction of Naming Outcome With fMRI Language Lateralization in Left Temporal Epilepsy Surgery",
+    "2013: Utilization of care among drug resistant epilepsy patients with symptoms of anxiety and depression"
+   ]
+  },
+  {
+   "id": "A5101991079",
+   "display_name": "Christopher Anderson",
+   "orcid": "0000-0001-6418-9330",
+   "works_count": 9,
+   "cited_by_count": 67,
+   "uw_years": [
+    2024,
+    2024
+   ],
+   "other_institutions": [
+    "Agricultural Research Service",
+    "Massey University"
+   ],
+   "topic_ids": [
+    "T10098",
+    "T10005",
+    "T10066",
+    "T10139",
+    "T10141"
+   ],
+   "topics": [
+    "Ruminant Nutrition and Digestive Physiology",
+    "Ecology and Vegetation Dynamics Studies",
+    "Gut microbiota and health",
+    "Heavy metals in environment",
+    "Probiotics and Fermented Foods"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Biochemistry, Genetics and Molecular Biology",
+    "Environmental Science"
+   ],
+   "top_titles": [
+    "2016: Phytomining for Artisanal Gold Mine Tailings Management",
+    "1990: Untapped data in vaults",
+    "2024: The Interplay of Binary and Quantitative Structure on the Stability of Mutualistic Networks",
+    "2022: PSIV-6 Engineering Microbes to Develop Novel Direct Fed Microbials as an Alternative to Prophylactic Antibiotic Use in Beef Cattle Production",
+    "1991: US plans to rescue materials research",
+    "1991: New twist in snail saga",
+    "1991: Software protection",
+    "1990: Grass-roots not so green"
+   ]
+  },
+  {
+   "id": "A5108758768",
+   "display_name": "Christopher Anderson",
+   "orcid": null,
+   "works_count": 8,
+   "cited_by_count": 11,
+   "uw_years": [
+    1992,
+    1992
+   ],
+   "other_institutions": [],
+   "topic_ids": [
+    "T14185",
+    "T13726",
+    "T10118",
+    "T10189",
+    "T10261"
+   ],
+   "topics": [
+    "Research, Science, and Academia",
+    "International Science and Diplomacy",
+    "SARS-CoV-2 and COVID-19 Research",
+    "Anesthesia and Pain Management",
+    "Genetic Associations and Epidemiology"
+   ],
+   "fields": [
+    "Biochemistry, Genetics and Molecular Biology",
+    "Business, Management and Accounting",
+    "Medicine",
+    "Social Sciences"
+   ],
+   "top_titles": [
+    "1993: Leading Pork Opponent Hog-Tied by Cancer Project",
+    "1992: Frustration brought panel to showdown",
+    "1992: NOAA appoints ombudsman to repair frayed ties with universities",
+    "1991: Dingell opens second front in Gallo war",
+    "1991: The perils of privatization",
+    "1993: Random Samples",
+    "1990: Pain management in children.",
+    "1990: Economics lesson for MIT"
+   ]
+  },
+  {
+   "id": "A5130815370",
+   "display_name": "Chris Anderson",
+   "orcid": null,
+   "works_count": 1,
+   "cited_by_count": 0,
+   "uw_years": [
+    2026,
+    2026
+   ],
+   "other_institutions": [
+    "Washington State University Spokane"
+   ],
+   "topic_ids": [
+    "T10198",
+    "T10372",
+    "T10821"
+   ],
+   "topics": [
+    "Heart Failure Treatment and Management",
+    "Cardiac Imaging and Diagnostics",
+    "Cardiovascular Function and Risk Factors"
+   ],
+   "fields": [
+    "Medicine"
+   ],
+   "top_titles": [
+    "2026: 26-A-18211-ACC A BETTER WAY TO INDEX LEFT VENTRICULAR END-DIASTOLIC VOLUME FOR BODY SIZE"
+   ]
+  }
+ ],
+ "corey-garza": [
+  {
+   "id": "A5078909443",
+   "display_name": "Corey D. Garza",
+   "orcid": "0000-0002-4915-7776",
+   "works_count": 44,
+   "cited_by_count": 842,
+   "uw_years": [
+    2023,
+    2026
+   ],
+   "other_institutions": [
+    "California State University System",
+    "California State University, Monterey Bay",
+    "Hampton University",
+    "University of California, Santa Barbara",
+    "University of California, Los Angeles",
+    "Princeton University",
+    "California State University Los Angeles",
+    "Friday Harbor Laboratories"
+   ],
+   "topic_ids": [
+    "T10726",
+    "T10765",
+    "T10230",
+    "T10643",
+    "T12414"
+   ],
+   "topics": [
+    "Career Development and Diversity",
+    "Marine Biology and Ecology Research",
+    "Marine and fisheries research",
+    "Marine and coastal plant biology",
+    "Coastal and Marine Management"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Earth and Planetary Sciences",
+    "Environmental Science",
+    "Psychology"
+   ],
+   "top_titles": [
+    "2013: Marine debris in central California: Quantifying type and abundance of beach litter in Monterey Bay, CA",
+    "2010: Multivariate bathymetry-derived generalized linear model accurately predicts rockfish distribution on Cordell Bank, California, USA",
+    "2009: Complex equilibria in the maintenance of boundaries: experiments with mussel beds",
+    "2021: Equitable Exchange: A Framework for Diversity and Inclusion in the Geosciences",
+    "2020: Integrating oceans into climate policy: Any green new deal needs a splash of blue",
+    "2013: Long Island Sound: Prospects for the Urban Sea",
+    "2021: Changing the Culture of Coastal, Ocean, and Marine Sciences: Strategies for Individual and Collective Actions",
+    "2014: Impact of Predation by the Invasive CrabHemigrapsus sanguineuson Survival of Juvenile Blue Mussels in Western Long Island Sound"
+   ]
+  }
+ ],
+ "daniel-schindler": [
+  {
+   "id": "A5020860487",
+   "display_name": "Daniel E. Schindler",
+   "orcid": "0000-0001-8881-2334",
+   "works_count": 346,
+   "cited_by_count": 28464,
+   "uw_years": [
+    1997,
+    2026
+   ],
+   "other_institutions": [
+    "NOAA National Marine Fisheries Service",
+    "University of North Carolina at Chapel Hill",
+    "University of Wisconsin System",
+    "National Oceanic and Atmospheric Administration",
+    "University of Wisconsin–Madison",
+    "University of Alberta",
+    "University of Michigan",
+    "Cary Institute of Ecosystem Studies"
+   ],
+   "topic_ids": [
+    "T10302",
+    "T10230",
+    "T10236",
+    "T12073",
+    "T12319"
+   ],
+   "topics": [
+    "Fish Ecology and Management Studies",
+    "Marine and fisheries research",
+    "Aquatic Ecosystems and Phytoplankton Dynamics",
+    "Isotope Analysis in Ecology",
+    "Fish Biology and Ecology Studies"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Environmental Science"
+   ],
+   "top_titles": [
+    "2010: Population diversity and the portfolio effect in an exploited species",
+    "2015: Rapid and highly variable warming of lake surface waters around the globe",
+    "2009: Ecological Dynamics Across the Arctic Associated with Recent Climate Change",
+    "2003: Biocomplexity and fisheries sustainability",
+    "2004: CLIMATE CHANGE UNCOUPLES TROPHIC INTERACTIONS IN AN AQUATIC ECOSYSTEM",
+    "2002: Habitat coupling in lake ecosystems",
+    "2002: Pacific Salmon, Nutrients, and the Dynamics of Freshwater and Riparian Ecosystems",
+    "2015: The portfolio concept in ecology and evolution"
+   ]
+  }
+ ],
+ "graham-young": [
+  {
+   "id": "A5111758464",
+   "display_name": "Graham Young",
+   "orcid": null,
+   "works_count": 118,
+   "cited_by_count": 8242,
+   "uw_years": [
+    2005,
+    2025
+   ],
+   "other_institutions": [
+    "National Institute for Basic Biology",
+    "University of Idaho",
+    "University of California System",
+    "Ehime University",
+    "Western Regional Aquaculture Center",
+    "Niigata University",
+    "Washington State University",
+    "University of Otago"
+   ],
+   "topic_ids": [
+    "T11505",
+    "T10450",
+    "T10364",
+    "T10748",
+    "T11056"
+   ],
+   "topics": [
+    "Reproductive biology and impacts on aquatic species",
+    "Aquaculture Nutrition and Growth",
+    "Reproductive Biology and Fertility",
+    "Growth Hormone and Insulin-like Growth Factors",
+    "Physiological and biochemical adaptations"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Biochemistry, Genetics and Molecular Biology",
+    "Environmental Science",
+    "Medicine"
+   ],
+   "top_titles": [
+    "2009: Oogenesis in teleosts: How fish eggs are formed",
+    "2016: Contaminants of emerging concern in a large temperate estuary",
+    "1982: Estradiol-17β production in amago salmon (Oncorhynchus rhodurus) ovarian follicles: Role of the thecal and granulosa cells",
+    "1989: Smoltification and seawater adaptation in coho salmon (Oncorhynchus kisutch): Plasma prolactin, growth hormone, thyroid hormones, and cortisol",
+    "2016: Maternal investment in fish oocytes and eggs: The molecular cargo and its contributions to fertility and early development",
+    "1983: Plasma 17α,20β-dihydroxy-4-pregnen-3-one levels during sexual maturation of amago salmon (Oncorhynchus rhodurus): Correlation with plasma gonadotropin and in vitro production by ovarian follicles",
+    "2003: 11β-Hydroxysteroid Dehydrogenase Complementary Deoxyribonucleic Acid in Rainbow Trout: Cloning, Sites of Expression, and Seasonal Changes in Gonads",
+    "1989: Smoltification and seawater adaptation in Atlantic salmon (Salmo salar): Plasma prolactin, growth hormone, and thyroid hormones"
+   ]
+  }
+ ],
+ "gregory-jensen": [
+  {
+   "id": "A5110954824",
+   "display_name": "Gregory C. Jensen",
+   "orcid": "0009-0001-8782-1105",
+   "works_count": 31,
+   "cited_by_count": 1045,
+   "uw_years": [
+    1983,
+    2024
+   ],
+   "other_institutions": [
+    "Bowling Green State University",
+    "Ohio University"
+   ],
+   "topic_ids": [
+    "T10765",
+    "T11004",
+    "T10174",
+    "T14399",
+    "T12213"
+   ],
+   "topics": [
+    "Marine Biology and Ecology Research",
+    "Crustacean biology and ecology",
+    "Animal Behavior and Reproduction",
+    "Invertebrate Taxonomy and Ecology",
+    "Marine Ecology and Invasive Species"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Earth and Planetary Sciences",
+    "Environmental Science"
+   ],
+   "top_titles": [
+    "2001: The competitive and predatory impacts of the nonindigenous crab Carcinus maenas (L.) on early benthic phase Dungeness crab Cancer magister Dana",
+    "2016: Energy Transfer in Quantum Dot Solids",
+    "1996: Jensen, Gregory C. 1995. Pacific coast crabs and shrimps.—Sea Challengers, Monterey, California, U.S.A. US $21.95. Paperback. Pp. 1-87. ISBN 0―9300118―20―0.",
+    "2007: Biotic resistance to green crab, Carcinus maenas, in California bays",
+    "1989: Gregarious settlement by megalopae of the porcelain crabs Petrolisthes cinctipes (Randall) and P. eriomerus Stimpson",
+    "1993: Taking Refuge from Bycatch Issues: Red King Crab (Paralithodes camtschaticus) and Trawl Fisheries in the Eastern Bering Sea",
+    "1991: Competency, settling behavior, and postsettlement aggregation by porcelain crab megalopae (Anomura : Porcellanidae)",
+    "1989: Biennial Reproductive Cycle of Blue King Crab, Paralithodes platypus, at the Pribilof Island, Alaska and Comparison to a Congener, P. camtschatica"
+   ]
+  },
+  {
+   "id": "A5017984305",
+   "display_name": "Gregory S. Jensen",
+   "orcid": "0000-0001-6058-7315",
+   "works_count": 15,
+   "cited_by_count": 1265,
+   "uw_years": [
+    1995,
+    2006
+   ],
+   "other_institutions": [
+    "California Institute of Technology",
+    "University of Illinois Urbana-Champaign",
+    "Calando Pharmaceuticals (United States)"
+   ],
+   "topic_ids": [
+    "T10725",
+    "T10063",
+    "T10343",
+    "T11752",
+    "T12104"
+   ],
+   "topics": [
+    "RNA Interference and Gene Delivery",
+    "Nanoparticle-Based Drug Delivery",
+    "Hydrogels: synthesis, properties, applications",
+    "Cancer Treatment and Pharmacology",
+    "Protein Tyrosine Phosphatases"
+   ],
+   "fields": [
+    "Biochemistry, Genetics and Molecular Biology",
+    "Materials Science",
+    "Medicine"
+   ],
+   "top_titles": [
+    "2003: Transferrin-Containing, Cyclodextrin Polymer-Based Particles for Tumor-Targeted Gene Delivery",
+    "2003: Synthesis of Linear, β-Cyclodextrin-Based Polymers and Their Camptothecin Conjugates",
+    "2004: Targeted delivery of RNA-cleaving DNA enzyme (DNAzyme) to tumor tissue by transferrin-modified, cyclodextrin-based particles",
+    "2006: Structure−Function Correlation of Chloroquine and Analogues as Transgene Expression Enhancers in Nonviral Gene Delivery",
+    "1994: Phosphorylation of the 61-kDa Calmodulin-Stimulated Cyclic Nucleotide Phosphodiesterase at Serine 120 Reduces Its Affinity for Calmodulin",
+    "1995: Characterization of cyclic nucleotide phosphodiesterases with cyclic GMP analogs: topology of the catalytic domains.",
+    "2008: Polymeric Tubulysin-Peptide Nanoparticles with Potent Antitumor Activity",
+    "2004: Synthetic Biocompatible Cyclodextrin-Based Constructs for Local Gene Delivery to Improve Cutaneous Wound Healing"
+   ]
+  }
+ ],
+ "heili-lowman": [
+  {
+   "id": "A5086722808",
+   "display_name": "Heili E. Lowman",
+   "orcid": "0000-0002-2939-9225",
+   "works_count": 41,
+   "cited_by_count": 327,
+   "uw_years": null,
+   "other_institutions": [
+    "Southern California Coastal Water Research Project",
+    "University of Iowa",
+    "Vassar College",
+    "University of Nevada, Reno",
+    "University of California, Santa Barbara",
+    "Duke University"
+   ],
+   "topic_ids": [
+    "T11311",
+    "T10669",
+    "T10032",
+    "T10236",
+    "T10464"
+   ],
+   "topics": [
+    "Soil and Water Nutrient Dynamics",
+    "Freshwater macroinvertebrate diversity and ecology",
+    "Marine Plankton and Biogeochemistry",
+    "Aquatic Ecosystems and Phytoplankton Dynamics",
+    "Crystal structures of chemical compounds"
+   ],
+   "fields": [
+    "Chemistry",
+    "Earth and Planetary Sciences",
+    "Environmental Science"
+   ],
+   "top_titles": [
+    "2022: A living tool for the continued exploration of microplastic toxicity",
+    "2021: Nutritional quality of giant kelp declines due to warming ocean temperatures",
+    "2023: Priorities for synthesis research in ecology and environmental science",
+    "2019: Contribution of macroalgal wrack consumers to dissolved inorganic nitrogen concentrations in intertidal pore waters of sandy beaches",
+    "2023: The Silent Mental Health and Well‐Being Crisis of Early Career Researchers in Aquatic Sciences",
+    "2024: Exceptions to the Heterotrophic Rule: Prevalence and Drivers of Autotrophy in Streams and Rivers",
+    "2024: Macroscale controls determine the recovery of river ecosystem productivity following flood disturbances",
+    "2022: Prioritizing Stream Protection, Restoration and Management Actions Using Landscape Modeling and Spatial Analysis"
+   ]
+  },
+  {
+   "id": "A5146422245",
+   "display_name": "Heili Lowman",
+   "orcid": null,
+   "works_count": 1,
+   "cited_by_count": 6,
+   "uw_years": null,
+   "other_institutions": [],
+   "topic_ids": [
+    "T11937",
+    "T11986",
+    "T14427"
+   ],
+   "topics": [
+    "Research Data Management Practices",
+    "Scientific Computing and Data Management",
+    "Environmental Monitoring and Data Management"
+   ],
+   "fields": [
+    "Computer Science",
+    "Decision Sciences",
+    "Environmental Science"
+   ],
+   "top_titles": [
+    "2021: AEMON-J/DSOS Archive: \"Hacking Limnology\" Workshop + Virtual Summit in Data Science & Open Science in Aquatic Research"
+   ]
+  }
+ ],
+ "jacqueline-padilla-gamino": [
+  {
+   "id": "A5022105512",
+   "display_name": "Jacqueline L. Padilla‐Gamiño",
+   "orcid": "0000-0003-0478-9953",
+   "works_count": 82,
+   "cited_by_count": 3185,
+   "uw_years": [
+    2016,
+    2026
+   ],
+   "other_institutions": [
+    "University of Hawaiʻi at Mānoa",
+    "University of Hawaii System",
+    "University of California, Santa Barbara",
+    "California State University, Northridge",
+    "California State University, Dominguez Hills",
+    "Hawaii Institute of Marine Biology",
+    "Western Washington University"
+   ],
+   "topic_ids": [
+    "T10341",
+    "T12806",
+    "T10765",
+    "T12142",
+    "T11056"
+   ],
+   "topics": [
+    "Coral and Marine Ecosystems Studies",
+    "Ocean Acidification Effects and Responses",
+    "Marine Biology and Ecology Research",
+    "Marine Invertebrate Physiology and Ecology",
+    "Physiological and biochemical adaptations"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Earth and Planetary Sciences",
+    "Environmental Science"
+   ],
+   "top_titles": [
+    "2015: The coral core microbiome identifies rare bacterial taxa as ubiquitous endosymbionts",
+    "2013: Natural variation and the capacity to adapt to ocean acidification in the keystone sea urchin S trongylocentrotus purpuratus",
+    "2022: The effect of weathering environments on microplastic chemical identification with Raman and IR spectroscopy: Part I. polyethylene and polypropylene",
+    "2020: Increasing comparability among coral bleaching experiments",
+    "2014: Exploring local adaptation and the ocean acidification seascape – studies in the California Current Large Marine Ecosystem",
+    "2013: Temperature and CO2additively regulate physiology, morphology and genomic responses of larval sea urchins,Strongylocentrotus purpuratus",
+    "2012: From Parent to Gamete: Vertical Transmission of Symbiodinium (Dinophyceae) ITS2 Sequence Assemblages in the Reef Building Coral Montipora capitata",
+    "2014: Interactive effects of elevated temperature and pCO2 on early-life-history stages of the giant kelp Macrocystis pyrifera"
+   ]
+  }
+ ],
+ "jessica-gephart": [
+  {
+   "id": "A5017516656",
+   "display_name": "Jessica A. Gephart",
+   "orcid": "0000-0001-6836-9291",
+   "works_count": 135,
+   "cited_by_count": 11662,
+   "uw_years": [
+    2020,
+    2026
+   ],
+   "other_institutions": [
+    "Johns Hopkins University",
+    "American University",
+    "Cary Institute of Ecosystem Studies",
+    "Johns Hopkins Berman Institute of Bioethics",
+    "National Socio-Environmental Synthesis Center",
+    "Johns Hopkins University School of Advanced International Studies",
+    "University of Virginia",
+    "Miami University"
+   ],
+   "topic_ids": [
+    "T14010",
+    "T10230",
+    "T11259",
+    "T14405",
+    "T10435"
+   ],
+   "topics": [
+    "Food Industry and Aquatic Biology",
+    "Marine and fisheries research",
+    "Agriculture Sustainability and Environmental Impact",
+    "Fisheries and Aquaculture Studies",
+    "Environmental Impact and Sustainability"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Environmental Science"
+   ],
+   "top_titles": [
+    "2018: The Global Food‐Energy‐Water Nexus",
+    "2021: Environmental performance of blue foods",
+    "2021: Aquatic foods to nourish nations",
+    "2020: Towards food supply chain resilience to environmental shocks",
+    "2016: Meeting future food demand with current agricultural resources",
+    "2021: Blue food demand across geographic and temporal scales",
+    "2021: Viewpoint: Rigorous monitoring is necessary to guide food system transformation in the countdown to the 2030 global goals",
+    "2022: The environmental footprint of global food production"
+   ]
+  }
+ ],
+ "john-horne": [
+  {
+   "id": "A5049930356",
+   "display_name": "John K. Horne",
+   "orcid": "0000-0002-3610-5379",
+   "works_count": 172,
+   "cited_by_count": 4301,
+   "uw_years": [
+    2000,
+    2024
+   ],
+   "other_institutions": [
+    "NOAA National Marine Fisheries Service",
+    "Buffalo State University",
+    "National Laboratory of the Rockies",
+    "Memorial University of Newfoundland",
+    "National Oceanic and Atmospheric Administration",
+    "Nova Southeastern University",
+    "University of Michigan",
+    "NOAA National Marine Fisheries Service Alaska Fisheries Science Center"
+   ],
+   "topic_ids": [
+    "T10230",
+    "T10659",
+    "T11698",
+    "T10302",
+    "T10765"
+   ],
+   "topics": [
+    "Marine and fisheries research",
+    "Marine animal studies overview",
+    "Underwater Acoustics Research",
+    "Fish Ecology and Management Studies",
+    "Marine Biology and Ecology Research"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Earth and Planetary Sciences",
+    "Environmental Science"
+   ],
+   "top_titles": [
+    "2000: Acoustic approaches to remote species identification: a review",
+    "2012: Mesoscale Eddies Are Oases for Higher Trophic Marine Life",
+    "1994: Acoustic models of fish: The Atlantic cod ( Gadus morhua )",
+    "2007: Vertical structure, biomass and topographic association of deep-pelagic fishes in relation to a mid-ocean ridge system",
+    "1995: Spatial Variance in Ecology",
+    "2004: Echolocation signals of free-ranging killer whales (Orcinus orca) and modeling of foraging for chinook salmon (Oncorhynchus tshawytscha)",
+    "2012: Measuring the vertical distributional variability of pelagic fauna in Monterey Bay",
+    "2015: Fish communities across a spectrum of habitats in the western Beaufort Sea and Chukchi Sea"
+   ]
+  },
+  {
+   "id": "A5147734483",
+   "display_name": "John Horne",
+   "orcid": null,
+   "works_count": 5,
+   "cited_by_count": 14,
+   "uw_years": [
+    2011,
+    2024
+   ],
+   "other_institutions": [
+    "Oregon State University"
+   ],
+   "topic_ids": [
+    "T10659",
+    "T11250",
+    "T10199",
+    "T10230",
+    "T10447"
+   ],
+   "topics": [
+    "Marine animal studies overview",
+    "Wave and Wind Energy Systems",
+    "Wildlife Ecology and Conservation",
+    "Marine and fisheries research",
+    "Environmental Toxicology and Ecotoxicology"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Engineering",
+    "Environmental Science"
+   ],
+   "top_titles": [
+    "2020: 2020 State of the Science Report, Chapter 10: Environmental Monitoring Technologies and Techniques for Detecting Interactions of Marine Animals with Turbines",
+    "2020: Chapter 10 Supplement. Environmental Monitoring Technologies and Techniques for Detecting Interactions of Marine Animals with Marine Renewable Energy Devices",
+    "2024: Advanced Laboratory and Field Arrays (ALFA)/Lab Collaboration Project (LCP) for Marine Energy (Final Scientific/Technical Report)",
+    "2020: Advanced Laboratory and Field Arrays: Evaluating Sampling Techniques for MHK Biological Monitoring (Task 6)"
+   ]
+  }
+ ],
+ "jose-guzman": [
+  {
+   "id": "A5102809011",
+   "display_name": "José M. Guzmán",
+   "orcid": "0000-0003-1193-8996",
+   "works_count": 61,
+   "cited_by_count": 1638,
+   "uw_years": [
+    2017,
+    2024
+   ],
+   "other_institutions": [
+    "NOAA National Marine Fisheries Service",
+    "National Oceanic and Atmospheric Administration",
+    "Consejo Superior de Investigaciones Científicas",
+    "Radboud University Nijmegen",
+    "Universidad de Cádiz",
+    "Instituto de Acuicultura Torre de la Sal",
+    "Hospital de Clínicas \"José de San Martín\"",
+    "Hospital General Universitario de Albacete"
+   ],
+   "topic_ids": [
+    "T10450",
+    "T11505",
+    "T10506",
+    "T11056",
+    "T10960"
+   ],
+   "topics": [
+    "Aquaculture Nutrition and Growth",
+    "Reproductive biology and impacts on aquatic species",
+    "Aquaculture disease management and microbiota",
+    "Physiological and biochemical adaptations",
+    "Hypothalamic control of reproductive hormones"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Biochemistry, Genetics and Molecular Biology",
+    "Environmental Science",
+    "Immunology and Microbiology",
+    "Medicine"
+   ],
+   "top_titles": [
+    "2003: Acclimation ofS. auratato various salinities alters energy metabolism of osmoregulatory and nonosmoregulatory organs",
+    "2005: Growth performance of gilthead sea bream Sparus aurata in different osmotic conditions: Implications for osmoregulation and energy metabolism",
+    "2002: Energy Metabolism in Fish Tissues Related to Osmoregulation and Cortisol Action",
+    "2005: Interactive effects of high stocking density and food deprivation on carbohydrate metabolism in several tissues of gilthead sea breamSparus auratus",
+    "2008: Vitellogenin, steroid plasma levels and spawning performance of cultured female Senegalese sole (Solea senegalensis)",
+    "2009: Expression of pituitary prolactin, growth hormone and somatolactin is modified in response to different stressors (salinity, crowding and food-deprivation) in gilthead sea bream Sparus auratus",
+    "2009: Spawning performance and plasma levels of GnRHa and sex steroids in cultured female Senegalese sole (Solea senegalensis) treated with different GnRHa-delivery systems",
+    "2014: Expression Profiles of Fsh-Regulated Ovarian Genes during Oogenesis in Coho Salmon"
+   ]
+  }
+ ],
+ "julia-parish": [
+  {
+   "id": "A5084830695",
+   "display_name": "Julia K. Parrish",
+   "orcid": "0000-0002-2410-3982",
+   "works_count": 139,
+   "cited_by_count": 12905,
+   "uw_years": [
+    1990,
+    2026
+   ],
+   "other_institutions": [
+    "Duke University",
+    "Washington Sea Grant",
+    "Furman University"
+   ],
+   "topic_ids": [
+    "T10089",
+    "T10659",
+    "T10230",
+    "T10174",
+    "T11937"
+   ],
+   "topics": [
+    "Avian ecology and behavior",
+    "Marine animal studies overview",
+    "Marine and fisheries research",
+    "Animal Behavior and Reproduction",
+    "Research Data Management Practices"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Computer Science",
+    "Environmental Science"
+   ],
+   "top_titles": [
+    "2014: Next Steps for Citizen Science",
+    "2016: Citizen science can improve conservation science, natural resource management, and environmental protection",
+    "1999: Complexity, Pattern, and Evolutionary Trade-Offs in Animal Aggregation",
+    "2014: Global change and local solutions: Tapping the unrealized potential of citizen science for biodiversity research",
+    "1993: Functions of shoaling behaviour in teleosts",
+    "2002: Self-Organized Fish Schools: An Examination of Emergent Properties",
+    "2020: Extreme mortality and reproductive failure of common murres resulting from the northeast Pacific marine heatwave of 2014-2016",
+    "2016: The science of citizen science: Exploring barriers to use as a primary research tool"
+   ]
+  },
+  {
+   "id": "A5025145840",
+   "display_name": "Julia E. Parrish-Novak",
+   "orcid": "0000-0003-4958-0782",
+   "works_count": 33,
+   "cited_by_count": 6106,
+   "uw_years": [
+    2018,
+    2018
+   ],
+   "other_institutions": [
+    "Cedars-Sinai Medical Center",
+    "The University of Queensland",
+    "University of South Australia",
+    "Overlake Hospital Medical Center",
+    "University of Washington Medical Center",
+    "Fred Hutch Cancer Center",
+    "Blaze Bioscience (United States)"
+   ],
+   "topic_ids": [
+    "T10977",
+    "T10782",
+    "T11503",
+    "T10469",
+    "T10031"
+   ],
+   "topics": [
+    "Optical Imaging and Spectroscopy Techniques",
+    "Nanoplatforms for cancer theranostics",
+    "Cytokine Signaling Pathways and Interactions",
+    "Psoriasis: Treatment and Pathogenesis",
+    "T-cell and B-cell Immunology"
+   ],
+   "fields": [
+    "Engineering",
+    "Immunology and Microbiology",
+    "Medicine"
+   ],
+   "top_titles": [
+    "2000: Interleukin 21 and its receptor are involved in NK cell expansion and regulation of lymphocyte function",
+    "2000: TACI and BCMA are receptors for a TNF homologue implicated in B-cell autoimmune disease",
+    "2004: Interleukin 31, a cytokine produced by activated T cells, induces dermatitis in mice",
+    "2001: Interleukin 20",
+    "2007: Identification of the IL-17 Receptor Related Molecule IL-17RC as the Receptor for IL-17F",
+    "2002: Interleukins 19, 20, and 24 Signal through Two Distinct Receptor Complexes",
+    "2002: Interleukin-21 and the IL-21 receptor: novel effectors of NK and T cell responses",
+    "2001: A soluble class II cytokine receptor, IL-22RA2, is a naturally occurring IL-22 antagonist"
+   ]
+  }
+ ],
+ "julian-olden": [
+  {
+   "id": "A5018591830",
+   "display_name": "Julian D. Olden",
+   "orcid": "0000-0003-2143-1187",
+   "works_count": 583,
+   "cited_by_count": 65525,
+   "uw_years": [
+    2006,
+    2026
+   ],
+   "other_institutions": [
+    "Griffith University",
+    "United States Geological Survey",
+    "Washington Department of Natural Resources",
+    "University of Wisconsin–Madison",
+    "University of Toronto",
+    "Kansas State University",
+    "University of Tennessee System",
+    "Society for Conservation Biology"
+   ],
+   "topic_ids": [
+    "T10302",
+    "T10005",
+    "T10669",
+    "T10895",
+    "T12319"
+   ],
+   "topics": [
+    "Fish Ecology and Management Studies",
+    "Ecology and Vegetation Dynamics Studies",
+    "Freshwater macroinvertebrate diversity and ecology",
+    "Species Distribution and Climate Change",
+    "Fish Biology and Ecology Studies"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Environmental Science"
+   ],
+   "top_titles": [
+    "2018: Emerging threats and persistent conservation challenges for freshwater biodiversity",
+    "2019: Mapping the world’s free-flowing rivers",
+    "2003: Ecological and evolutionary consequences of biotic homogenization",
+    "2009: The ecological limits of hydrologic alteration (ELOHA): a new framework for developing regional environmental flow standards",
+    "2007: Homogenization of regional river dynamics by dams and global biodiversity implications",
+    "2016: Global threats from invasive alien species in the twenty-first century and national response capacities",
+    "2008: Assessing the Effects of Climate Change on Aquatic Invasive Species",
+    "2001: What controls who is where in freshwater fish communities – the roles of biotic, abiotic, and spatial factors"
+   ]
+  },
+  {
+   "id": "A5120840237",
+   "display_name": "Julian D. Olden",
+   "orcid": "0000-0003-2143-1187",
+   "works_count": 14,
+   "cited_by_count": 136,
+   "uw_years": [
+    2025,
+    2025
+   ],
+   "other_institutions": [],
+   "topic_ids": [
+    "T10302",
+    "T10005",
+    "T12213",
+    "T10341",
+    "T10765"
+   ],
+   "topics": [
+    "Fish Ecology and Management Studies",
+    "Ecology and Vegetation Dynamics Studies",
+    "Marine Ecology and Invasive Species",
+    "Coral and Marine Ecosystems Studies",
+    "Marine Biology and Ecology Research"
+   ],
+   "fields": [
+    "Earth and Planetary Sciences",
+    "Environmental Science"
+   ],
+   "top_titles": [
+    "2025: The impacts of biological invasions",
+    "2026: A global assessment of BirdNET performance: Differences among continents, biomes, and species",
+    "2013: Food-Web Approaches in Restoration Ecology",
+    "2016: Global threats from invasive alien species in the twenty-first century and national response capacities",
+    "2026: Data archive for 'Current protected areas provide limited benefits for Mekong fish biodiversity'",
+    "2026: Data from: Global patterns and gaps in research on salinity tolerance of inland fishes",
+    "2025: Scalable Spatial Stream Network (S3N) Models",
+    "2015: Beaver dams shift desert fish assemblages toward dominance by non-native species (Verde River, Arizona, USA)"
+   ]
+  },
+  {
+   "id": "A5137913952",
+   "display_name": "Julian D. Olden",
+   "orcid": "0000-0003-2143-1187",
+   "works_count": 3,
+   "cited_by_count": 0,
+   "uw_years": [
+    2026,
+    2026
+   ],
+   "other_institutions": [],
+   "topic_ids": [
+    "T10302",
+    "T10005",
+    "T10036",
+    "T10236",
+    "T10577"
+   ],
+   "topics": [
+    "Fish Ecology and Management Studies",
+    "Ecology and Vegetation Dynamics Studies",
+    "Advanced Neural Network Applications",
+    "Aquatic Ecosystems and Phytoplankton Dynamics",
+    "Hydrology and Sediment Transport Processes"
+   ],
+   "fields": [
+    "Computer Science",
+    "Earth and Planetary Sciences",
+    "Environmental Science"
+   ],
+   "top_titles": [
+    "2026: GRBD: a global-scale multiple-type river barrier annotation database for global river barrier mapping with deep learning",
+    "2026: Ecosystem Synchrony Among Small Shallow Lakes is Driven Differently by Their Biotic and Abiotic Similarities",
+    "2026: Data archive for 'Beauty, but at what cost? Ornamental weirs fragment China's streams'"
+   ]
+  },
+  {
+   "id": "A5133724166",
+   "display_name": "Julian Olden",
+   "orcid": null,
+   "works_count": 2,
+   "cited_by_count": 1,
+   "uw_years": [
+    2026,
+    2026
+   ],
+   "other_institutions": [],
+   "topic_ids": [
+    "T10005",
+    "T10302",
+    "T10969",
+    "T12213",
+    "T14178"
+   ],
+   "topics": [
+    "Ecology and Vegetation Dynamics Studies",
+    "Fish Ecology and Management Studies",
+    "Water resources management and optimization",
+    "Marine Ecology and Invasive Species",
+    "Environmental Science and Water Management"
+   ],
+   "fields": [
+    "Environmental Science"
+   ],
+   "top_titles": [
+    "2026: Water scarcity reveals fundamental differences between community values and priorities informing management",
+    "2026: Globalizing recreational fisheries should not globalize non-native species"
+   ]
+  }
+ ],
+ "kenneth-sebens": [
+  {
+   "id": "A5059993085",
+   "display_name": "Kenneth P. Sebens",
+   "orcid": "0000-0003-3445-7933",
+   "works_count": 99,
+   "cited_by_count": 6874,
+   "uw_years": [
+    1976,
+    2026
+   ],
+   "other_institutions": [
+    "Northeastern University",
+    "University System of Maryland",
+    "Bowdoin College",
+    "Harvard University",
+    "University of Maryland Center for Environmental Science",
+    "University of California, Santa Cruz",
+    "University of Massachusetts Boston",
+    "Friday Harbor Laboratories"
+   ],
+   "topic_ids": [
+    "T10765",
+    "T10341",
+    "T12142",
+    "T12841",
+    "T10643"
+   ],
+   "topics": [
+    "Marine Biology and Ecology Research",
+    "Coral and Marine Ecosystems Studies",
+    "Marine Invertebrate Physiology and Ecology",
+    "Echinoderm biology and ecology",
+    "Marine and coastal plant biology"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Earth and Planetary Sciences",
+    "Environmental Science"
+   ],
+   "top_titles": [
+    "1987: THE ECOLOGY OF INDETERMINATE GROWTH IN ANIMALS",
+    "1986: Spatial Relationships among Encrusting Marine Organisms in the New England Subtidal Zone",
+    "2003: Effect of natural zooplankton feeding on the tissue and skeletal growth of the scleractinian coral Stylophora pistillata",
+    "1991: In situ measurements of flow effects on primary production and dark respiration in reef corals",
+    "1982: The Limits to Indeterminate Growth: An Optimal Size Model Applied To passive Suspension Feeders",
+    "1997: Effects of water flow and branch spacing on particle capture by the reef coral Madracis mirabilis (Duchassaing and Michelotti)",
+    "1996: Zooplankton capture by two scleractinian corals,Madracis mirabilis andMontastrea cavernosa, in a field enclosure",
+    "1991: Habitat structure and community dynamics in marine benthic systems"
+   ]
+  }
+ ],
+ "kerry-naish": [
+  {
+   "id": "A5034620418",
+   "display_name": "Kerry A. Naish",
+   "orcid": "0000-0002-3275-8778",
+   "works_count": 99,
+   "cited_by_count": 4611,
+   "uw_years": [
+    2002,
+    2025
+   ],
+   "other_institutions": [
+    "National Oceanic and Atmospheric Administration",
+    "Oregon State University",
+    "Rhodes University",
+    "Swansea University",
+    "NOAA National Marine Fisheries Service Northwest Fisheries Science Center",
+    "University of Guelph",
+    "University of Wales"
+   ],
+   "topic_ids": [
+    "T10012",
+    "T10594",
+    "T11468",
+    "T10302",
+    "T10174"
+   ],
+   "topics": [
+    "Genetic diversity and population structure",
+    "Genetic and phenotypic traits in livestock",
+    "Genetic Mapping and Diversity in Plants and Animals",
+    "Fish Ecology and Management Studies",
+    "Animal Behavior and Reproduction"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Biochemistry, Genetics and Molecular Biology",
+    "Environmental Science"
+   ],
+   "top_titles": [
+    "2007: An Evaluation of the Effects of Conservation and Fishery Enhancement Hatcheries on Wild Populations of Salmon",
+    "2011: Single‐nucleotide polymorphism (SNP) discovery and applications of SNP genotyping in nonmodel organisms",
+    "2019: Sex-dependent dominance maintains migration supergene in rainbow trout",
+    "2017: Harnessing the Power of Genomics to Secure the Future of Seafood",
+    "2018: A practical introduction to Random Forest for genetic association studies in ecology and evolution",
+    "2006: What is the fitness outcome of crossing unrelated fish populations? A meta-analysis and an evaluation of future research directions",
+    "2008: Bridging the gap between the genotype and the phenotype: linking genetic variation, selection and adaptation in fishes",
+    "2006: An empirical verification of population assignment methods by marking and parentage data: hatchery and wild steelhead (Oncorhynchus mykiss) in Forks Creek, Washington, USA"
+   ]
+  }
+ ],
+ "kristin-laidre": [
+  {
+   "id": "A5036037420",
+   "display_name": "Kristin L. Laidre",
+   "orcid": "0000-0002-2787-650X",
+   "works_count": 278,
+   "cited_by_count": 9741,
+   "uw_years": [
+    2002,
+    2026
+   ],
+   "other_institutions": [
+    "NOAA National Marine Fisheries Service",
+    "National Oceanic and Atmospheric Administration",
+    "Scripps Institution of Oceanography",
+    "University of California, Santa Cruz",
+    "University of California San Diego",
+    "NOAA National Marine Fisheries Service Alaska Fisheries Science Center",
+    "Grønlands Naturinstitut",
+    "University of Washington Applied Physics Laboratory"
+   ],
+   "topic_ids": [
+    "T10659",
+    "T10199",
+    "T10230",
+    "T11459",
+    "T12614"
+   ],
+   "topics": [
+    "Marine animal studies overview",
+    "Wildlife Ecology and Conservation",
+    "Marine and fisheries research",
+    "Arctic and Antarctic ice dynamics",
+    "Indigenous Studies and Ecology"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Earth and Planetary Sciences",
+    "Environmental Science",
+    "Social Sciences"
+   ],
+   "top_titles": [
+    "2008: QUANTIFYING THE SENSITIVITY OF ARCTIC MARINE MAMMALS TO CLIMATE-INDUCED HABITAT CHANGE",
+    "2019: The polar regions in a 2°C warmer world",
+    "2015: Arctic marine mammal population status, sea ice habitat loss, and conservation recommendations for the 21st century",
+    "2009: A novel method for identifying behavioural changes in animal movement data",
+    "2012: Do trophic cascades affect the storage and flux of atmospheric carbon? An analysis of sea otters and kelp forests",
+    "2016: Sea-ice indicators of polar bear habitat",
+    "2018: Vulnerability of Arctic marine mammals to vessel traffic in the increasingly ice-free Northwest Passage and Northern Sea Route",
+    "2013: Modeling climate change impacts on phenology and population dynamics of migratory marine species"
+   ]
+  },
+  {
+   "id": "A5029670888",
+   "display_name": "K. L. Laidre",
+   "orcid": null,
+   "works_count": 17,
+   "cited_by_count": 297,
+   "uw_years": [
+    2004,
+    2023
+   ],
+   "other_institutions": [
+    "National Oceanic and Atmospheric Administration",
+    "NOAA National Marine Fisheries Service Alaska Fisheries Science Center",
+    "Grønlands Naturinstitut",
+    "University of Washington Applied Physics Laboratory"
+   ],
+   "topic_ids": [
+    "T10659",
+    "T10199",
+    "T10230",
+    "T13546",
+    "T11656"
+   ],
+   "topics": [
+    "Marine animal studies overview",
+    "Wildlife Ecology and Conservation",
+    "Marine and fisheries research",
+    "Census and Population Estimation",
+    "Turtle Biology and Conservation"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Environmental Science",
+    "Mathematics"
+   ],
+   "top_titles": [
+    "2004: Deep-ocean predation by a high Arctic cetacean",
+    "2023: Autumn space-use patterns of humpback whales (Megaptera novaeangliae) in West Greenland",
+    "2023: Rate of increase and current abundance of humpback whales in West Greenland",
+    "2023: Estimates of large whale abundance in Greenlandic waters from a ship-based survey in 2005",
+    "2023: Estimates of large whale abundance in West Greenland waters from an aerial survey in 2005",
+    "2023: Surfacing time, availability bias and abundance of humpback whales in West Greenland",
+    "2023: Fully corrected estimates of common minke whale abundance in West Greenland in 2007",
+    "2023: Abundance of fin whales in West Greenland in 2007"
+   ]
+  }
+ ],
+ "lorenz-hauser": [
+  {
+   "id": "A5082875868",
+   "display_name": "Lorenz Hauser",
+   "orcid": "0000-0002-9238-654X",
+   "works_count": 199,
+   "cited_by_count": 6851,
+   "uw_years": [
+    2002,
+    2025
+   ],
+   "other_institutions": [
+    "NOAA National Marine Fisheries Service",
+    "National Oceanic and Atmospheric Administration",
+    "Oregon State University",
+    "Aberystwyth University",
+    "University of Hull",
+    "Swansea University",
+    "University of Oxford",
+    "NOAA National Marine Fisheries Service Alaska Fisheries Science Center"
+   ],
+   "topic_ids": [
+    "T10012",
+    "T10230",
+    "T10302",
+    "T11468",
+    "T12319"
+   ],
+   "topics": [
+    "Genetic diversity and population structure",
+    "Marine and fisheries research",
+    "Fish Ecology and Management Studies",
+    "Genetic Mapping and Diversity in Plants and Animals",
+    "Fish Biology and Ecology Studies"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Biochemistry, Genetics and Molecular Biology",
+    "Environmental Science"
+   ],
+   "top_titles": [
+    "2008: Paradigm shifts in marine fisheries genetics: ugly hypotheses slain by beautiful facts",
+    "2002: Loss of microsatellite diversity and low effective population size in an overexploited population of New Zealand snapper ( Pagrus auratus )",
+    "1994: Molecular genetics and the stock concept in fisheries",
+    "2011: Single‐nucleotide polymorphism (SNP) discovery and applications of SNP genotyping in nonmodel organisms",
+    "2011: An empirical comparison of SNPs and microsatellites for parentage and kinship assignment in a wild sockeye salmon (Oncorhynchus nerka) population",
+    "2003: Inbreeding depression and genetic load of sexually selected traits: how the guppy lost its spots",
+    "1995: Molecular genetics and the stock concept in fisheries",
+    "2014: The status of sandy beach science: Past trends, progress, and possible futures"
+   ]
+  }
+ ],
+ "luke-tornabene": [
+  {
+   "id": "A5072483551",
+   "display_name": "Luke M. Tornabene",
+   "orcid": "0000-0002-0673-2320",
+   "works_count": 219,
+   "cited_by_count": 2510,
+   "uw_years": [
+    2017,
+    2026
+   ],
+   "other_institutions": [
+    "Smithsonian Institution",
+    "National Museum of Natural History",
+    "Zhejiang Ocean University",
+    "International Union for Conservation of Nature (United Kingdom)",
+    "Burke Museum of Natural History and Culture",
+    "Advanced Neural Dynamics (United States)",
+    "Old Dominion University",
+    "Texas A&M University"
+   ],
+   "topic_ids": [
+    "T12319",
+    "T11387",
+    "T10765",
+    "T12014",
+    "T11354"
+   ],
+   "topics": [
+    "Fish Biology and Ecology Studies",
+    "Ichthyology and Marine Biology",
+    "Marine Biology and Ecology Research",
+    "Fish biology, ecology, and behavior",
+    "Evolution and Paleontology Studies"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Earth and Planetary Sciences",
+    "Environmental Science"
+   ],
+   "top_titles": [
+    "2018: The hidden half: ecology and evolution of cryptobenthic fishes on coral reefs",
+    "2019: Demographic dynamics of the smallest marine vertebrates fuel coral reef ecosystem functioning",
+    "2018: Below the Mesophotic",
+    "2024: Increasing the impact of vertebrate scientific collections through 3D imaging: The openVertebrate (oVert) Thematic Collections Network",
+    "2023: A reconstruction of parasite burden reveals one century of climate-associated parasite decline",
+    "2020: Extreme environmental conditions reduce coral reef fish biodiversity and productivity",
+    "2014: Support for a ‘Center of Origin’ in the Coral Triangle: Cryptic diversity, recent speciation, and local endemism in a diverse lineage of reef fishes (Gobiidae: Eviota)",
+    "2017: Multilocus DNA barcoding – Species Identification with Multilocus Data"
+   ]
+  },
+  {
+   "id": "A5136272259",
+   "display_name": "Luke Tornabene",
+   "orcid": null,
+   "works_count": 3,
+   "cited_by_count": 1,
+   "uw_years": [
+    2026,
+    2026
+   ],
+   "other_institutions": [
+    "Burke Museum of Natural History and Culture"
+   ],
+   "topic_ids": [
+    "T10174",
+    "T12319",
+    "T10005",
+    "T10012",
+    "T10341"
+   ],
+   "topics": [
+    "Animal Behavior and Reproduction",
+    "Fish Biology and Ecology Studies",
+    "Ecology and Vegetation Dynamics Studies",
+    "Genetic diversity and population structure",
+    "Coral and Marine Ecosystems Studies"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Biochemistry, Genetics and Molecular Biology",
+    "Environmental Science"
+   ],
+   "top_titles": [
+    "2026: Depth is a strong driver of functional diversity in Caribbean reef-fish communities",
+    "2026: Ecological constraints of habitat specialization shape the social organization and life history of a sponge-dwelling goby",
+    "2026: Code and data supporting Bunholi et al. 2026 \"Ecological constraints of habitat specialization shape the social organization and life-history of a sponge-dwelling goby\""
+   ]
+  }
+ ],
+ "marjorie-wonham": [
+  {
+   "id": "A5027549870",
+   "display_name": "Marjorie J. Wonham",
+   "orcid": "0000-0003-2867-195X",
+   "works_count": 45,
+   "cited_by_count": 5705,
+   "uw_years": [
+    1996,
+    2025
+   ],
+   "other_institutions": [
+    "University of Alberta",
+    "Williams College",
+    "Quest University Canada",
+    "Mystic Seaport",
+    "Bamfield Marine Sciences Centre",
+    "Friday Harbor Laboratories",
+    "Great Lakes Institute for Environmental Research",
+    "Smithsonian Environmental Research Center"
+   ],
+   "topic_ids": [
+    "T12213",
+    "T10005",
+    "T10765",
+    "T10482",
+    "T10072"
+   ],
+   "topics": [
+    "Marine Ecology and Invasive Species",
+    "Ecology and Vegetation Dynamics Studies",
+    "Marine Biology and Ecology Research",
+    "Mathematical and Theoretical Epidemiology and Ecology Models",
+    "Science Education and Pedagogy"
+   ],
+   "fields": [
+    "Earth and Planetary Sciences",
+    "Environmental Science",
+    "Mathematics",
+    "Social Sciences"
+   ],
+   "top_titles": [
+    "1999: Impact: Toward a Framework for Understanding the Ecological Effects of Invaders",
+    "2000: Invasion of Coastal Marine Communities in North America: Apparent Patterns, Processes, and Biases",
+    "2000: Fish and ships: relating dispersal frequency to success in biological invasions",
+    "2004: An epidemiological model for West Nile virus: invasion analysis and control applications",
+    "2001: Going to the source: role of the invasion pathway in determining potential invaders",
+    "1996: TROUBLE ON OILED WATERS: Lessons from theExxon ValdezOil Spill",
+    "2005: Trends in marine biological invasions at local and regional scales: the Northeast Pacific Ocean as a model system",
+    "2006: Transmission assumptions generate conflicting predictions in host–vector disease models: a case study in West Nile virus"
+   ]
+  }
+ ],
+ "mark-scheuerell": [
+  {
+   "id": "A5005939994",
+   "display_name": "Mark D. Scheuerell",
+   "orcid": "0000-0002-8284-1254",
+   "works_count": 108,
+   "cited_by_count": 6488,
+   "uw_years": [
+    2002,
+    2026
+   ],
+   "other_institutions": [
+    "NOAA National Marine Fisheries Service",
+    "United States Geological Survey",
+    "National Oceanic and Atmospheric Administration",
+    "Cornell University",
+    "NOAA National Marine Fisheries Service Northwest Fisheries Science Center"
+   ],
+   "topic_ids": [
+    "T10230",
+    "T10302",
+    "T10236",
+    "T10482",
+    "T12319"
+   ],
+   "topics": [
+    "Marine and fisheries research",
+    "Fish Ecology and Management Studies",
+    "Aquatic Ecosystems and Phytoplankton Dynamics",
+    "Mathematical and Theoretical Epidemiology and Ecology Models",
+    "Fish Biology and Ecology Studies"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Environmental Science",
+    "Mathematics"
+   ],
+   "top_titles": [
+    "2002: Habitat coupling in lake ecosystems",
+    "2003: State of the World’s Fisheries",
+    "2003: Pacific Salmon and the Ecology of Coastal Ecosystems",
+    "2003: DIEL VERTICAL MIGRATION BY JUVENILE SOCKEYE SALMON: EMPIRICAL EVIDENCE FOR THE ANTIPREDATION WINDOW",
+    "2016: Joint dynamic species distribution models: a tool for community ordination and spatio‐temporal monitoring",
+    "2005: EFFECTS OF CHANGING CLIMATE ON ZOOPLANKTON AND JUVENILE SOCKEYE SALMON GROWTH IN SOUTHWESTERN ALASKA",
+    "2015: Spatial factor analysis: a new tool for estimating joint species distributions and correlations in species range",
+    "2009: Relating juvenile migration timing and survival to adulthood in two species of threatened Pacific salmon (Oncorhynchus spp.)"
+   ]
+  },
+  {
+   "id": "A5136541810",
+   "display_name": "Mark D. Scheuerell",
+   "orcid": null,
+   "works_count": 2,
+   "cited_by_count": 0,
+   "uw_years": [
+    2026,
+    2026
+   ],
+   "other_institutions": [],
+   "topic_ids": [
+    "T10230",
+    "T10302",
+    "T12014"
+   ],
+   "topics": [
+    "Marine and fisheries research",
+    "Fish Ecology and Management Studies",
+    "Fish biology, ecology, and behavior"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Environmental Science"
+   ],
+   "top_titles": [
+    "2026: Social influences complement environmental cues to stimulate migrating juvenile salmon"
+   ]
+  }
+ ],
+ "ray-hilborn": [
+  {
+   "id": "A5022171172",
+   "display_name": "Ray W. Hilborn",
+   "orcid": "0000-0003-2326-2305",
+   "works_count": 619,
+   "cited_by_count": 50145,
+   "uw_years": [
+    1988,
+    2026
+   ],
+   "other_institutions": [
+    "Australian National University",
+    "Parks Canada",
+    "University of Minnesota",
+    "Memorial University of Newfoundland",
+    "Museum of Vertebrate Zoology",
+    "International Institute for Applied Systems Analysis",
+    "Pacific Community",
+    "Environment and Climate Change Canada"
+   ],
+   "topic_ids": [
+    "T10230",
+    "T10302",
+    "T10482",
+    "T12414",
+    "T10199"
+   ],
+   "topics": [
+    "Marine and fisheries research",
+    "Fish Ecology and Management Studies",
+    "Mathematical and Theoretical Epidemiology and Ecology Models",
+    "Coastal and Marine Management",
+    "Wildlife Ecology and Conservation"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Environmental Science",
+    "Mathematics"
+   ],
+   "top_titles": [
+    "1992: Quantitative Fisheries Stock Assessment",
+    "2009: Rebuilding Global Fisheries",
+    "2010: Population diversity and the portfolio effect in an exploited species",
+    "1993: Uncertainty, Resource Exploitation, and Conservation: Lessons from History",
+    "2011: Leadership, social capital and incentives promote successful fisheries",
+    "2003: Biocomplexity and fisheries sustainability",
+    "2020: Effective fisheries management instrumental in improving fish stock status",
+    "2012: Status and Solutions for the World’s Unassessed Fisheries"
+   ]
+  }
+ ],
+ "sarah-converse": [
+  {
+   "id": "A5060023626",
+   "display_name": "Sarah J. Converse",
+   "orcid": "0000-0002-3719-5441",
+   "works_count": 160,
+   "cited_by_count": 5404,
+   "uw_years": [
+    2017,
+    2026
+   ],
+   "other_institutions": [
+    "University of Nebraska–Lincoln",
+    "United States Geological Survey",
+    "Colorado State University"
+   ],
+   "topic_ids": [
+    "T10199",
+    "T11913",
+    "T10089",
+    "T13546",
+    "T10659"
+   ],
+   "topics": [
+    "Wildlife Ecology and Conservation",
+    "Animal Ecology and Behavior Studies",
+    "Avian ecology and behavior",
+    "Census and Population Estimation",
+    "Marine animal studies overview"
+   ],
+   "fields": [
+    "Environmental Science",
+    "Mathematics"
+   ],
+   "top_titles": [
+    "2011: Which uncertainty? Using expert elicitation and expected value of information to design an adaptive program",
+    "2007: Making Great Leaps Forward: Accounting for Detectability in Herpetological Field Studies",
+    "2013: Social Learning of Migratory Performance",
+    "2015: When do we need more data? A primer on calculating the value of information for applied ecologists",
+    "2021: An introduction to decision science for conservation",
+    "2016: Demography of an apex predator at the edge of its range: impacts of changing sea ice on polar bears in Hudson Bay",
+    "2018: Improving conservation policy with genomics: a guide to integrating adaptive potential into U.S. Endangered Species Act decisions for conservation practitioners and geneticists",
+    "2006: Small mammal population and habitat responses to forest thinning and prescribed fire"
+   ]
+  }
+ ],
+ "sean-mcdonald": [
+  {
+   "id": "A5109391832",
+   "display_name": "Sean W. McDonald",
+   "orcid": null,
+   "works_count": 7,
+   "cited_by_count": 53,
+   "uw_years": [
+    2018,
+    2018
+   ],
+   "other_institutions": [
+    "University of Nevada, Las Vegas"
+   ],
+   "topic_ids": [
+    "T13376",
+    "T14493",
+    "T14115",
+    "T10330",
+    "T10765"
+   ],
+   "topics": [
+    "Criminal Law and Policy",
+    "Criminal Law and Evidence",
+    "Legal processes and jurisprudence",
+    "Hydrology and Watershed Management Studies",
+    "Marine Biology and Ecology Research"
+   ],
+   "fields": [
+    "Earth and Planetary Sciences",
+    "Environmental Science",
+    "Social Sciences"
+   ],
+   "top_titles": [
+    "2018: Citizen science program detects range expansion of the globally invasive European green crab in Washington State (USA)",
+    "2018: Improving Flood Early Warning Systems in Lower Mekong Countries with Earth Observation Data",
+    "2012: 101 - Civic Data Challenge: Turning Raw Data into Community Tools",
+    "2011: Summary of Rogers v. State, 127 Nev. Adv. Op. No. 25",
+    "2011: Summary of Cortes v. State, 127 Nev. Adv. Op. No. 44",
+    "2010: Summary of Pyramid Lake Paiute Tribe v. State Engineer, 126 Nev. Adv. Op. No. 48",
+    "2010: Summary of State v. Castaneda_swm, 126 Nev. Adv. Op. No. 45"
+   ]
+  }
+ ],
+ "steven-roberts": [
+  {
+   "id": "A5022496160",
+   "display_name": "Steven Roberts",
+   "orcid": "0000-0001-8302-1138",
+   "works_count": 235,
+   "cited_by_count": 6515,
+   "uw_years": [
+    2007,
+    2026
+   ],
+   "other_institutions": [
+    "University of Notre Dame",
+    "Tufts University",
+    "Lawrence Livermore National Laboratory",
+    "United States Geological Survey",
+    "National Institutes of Health",
+    "Oregon State University",
+    "Marine Biological Laboratory",
+    "North Carolina State University"
+   ],
+   "topic_ids": [
+    "T11088",
+    "T11056",
+    "T12806",
+    "T10269",
+    "T10015"
+   ],
+   "topics": [
+    "Marine Bivalve and Aquaculture Studies",
+    "Physiological and biochemical adaptations",
+    "Ocean Acidification Effects and Responses",
+    "Epigenetics and DNA Methylation",
+    "Genomics and Phylogenetic Studies"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Biochemistry, Genetics and Molecular Biology",
+    "Earth and Planetary Sciences",
+    "Environmental Science"
+   ],
+   "top_titles": [
+    "1989: Cortical rotation of the Xenopus egg: consequences for the anteroposterior pattern of embryonic dorsal development",
+    "2011: Single‐nucleotide polymorphism (SNP) discovery and applications of SNP genotyping in nonmodel organisms",
+    "2017: Aquaculture genomics, genetics and breeding in the United States: current status, challenges, and priorities for future research",
+    "2010: DNA methylation patterns provide insight into epigenetic regulation in the Pacific oyster (Crassostrea gigas)",
+    "2011: RNA-Seq Reveals an Integrated Immune Response in Nucleated Erythrocytes",
+    "2017: Epigenetic considerations in aquaculture",
+    "2012: Is There a Relationship between DNA Methylation and Phenotypic Plasticity in Invertebrates?",
+    "2013: Predominant intragenic methylation is associated with gene expression characteristics in a bivalve mollusc"
+   ]
+  },
+  {
+   "id": "A5100827519",
+   "display_name": "Steven Roberts",
+   "orcid": null,
+   "works_count": 5,
+   "cited_by_count": 5,
+   "uw_years": [
+    2015,
+    2015
+   ],
+   "other_institutions": [
+    "University of Toronto"
+   ],
+   "topic_ids": [
+    "T10506",
+    "T10632",
+    "T10758",
+    "T11403",
+    "T11817"
+   ],
+   "topics": [
+    "Aquaculture disease management and microbiota",
+    "Housing Market and Economics",
+    "Cinema and Media Studies",
+    "Invertebrate Immune Response Mechanisms",
+    "Housing, Finance, and Neoliberalism"
+   ],
+   "fields": [
+    "Arts and Humanities",
+    "Economics, Econometrics and Finance",
+    "Immunology and Microbiology"
+   ],
+   "top_titles": [
+    "2010: A Case for Dissidence in Occupied Paris: The Zazous, Youth Dissidence and the Yellow Star Campaign in Occupied Paris (1942)",
+    "2020: 10. WIDESCREEN PYROTECHNICS: SHOT COMPOSITION AND STAGING IN THE COLD WAR FILMS OF JOSEPH LOSEY AND SIDNEY J. FURIE",
+    "2015: Eimd-Sswd: V1.1",
+    "2011: Choices, constraints and housing transitions in turbulent times",
+    "1975: Open exchange of ideas"
+   ]
+  },
+  {
+   "id": "A5136701191",
+   "display_name": "Steven Roberts",
+   "orcid": null,
+   "works_count": 3,
+   "cited_by_count": 0,
+   "uw_years": [
+    2022,
+    2026
+   ],
+   "other_institutions": [],
+   "topic_ids": [
+    "T10015",
+    "T10147",
+    "T10885",
+    "T11289",
+    "T12167"
+   ],
+   "topics": [
+    "Genomics and Phylogenetic Studies",
+    "Antibiotic Resistance in Bacteria",
+    "Gene expression and cancer classification",
+    "Single-cell and spatial transcriptomics",
+    "Bacterial Identification and Susceptibility Testing"
+   ],
+   "fields": [
+    "Biochemistry, Genetics and Molecular Biology",
+    "Medicine"
+   ],
+   "top_titles": [
+    "2026: urol-e5/deep-dive-expression: v1.1",
+    "2026: RobertsLab/vims-resazurin: Repository release 20260520"
+   ]
+  },
+  {
+   "id": "A5144136993",
+   "display_name": "Steven Roberts",
+   "orcid": null,
+   "works_count": 1,
+   "cited_by_count": 0,
+   "uw_years": [
+    2026,
+    2026
+   ],
+   "other_institutions": [],
+   "topic_ids": [
+    "T11492",
+    "T11754",
+    "T13607"
+   ],
+   "topics": [
+    "Academic integrity and plagiarism",
+    "SARS-CoV-2 detection and testing",
+    "Academic Publishing and Open Access"
+   ],
+   "fields": [
+    "Medicine",
+    "Social Sciences"
+   ],
+   "top_titles": [
+    "2026: Retraction notice to “The wastewater microbiome: A novel insight for COVID-19 surveillance” [Sci. Total Environ. 764 (2021) 142867]"
+   ]
+  },
+  {
+   "id": "A5152502381",
+   "display_name": "Steven Roberts",
+   "orcid": null,
+   "works_count": 1,
+   "cited_by_count": 0,
+   "uw_years": [
+    2026,
+    2026
+   ],
+   "other_institutions": [],
+   "topic_ids": [
+    "T10506",
+    "T11403",
+    "T12841"
+   ],
+   "topics": [
+    "Aquaculture disease management and microbiota",
+    "Invertebrate Immune Response Mechanisms",
+    "Echinoderm biology and ecology"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Immunology and Microbiology"
+   ],
+   "top_titles": [
+    "2026: A Comparison of Juvenile and Adult Sunflower Sea Star Transcriptomic Responses to Challenge With Sea Star Wasting Disease Tissue Homogenates"
+   ]
+  }
+ ],
+ "thomas-quinn": [
+  {
+   "id": "A5019872491",
+   "display_name": "Thomas C. Quinn",
+   "orcid": "0000-0002-0404-1315",
+   "works_count": 922,
+   "cited_by_count": 72560,
+   "uw_years": [
+    1980,
+    2013
+   ],
+   "other_institutions": [
+    "Boston University",
+    "University of Geneva",
+    "Tulane University",
+    "Uppsala University",
+    "University of Maryland, Baltimore",
+    "Henry M. Jackson Foundation",
+    "University of Nairobi",
+    "Centers for Disease Control and Prevention"
+   ],
+   "topic_ids": [
+    "T10082",
+    "T10112",
+    "T10428",
+    "T11860",
+    "T10146"
+   ],
+   "topics": [
+    "HIV/AIDS Research and Interventions",
+    "HIV Research and Treatment",
+    "Reproductive tract infections research",
+    "HIV, Drug Use, Sexual Risk",
+    "Cervical Cancer and HPV Research"
+   ],
+   "fields": [
+    "Immunology and Microbiology",
+    "Medicine"
+   ],
+   "top_titles": [
+    "1997: Identification of a Reservoir for HIV-1 in Patients on Highly Active Antiretroviral Therapy",
+    "2000: Viral Load and Heterosexual Transmission of Human Immunodeficiency Virus Type 1",
+    "2007: Male circumcision for HIV prevention in men in Rakai, Uganda: a randomised trial",
+    "1999: Latent infection of CD4+ T cells provides a mechanism for lifelong persistence of HIV-1, even in patients on effective combination therapy",
+    "1997: Quantification of latent tissue reservoirs and total body viral load in HIV-1 infection",
+    "2003: Long-term follow-up studies confirm the stability of the latent reservoir for HIV-1 in resting CD4+ T cells",
+    "2001: Probability of HIV-1 transmission per coital act in monogamous, heterosexual, HIV-1-discordant couples in Rakai, Uganda",
+    "2005: Rates of HIV‐1 Transmission per Coital Act, by Stage of HIV‐1 Infection, in Rakai, Uganda"
+   ]
+  },
+  {
+   "id": "A5040230589",
+   "display_name": "Thomas P. Quinn",
+   "orcid": "0000-0003-3163-579X",
+   "works_count": 506,
+   "cited_by_count": 33926,
+   "uw_years": [
+    1980,
+    2026
+   ],
+   "other_institutions": [
+    "NOAA National Marine Fisheries Service",
+    "National Oceanic and Atmospheric Administration",
+    "Fisheries and Oceans Canada",
+    "Harvard University",
+    "Deakin University",
+    "Fairleigh Dickinson University",
+    "Washington Department of Fish and Wildlife",
+    "NOAA National Marine Fisheries Service Northwest Fisheries Science Center"
+   ],
+   "topic_ids": [
+    "T10302",
+    "T10230",
+    "T12319",
+    "T10174",
+    "T10012"
+   ],
+   "topics": [
+    "Fish Ecology and Management Studies",
+    "Marine and fisheries research",
+    "Fish Biology and Ecology Studies",
+    "Animal Behavior and Reproduction",
+    "Genetic diversity and population structure"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Biochemistry, Genetics and Molecular Biology",
+    "Environmental Science"
+   ],
+   "top_titles": [
+    "2010: Population diversity and the portfolio effect in an exploited species",
+    "2005: The behavior and ecology of Pacific salmon and trout",
+    "2003: Biocomplexity and fisheries sustainability",
+    "1998: Movement, migration, and smolting of Atlantic salmon ( Salmo salar )",
+    "1996: Homing in Pacific Salmon: Mechanisms and Ecological Basis",
+    "2000: Rapid Evolution of Reproductive Isolation in the Wild: Evidence from Introduced Salmon",
+    "2008: Potential responses to climate change in organisms with complex life histories: evolution and plasticity in Pacific salmon",
+    "2007: A critical review of adaptive genetic variation in Atlantic salmon: implications for conservation"
+   ]
+  },
+  {
+   "id": "A5003918379",
+   "display_name": "Thomas Quinn",
+   "orcid": "0000-0001-5510-2803",
+   "works_count": 385,
+   "cited_by_count": 69902,
+   "uw_years": [
+    1996,
+    2026
+   ],
+   "other_institutions": [
+    "Utica College",
+    "California Institute of Technology",
+    "Centre National de la Recherche Scientifique",
+    "Pacific Northwest National Laboratory",
+    "Johns Hopkins University",
+    "University of Oslo",
+    "University of California, Santa Cruz",
+    "University of Toronto"
+   ],
+   "topic_ids": [
+    "T10026",
+    "T10039",
+    "T10477",
+    "T10325",
+    "T10095"
+   ],
+   "topics": [
+    "Galaxies: Formation, Evolution, Phenomena",
+    "Stellar, planetary, and galactic studies",
+    "Astrophysics and Star Formation Studies",
+    "Astro and Planetary Science",
+    "Cosmology and Gravitation Theories"
+   ],
+   "fields": [
+    "Earth and Planetary Sciences",
+    "Physics and Astronomy"
+   ],
+   "top_titles": [
+    "2000: The Sloan Digital Sky Survey: Technical Summary",
+    "2009: THE SEVENTH DATA RELEASE OF THE SLOAN DIGITAL SKY SURVEY",
+    "1999: Dark Matter Substructure within Galactic Halos",
+    "2002: Sloan Digital Sky Survey: Early Data Release",
+    "2005: Protostars and Planets V",
+    "2002: Spectroscopic Target Selection in the Sloan Digital Sky Survey: The Main Galaxy Sample",
+    "2002: The Reuven Ramaty High-Energy Solar Spectroscopic Imager (RHESSI)",
+    "1999: Cold collapse and the core catastrophe"
+   ]
+  },
+  {
+   "id": "A5024536385",
+   "display_name": "Tom Quinn",
+   "orcid": "0000-0002-5116-0034",
+   "works_count": 353,
+   "cited_by_count": 7107,
+   "uw_years": [
+    2009,
+    2016
+   ],
+   "other_institutions": [
+    "University of Essex",
+    "University of Wolverhampton",
+    "University of London",
+    "National Health Service",
+    "Queen's University Belfast",
+    "University of Iowa",
+    "National Institutes of Health",
+    "York Hospital"
+   ],
+   "topic_ids": [
+    "T10645",
+    "T10292",
+    "T10227",
+    "T10177",
+    "T11095"
+   ],
+   "topics": [
+    "Cardiac Arrest and Resuscitation",
+    "Acute Myocardial Infarction Research",
+    "Acute Ischemic Stroke Management",
+    "Palliative Care and End-of-Life Issues",
+    "Emergency and Acute Care Studies"
+   ],
+   "fields": [
+    "Medicine"
+   ],
+   "top_titles": [
+    "2018: A Randomized Trial of Epinephrine in Out-of-Hospital Cardiac Arrest",
+    "2014: Mechanical versus manual chest compression for out-of-hospital cardiac arrest (PARAMEDIC): a pragmatic, cluster randomised controlled trial",
+    "2018: No Surgical Innovation Without Evaluation: Evolution and Further Development of the IDEAL Framework and Recommendations",
+    "2017: Multiple triangulation and collaborative research using qualitative methods to explore decision making in pre-hospital emergency care",
+    "2016: Oxygen therapy for acute myocardial infarction",
+    "2014: Patients’ online access to their electronic health records and linked online services: a systematic interpretative review",
+    "2014: A qualitative study of systemic influences on paramedic decision making: care transitions and patient safety",
+    "2015: Mechanical chest compression for out of hospital cardiac arrest: Systematic review and meta-analysis"
+   ]
+  },
+  {
+   "id": "A5109283428",
+   "display_name": "Thomas C. Quinn",
+   "orcid": null,
+   "works_count": 73,
+   "cited_by_count": 5044,
+   "uw_years": [
+    1988,
+    1993
+   ],
+   "other_institutions": [
+    "National Institutes of Health",
+    "Johns Hopkins University",
+    "University of California, San Francisco",
+    "Georgetown University",
+    "University of Toronto",
+    "Johns Hopkins Medicine",
+    "Swedish International Development Cooperation Agency",
+    "Pacific Tower"
+   ],
+   "topic_ids": [
+    "T10082",
+    "T10112",
+    "T10428",
+    "T10526",
+    "T11314"
+   ],
+   "topics": [
+    "HIV/AIDS Research and Interventions",
+    "HIV Research and Treatment",
+    "Reproductive tract infections research",
+    "HIV/AIDS drug development and treatment",
+    "Clinical Laboratory Practices and Quality Control"
+   ],
+   "fields": [
+    "Health Professions",
+    "Immunology and Microbiology",
+    "Medicine"
+   ],
+   "top_titles": [
+    "1999: Control of sexually transmitted diseases for AIDS prevention in Uganda: a randomised community trial",
+    "2006: Laboratory Medicine in Africa: A Barrier to Effective Health Care",
+    "1988: Genital ulceration as a risk factor for human immunodeficiency virus infection",
+    "1996: Epidemiologic and Microbiologic Correlates of Chlamydia trachomatis Infection in Sexual Partnerships",
+    "1994: Population migration and the spread of types 1 and 2 human immunodeficiency viruses.",
+    "1989: HIV Infection in Patients with Tuberculosis in Kinshasa, Zaire",
+    "1984: Prevalence of Antibodies to Lymphadenopathy-Associated Retrovirus in African Patients with AIDS",
+    "1990: The Association of Syphilis With Risk of Human Immunodeficiency Virus Infection in Patients Attending Sexually Transmitted Disease Clinics"
+   ]
+  },
+  {
+   "id": "A5003874628",
+   "display_name": "Thomas J. Quinn",
+   "orcid": "0000-0002-5897-8111",
+   "works_count": 33,
+   "cited_by_count": 901,
+   "uw_years": [
+    2008,
+    2010
+   ],
+   "other_institutions": [
+    "Hospital for Special Surgery",
+    "Rush University Medical Center",
+    "Albert Einstein College of Medicine",
+    "UMass Memorial Health Care",
+    "Montefiore Medical Center",
+    "University of Massachusetts Chan Medical School",
+    "Yeshiva University",
+    "Cornell University"
+   ],
+   "topic_ids": [
+    "T10085",
+    "T10358",
+    "T10613",
+    "T10919",
+    "T10580"
+   ],
+   "topics": [
+    "Parkinson's Disease Mechanisms and Treatments",
+    "Advanced Radiotherapy Techniques",
+    "Virus-based gene therapy research",
+    "Deep Brain Stimulation and Movement Disorders",
+    "Immunotherapy and Immune Responses"
+   ],
+   "fields": [
+    "Biochemistry, Genetics and Molecular Biology",
+    "Immunology and Microbiology",
+    "Medicine",
+    "Physics and Astronomy"
+   ],
+   "top_titles": [
+    "2009: Rab11a and HSP90 Regulate Recycling of Extracellular α-Synuclein",
+    "2014: Intramyocardial transplantation of cardiac telocytes decreases myocardial infarction and improves post‐infarcted cardiac function in rats",
+    "2016: Salivary total α-synuclein, oligomeric α-synuclein and SNCA variants in Parkinson’s disease patients",
+    "2016: Low-Intensity Focused Ultrasound Induces Reversal of Tumor-Induced T Cell Tolerance and Prevents Immune Escape",
+    "2012: Extracellular signal-regulated kinase is involved in alpha-synuclein-induced mitochondrial dynamic disorders by regulating dynamin-like protein 1",
+    "2017: Structure-guided development of a high-affinity human Programmed Cell Death-1: Implications for tumor immunotherapy",
+    "2014: Salivary DJ-1 could be an indicator of Parkinson's disease progression",
+    "2012: Pasireotide (SOM230) is effective for the treatment of pancreatic neuroendocrine tumors (PNETs) in a multiple endocrine neoplasia type 1 (MEN1) conditional knockout mouse model"
+   ]
+  },
+  {
+   "id": "A5135867940",
+   "display_name": "Thomas Quinn",
+   "orcid": null,
+   "works_count": 10,
+   "cited_by_count": 4,
+   "uw_years": [
+    2018,
+    2026
+   ],
+   "other_institutions": [],
+   "topic_ids": [
+    "T10026",
+    "T10039",
+    "T10744",
+    "T10325",
+    "T11701"
+   ],
+   "topics": [
+    "Galaxies: Formation, Evolution, Phenomena",
+    "Stellar, planetary, and galactic studies",
+    "Astrophysical Phenomena and Observations",
+    "Astro and Planetary Science",
+    "Space Satellite Systems and Control"
+   ],
+   "fields": [
+    "Earth and Planetary Sciences",
+    "Engineering",
+    "Physics and Astronomy"
+   ],
+   "top_titles": [
+    "2026: $V/σ$ Trends with Mass for Dwarf Galaxies from the Marvelous Massive Dwarfs Suite",
+    "None: Draft to ApJ Preprint typeset using L ATEX style emulateapj v. 12/14/05 THE SECULAR EVOLUTION OF DISK STRUCTURAL PARAMETERS"
+   ]
+  },
+  {
+   "id": "A5101423344",
+   "display_name": "Thomas Quinn",
+   "orcid": "0000-0001-6900-7487",
+   "works_count": 5,
+   "cited_by_count": 20,
+   "uw_years": [
+    2009,
+    2009
+   ],
+   "other_institutions": [
+    "Hospital for Special Surgery",
+    "University of Massachusetts Chan Medical School",
+    "Leeds Teaching Hospitals NHS Trust"
+   ],
+   "topic_ids": [
+    "T10183",
+    "T10144",
+    "T10178",
+    "T10309",
+    "T10358"
+   ],
+   "topics": [
+    "Breast Cancer Treatment Studies",
+    "Blood Pressure and Hypertension Studies",
+    "Cancer survivorship and care",
+    "Acute Myeloid Leukemia Research",
+    "Advanced Radiotherapy Techniques"
+   ],
+   "fields": [
+    "Biochemistry, Genetics and Molecular Biology",
+    "Medicine",
+    "Physics and Astronomy"
+   ],
+   "top_titles": [
+    "2009: Identification of Glycoproteins in Human Cerebrospinal Fluid",
+    "2020: An unusual headache: CSF negative APML relapse in the brain",
+    "2025: Abstract P1-10-11: Preliminary Analysis of Sociodemographic and Clinical Characteristics of Patients with Early Breast Cancer in the Patient-Centered, Real-World EVOLVE Registry",
+    "2021: Radiation Therapy for Breast Cancer: Re-Treatment",
+    "1990: A94 Esmolol and Controlled Hypotension"
+   ]
+  },
+  {
+   "id": "A5126482452",
+   "display_name": "Thomas R. Quinn",
+   "orcid": null,
+   "works_count": 3,
+   "cited_by_count": 5,
+   "uw_years": [
+    2026,
+    2026
+   ],
+   "other_institutions": [],
+   "topic_ids": [
+    "T10026",
+    "T10039",
+    "T10477",
+    "T10095"
+   ],
+   "topics": [
+    "Galaxies: Formation, Evolution, Phenomena",
+    "Stellar, planetary, and galactic studies",
+    "Astrophysics and Star Formation Studies",
+    "Cosmology and Gravitation Theories"
+   ],
+   "fields": [
+    "Physics and Astronomy"
+   ],
+   "top_titles": [
+    "2026: The Simulated Oxygen Shortage (SOS): Mapping the Missing OVI in Simulated Dwarf Galaxies to Subgrid Physics",
+    "2026: The AGORA High-resolution Galaxy Simulations Comparison Project. XI: Solving the Non-Spherical Morphology and Evolution of Dark Matter Halos with Haskap Pie",
+    "2025: Introducing the PHOEBOS simulation: galaxy properties at the dawn of galaxy formation."
+   ]
+  },
+  {
+   "id": "A5038221117",
+   "display_name": "T P Quinn",
+   "orcid": "0000-0003-3163-579X",
+   "works_count": 2,
+   "cited_by_count": 1,
+   "uw_years": [
+    2011,
+    2026
+   ],
+   "other_institutions": [
+    "National Institute of Water and Atmospheric Research"
+   ],
+   "topic_ids": [
+    "T10012",
+    "T10174",
+    "T10199",
+    "T11764",
+    "T11913"
+   ],
+   "topics": [
+    "Genetic diversity and population structure",
+    "Animal Behavior and Reproduction",
+    "Wildlife Ecology and Conservation",
+    "Evolution and Genetic Dynamics",
+    "Animal Ecology and Behavior Studies"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Biochemistry, Genetics and Molecular Biology",
+    "Environmental Science"
+   ],
+   "top_titles": [
+    "2026: Brown Bear Consumption of Pacific Salmon Varies Greatly Among Individuals but Increases With the Bear's Age and Salmon Availability",
+    "2011: Erratum: Correlated contemporary evolution of life-history traits in New Zealand Chinook salmon, Onchorhynchus tshawytscha"
+   ]
+  },
+  {
+   "id": "A5160230375",
+   "display_name": "Tom Quinn",
+   "orcid": null,
+   "works_count": 1,
+   "cited_by_count": 0,
+   "uw_years": [
+    2026,
+    2026
+   ],
+   "other_institutions": [],
+   "topic_ids": [
+    "T10026",
+    "T10039",
+    "T10744"
+   ],
+   "topics": [
+    "Galaxies: Formation, Evolution, Phenomena",
+    "Stellar, planetary, and galactic studies",
+    "Astrophysical Phenomena and Observations"
+   ],
+   "fields": [
+    "Physics and Astronomy"
+   ],
+   "top_titles": [
+    "2026: Hot off the Stacks: X-rays in Romulus25, Part I - Comparisons to Observations from eRosita"
+   ]
+  }
+ ],
+ "tim-essington": [
+  {
+   "id": "A5056037781",
+   "display_name": "Timothy E. Essington",
+   "orcid": "0000-0002-9986-7100",
+   "works_count": 260,
+   "cited_by_count": 16187,
+   "uw_years": [
+    2005,
+    2026
+   ],
+   "other_institutions": [
+    "NOAA National Marine Fisheries Service",
+    "University of Minnesota",
+    "University of Wisconsin System",
+    "National Oceanic and Atmospheric Administration",
+    "University of Wisconsin–Madison",
+    "University of Michigan",
+    "NOAA National Marine Fisheries Service Southwest Fisheries Science Center",
+    "Washington Department of Fish and Wildlife"
+   ],
+   "topic_ids": [
+    "T10230",
+    "T10302",
+    "T10482",
+    "T10765",
+    "T12414"
+   ],
+   "topics": [
+    "Marine and fisheries research",
+    "Fish Ecology and Management Studies",
+    "Mathematical and Theoretical Epidemiology and Ecology Models",
+    "Marine Biology and Ecology Research",
+    "Coastal and Marine Management"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Earth and Planetary Sciences",
+    "Environmental Science",
+    "Mathematics"
+   ],
+   "top_titles": [
+    "2011: Trophic Downgrading of Planet Earth",
+    "2001: TROPHIC CASCADES, NUTRIENTS, AND LAKE PRODUCTIVITY: WHOLE-LAKE EXPERIMENTS",
+    "2012: The global contribution of forage fish to marine fisheries and ecosystems",
+    "2006: Fishing through marine food webs",
+    "2012: Little Fish, Big Impact: Managing a Crucial Link in Ocean Food Webs",
+    "2015: Fishing amplifies forage fish population collapses",
+    "2015: Principles for managing marine ecosystems prone to tipping points",
+    "2011: Functional responses and scaling in predator-prey interactions of marine fishes: contemporary issues and emerging concepts"
+   ]
+  },
+  {
+   "id": "A5032157661",
+   "display_name": "Tim Essington",
+   "orcid": null,
+   "works_count": 15,
+   "cited_by_count": 174,
+   "uw_years": [
+    2010,
+    2017
+   ],
+   "other_institutions": [
+    "Stony Brook University"
+   ],
+   "topic_ids": [
+    "T10230",
+    "T10302",
+    "T10032",
+    "T10482",
+    "T10765"
+   ],
+   "topics": [
+    "Marine and fisheries research",
+    "Fish Ecology and Management Studies",
+    "Marine Plankton and Biogeochemistry",
+    "Mathematical and Theoretical Epidemiology and Ecology Models",
+    "Marine Biology and Ecology Research"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Earth and Planetary Sciences",
+    "Environmental Science",
+    "Mathematics"
+   ],
+   "top_titles": [
+    "1995: Reproductive interactions between sympatric brook and brown trout in a small Minnesota stream",
+    "2014: Where the waters meet: sharing ideas and experiences between inland and marine realms to promote sustainable fisheries management",
+    "2010: Comparative analysis of marine ecosystems: international production modelling workshop",
+    "2017: Modeling the impacts of two age‐related portfolio effects on recruitment variability with and without a marine reserve",
+    "2016: Meeting report Comparative analysis of marine ecosystems: international production modelling workshop",
+    "2016: The effect of interannual variation in oxygen concentration and temperature on euphausiid habitat availability in Hood Canal, WA, 2006-2015",
+    "2015: The Lenfest Fishery Ecosystem Task Force: Providing a Blueprint for Ecosystem Based Fisheries Management",
+    "2015: The Next Generation of Ecosystem Based Fishery Management"
+   ]
+  }
+ ],
+ "trevor-branch": [
+  {
+   "id": "A5044538187",
+   "display_name": "Trevor A. Branch",
+   "orcid": "0000-0003-4308-8930",
+   "works_count": 182,
+   "cited_by_count": 14648,
+   "uw_years": [
+    2003,
+    2026
+   ],
+   "other_institutions": [
+    "Microsoft (United States)",
+    "Centre National de la Recherche Scientifique",
+    "University of Cape Town",
+    "Université de Bretagne Occidentale",
+    "NOAA National Marine Fisheries Service Pacific Islands Fisheries Science Center",
+    "University of Washington Applied Physics Laboratory"
+   ],
+   "topic_ids": [
+    "T10230",
+    "T10659",
+    "T10302",
+    "T12414",
+    "T13546"
+   ],
+   "topics": [
+    "Marine and fisheries research",
+    "Marine animal studies overview",
+    "Fish Ecology and Management Studies",
+    "Coastal and Marine Management",
+    "Census and Population Estimation"
+   ],
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Environmental Science",
+    "Mathematics"
+   ],
+   "top_titles": [
+    "2009: Rebuilding Global Fisheries",
+    "2020: Effective fisheries management instrumental in improving fish stock status",
+    "2016: Global fishery prospects under contrasting management regimes",
+    "2003: State of the World’s Fisheries",
+    "2010: The trophic fingerprint of marine fisheries",
+    "2006: Fleet dynamics and fishermen behavior: lessons for fisheries managers",
+    "2013: Fisheries: Does catch reflect abundance?",
+    "2007: Past and present distribution, densities and movements of blue whales Balaenoptera musculus in the Southern Hemisphere and northern Indian Ocean"
+   ]
+  }
+ ]
+}
