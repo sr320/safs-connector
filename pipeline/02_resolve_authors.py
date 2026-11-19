@@ -313,6 +313,8 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--no-llm", action="store_true", help="use heuristic only")
     ap.add_argument("--only", nargs="*", help="faculty slugs to (re)resolve")
+    ap.add_argument("--new-only", action="store_true",
+                    help="only resolve faculty not yet in faculty_overrides.yaml (monthly refresh)")
     args = ap.parse_args()
 
     roster = json.loads((DATA / "roster.json").read_text())
@@ -327,7 +329,7 @@ def main() -> None:
     for fac in roster:
         slug = fac["slug"]
         prev = existing.get(slug)
-        if prev and (prev.get("verified") or (args.only and slug not in args.only)):
+        if prev and (prev.get("verified") or args.new_only or (args.only and slug not in args.only)):
             result[slug] = prev
             continue
 

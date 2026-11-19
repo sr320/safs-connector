@@ -2,3 +2,6 @@
 __pycache__/
 data/raw/
 .env
+data/safs.sqlite
+data/safs.sqlite.gz
+build.log

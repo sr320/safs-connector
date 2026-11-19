@@ -1,0 +1,115 @@
+# Monthly data refresh: re-scrape the roster, harvest new papers, have Claude review new
+# suspect papers and tag new papers, rebuild the database and site data, then open a PR.
+#
+# One-time setup (repo Settings):
+#   - Secrets and variables -> Actions -> New repository secret: ANTHROPIC_API_KEY
+#     (optional: OPENALEX_API_KEY for OpenAlex's higher rate limits)
+#   - Actions -> General -> Workflow permissions: "Allow GitHub Actions to create and approve pull requests"
+#
+# Typical monthly cost: a few cents of Claude (only new papers are tagged; earlier Claude
+# decisions are reused). The run stops instead of tagging more than MAX_NEW_PAPERS at once.
+name: Monthly data refresh
+
+on:
+  schedule:
+    - cron: "17 9 2 * *"   # 09:17 UTC on the 2nd of each month
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+env:
+  MAX_NEW_PAPERS: 1500
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: uv sync --frozen
+
+      # HTTP cache (ROR/OpenAlex institution lookups) and paper embeddings carry over between runs.
+      - uses: actions/cache@v4
+        with:
+          path: |
+            data/raw/http
+            data/raw/embeddings.npz
+          key: raw-${{ github.run_id }}
+          restore-keys: raw-
+
+      - name: Roster and new faculty
+        run: |
+          uv run python pipeline/01_roster.py --refresh
+          uv run python pipeline/02_resolve_authors.py --new-only
+
+      - name: Harvest papers and check attribution
+        run: |
+          uv run python pipeline/03_harvest_works.py --refresh
+          uv run python pipeline/04_check_attribution.py
+          uv run python pipeline/07_build_db.py
+
+      - name: Tag new papers with Claude
+        run: |
+          n=$(uv run python pipeline/05_enrich_topics.py plan | awk '$1=="papers"{print $2}')
+          echo "Papers to tag: $n"
+          if [ "${n:-0}" -gt "$MAX_NEW_PAPERS" ]; then
+            echo "::error::$n papers need tagging (limit $MAX_NEW_PAPERS). Was the taxonomy changed? Run tagging by hand."
+            exit 1
+          fi
+          if [ "${n:-0}" -gt 0 ]; then
+            uv run python pipeline/05_enrich_topics.py submit
+            uv run python pipeline/05_enrich_topics.py collect
+          fi
+
+      - name: Institutions, database, reports, site data
+        run: |
+          uv run python pipeline/06_normalize_insts.py
+          uv run python pipeline/07_build_db.py | tee build.log
+          uv run python pipeline/08_coverage_report.py
+          uv run python pipeline/11_theme_map.py
+          uv run python pipeline/10_export_site_data.py
+
+      - name: Publish the database as a release download
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="data-$(date -u +%Y-%m-%d)"
+          gzip -kf data/safs.sqlite
+          gh release create "$tag" data/safs.sqlite.gz --title "Data snapshot $(date -u +%Y-%m-%d)" \
+            --notes "SQLite database from the monthly refresh. Unzip with: gunzip safs.sqlite.gz" \
+            || gh release upload "$tag" data/safs.sqlite.gz --clobber
+
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: data-refresh
+          delete-branch: true
+          commit-message: "Monthly data refresh"
+          title: "Monthly data refresh (${{ github.run_started_at }})"
+          body: |
+            Automated refresh by `.github/workflows/refresh.yml`.
+
+            - Review `config/faculty_overrides.yaml` for any **new faculty** (`status: needs_review`).
+            - `data/coverage.md` shows per-faculty counts; the diff shows what changed.
+            - The SQLite database is attached to this month's `data-*` release.
+
+            Merging deploys the updated explorer.
+          add-paths: |
+            config/
+            data/
+            site/data/

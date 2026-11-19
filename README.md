@@ -138,3 +138,26 @@ python3 -m http.server 8791 --directory site     # preview at http://localhost:8
 - **Filters:** the year range and theme filters apply to every view. All views are computed in the browser from `works.json`, which holds only kept papers.
 
 **One-time setup:** in the repo, go to Settings → Pages → Build and deployment → Source, and choose **GitHub Actions**.
+
+## M6: maps and monthly refresh
+
+**Two new explorer tabs**
+- **Collaborator map:** a world map of partner organizations, sized by shared papers. It can be filtered by faculty member and by the global year and theme filters. Click a circle for the faculty and papers behind it.
+- **Theme map:** every paper is one dot, and papers on similar subjects sit close together. Pick one or two faculty members to see where their work sits, where it overlaps, and which papers they wrote together. Theme names mark the center of each theme.
+
+```bash
+uv run python pipeline/11_theme_map.py    # -> site/data/theme_map.json
+```
+The theme map embeds each paper's title, Claude summary, subtopics, and abstract opening with a small local model (`BAAI/bge-small-en-v1.5` via fastembed). The Claude API has no embeddings endpoint. UMAP then projects the embeddings to 2-D. Embeddings are cached in `data/raw/`, so later runs only embed new papers.
+
+**Monthly refresh** (`.github/workflows/refresh.yml`, which runs on the 2nd of each month or manually from the Actions tab):
+1. Re-scrapes the roster. Claude resolves only newly listed faculty (`02_resolve_authors.py --new-only`).
+2. Re-harvests papers. Claude reviews only new suspect papers; earlier decisions are reused.
+3. Claude tags only papers that are not yet tagged. The run stops, instead of spending, if more than 1,500 papers need tagging, which usually means the taxonomy changed.
+4. Rebuilds institutions, the database, the coverage report, and the site data. It then opens a pull request. Merging it redeploys the site.
+
+The SQLite database is no longer committed; at 26 MB per monthly change it would bloat the repo. Each refresh attaches `safs.sqlite.gz` to a `data-YYYY-MM-DD` release. Locally, `07_build_db.py` rebuilds it.
+
+**One-time setup** (in repo Settings):
+- Add `ANTHROPIC_API_KEY` as an Actions secret. `OPENALEX_API_KEY` is optional.
+- Under Actions → General → Workflow permissions, allow GitHub Actions to create pull requests.

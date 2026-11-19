@@ -30,6 +30,7 @@ Promise.all([d3.json("data/meta.json"), d3.json("data/works.json")]).then(([meta
   initFaculty();
   initSearch();
   initNetwork();
+  initMaps(); // maps.js
   readHash();
   apply();
 }).catch((e) => {
@@ -59,6 +60,8 @@ function renderAll() {
   if (S.tab === "network") renderNetwork();
   if (S.tab === "faculty") renderFaculty();
   if (S.tab === "search") renderSearch();
+  if (S.tab === "map") renderMap();        // maps.js
+  if (S.tab === "themes") renderThemeMap(); // maps.js
 }
 
 /* ------------------------------------------------------------------ tabs & hash */
@@ -77,7 +80,7 @@ function setTab(tab, push = true) {
 function readHash() {
   const [tab, slug] = location.hash.slice(1).split("/");
   if (tab === "faculty" && slug && S.fac.has(slug)) S.facSlug = slug;
-  if (["network", "faculty", "search"].includes(tab)) setTab(tab, false);
+  if (["network", "map", "themes", "faculty", "search"].includes(tab)) setTab(tab, false);
 }
 function openFaculty(slug) {
   S.facSlug = slug;
