@@ -122,3 +122,19 @@ uv run python pipeline/07_build_db.py
 SELECT name, country, n_faculty, faculty_work_links FROM v_org_summary
 ORDER BY faculty_work_links DESC LIMIT 10;
 ```
+
+## Explorer (M5)
+
+A static site in `site/` (plain HTML, D3, no build step), deployed to GitHub Pages by `.github/workflows/pages.yml` on every push to `main`.
+
+```bash
+uv run python pipeline/10_export_site_data.py    # -> site/data/meta.json, site/data/works.json
+python3 -m http.server 8791 --directory site     # preview at http://localhost:8791
+```
+
+- **Network:** research themes on the left, SAFS faculty in the middle, and partner organizations on the right. Line width shows shared papers. Click a circle for its connections. Click a connection for the papers behind it.
+- **Faculty:** a card for each person with papers per year, theme mix, top subtopics, partner organizations, SAFS co-authors, organisms and species, and most-cited papers. Each card has its own shareable URL, such as `#faculty/steven-roberts`.
+- **Search:** full-text search over titles, Claude summaries, species, regions, and subtopics, with CSV download.
+- **Filters:** the year range and theme filters apply to every view. All views are computed in the browser from `works.json`, which holds only kept papers.
+
+**One-time setup:** in the repo, go to Settings → Pages → Build and deployment → Source, and choose **GitHub Actions**.

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SAFS Connector</title>
+<meta name="description" content="Explore how UW School of Aquatic and Fishery Sciences faculty connect through research topics and co-author institutions.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <h1>SAFS Connector</h1>
+    <p class="sub">Publications by UW School of Aquatic and Fishery Sciences faculty: who works on what, and with whom.</p>
+  </div>
+  <nav class="tabs" role="tablist">
+    <button role="tab" data-tab="network" aria-selected="true">Network</button>
+    <button role="tab" data-tab="faculty" aria-selected="false">Faculty</button>
+    <button role="tab" data-tab="search" aria-selected="false">Search</button>
+  </nav>
+</header>
+
+<section class="filters" aria-label="Filters">
+  <label>From <select id="f-from"></select></label>
+  <label>to <select id="f-to"></select></label>
+  <label>Theme <select id="f-theme"><option value="">All themes</option></select></label>
+  <span id="f-count" class="muted"></span>
+</section>
+
+<main>
+  <!-- NETWORK -->
+  <section id="tab-network" class="tab" role="tabpanel">
+    <div class="net-controls">
+      <label>Partner organizations shown <input type="range" id="n-orgs" min="10" max="120" step="5" value="40"> <output id="n-orgs-v">40</output></label>
+      <label>Minimum shared papers <input type="range" id="n-min" min="1" max="15" value="3"> <output id="n-min-v">3</output></label>
+      <label class="check"><input type="checkbox" id="n-ff" checked> SAFS co-author links</label>
+      <span class="legend">
+        <span><i class="dot faculty"></i>Faculty</span>
+        <span><i class="dot theme"></i>Theme</span>
+        <span><i class="dot org"></i>Partner organization</span>
+      </span>
+    </div>
+    <div class="net-wrap">
+      <svg id="net" role="img" aria-label="Network of faculty, research themes and partner organizations"></svg>
+      <aside id="net-panel" class="panel">
+        <p class="muted">Click a circle to see its connections and the papers behind them. Drag to pan, scroll to zoom.</p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- FACULTY -->
+  <section id="tab-faculty" class="tab" role="tabpanel" hidden>
+    <div class="fac-pick"><label>Faculty member <select id="fac-select"></select></label></div>
+    <div id="fac-grid" class="fac-grid"></div>
+    <article id="fac-card" class="card" hidden></article>
+  </section>
+
+  <!-- SEARCH -->
+  <section id="tab-search" class="tab" role="tabpanel" hidden>
+    <div class="search-bar">
+      <input id="s-q" type="search" placeholder="Search titles, summaries, species, regions… e.g. geoduck, Bristol Bay, eDNA" aria-label="Search papers">
+      <select id="s-fac" aria-label="Faculty"><option value="">All faculty</option></select>
+      <button id="s-csv" class="btn">Download CSV</button>
+    </div>
+    <p id="s-count" class="muted"></p>
+    <div class="table-wrap"><table id="s-table">
+      <thead><tr><th>Year</th><th>Paper</th><th>SAFS faculty</th><th>Theme</th></tr></thead>
+      <tbody></tbody>
+    </table></div>
+    <button id="s-more" class="btn" hidden>Show more</button>
+  </section>
+</main>
+
+<footer class="foot muted">
+  Data: <a href="https://openalex.org">OpenAlex</a> (CC0) and <a href="https://ror.org">ROR</a>. Topics and summaries were tagged by Claude.
+  Built <span id="built"></span>. <a href="https://github.com/sr320/safs-connector">Source, method and corrections</a>.
+</footer>
+
+<div id="tip" class="tip" role="tooltip" hidden></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
