@@ -98,3 +98,27 @@ uv run python pipeline/07_build_db.py
 - **Each paper gets:** a primary theme, 1–4 subtopics, taxon groups, species, ecosystems, regions, methods, and a one-sentence summary.
 - **Reruns:** only untagged papers are sent. Use `--retag` after changing taxonomy ids. Failed or refused requests are recorded for retry.
 - **New database tables and views:** tables `themes`, `work_themes`, `work_tags`, and `work_summaries`, and views `v_faculty_theme`, `v_faculty_subtopic`, and `v_theme_institution`, which shows which outside institutions work with SAFS on each theme.
+
+## Pipeline (M4: co-author institutions)
+
+```bash
+uv run python pipeline/06_normalize_insts.py     # -> data/institutions.json, data/affiliation_matches.json
+uv run python pipeline/07_build_db.py
+```
+
+| File | What it is |
+|---|---|
+| `data/institutions.json` | Every co-author institution and its ancestors: ROR id, type, city, coordinates, parent, partner organization |
+| `data/affiliation_matches.json` | Free-text affiliations (no OpenAlex institution) matched to ROR |
+| `config/institution_overrides.yaml` | **Human** corrections to the rollup and to affiliation matches |
+
+- **Coverage:** 95.7% of authorships that list any affiliation resolve to a ROR institution, and every institution has map coordinates.
+- **Partner organizations:** each institution rolls up to the organization a person would name as the partner. For example, the NOAA fisheries science centers roll up to NOAA, Hopkins Marine Station to Stanford, and Scripps to UC San Diego. Rollup stops below national governments and ministries, university systems (so UC campuses stay separate), and very broad umbrellas such as the UN, EU, and CGIAR. To change a rollup, add a line under `rollup:` in the overrides file.
+- **Free-text affiliations:** ROR's affiliation matcher is used, and only its confident `chosen` matches are kept. That recovers 31 authorships. The rest are mostly addresses without an organization name.
+- **New views:** `v_faculty_org`, `v_org_summary` (with city and coordinates, ready for the map), and `v_theme_org`. The institution-level views are unchanged. `data/coverage.md` now lists top partners by organization.
+
+```sql
+-- SAFS's top partner organizations
+SELECT name, country, n_faculty, faculty_work_links FROM v_org_summary
+ORDER BY faculty_work_links DESC LIMIT 10;
+```

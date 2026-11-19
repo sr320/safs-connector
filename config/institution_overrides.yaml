@@ -1,0 +1,12 @@
+# Human corrections for 06_normalize_insts.py (M4). These win over the automatic rules.
+#
+# rollup: force an institution's partner organization (OpenAlex institution ids).
+#   Map an id to itself to stop it rolling up at all.
+#   Example: keep the Northwest Fisheries Science Center separate from NOAA:
+#     I1314468397: I1314468397
+#
+# affiliations: assign a free-text affiliation string (exactly as in the paper) to an institution.
+#   Example:
+#     "Yakama Nation Fisheries, P.O. Box 151, Toppenish, WA 98948, USA": I4210107353
+rollup: {}
+affiliations: {}

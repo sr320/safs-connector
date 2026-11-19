@@ -31,7 +31,7 @@ def main() -> None:
         GROUP BY f.slug ORDER BY f.name""").fetchall()
 
     partners = {}
-    for r in con.execute("""SELECT faculty_slug, name, n_works FROM v_faculty_institution
+    for r in con.execute("""SELECT faculty_slug, name, n_works FROM v_faculty_org
                             ORDER BY faculty_slug, n_works DESC"""):
         partners.setdefault(r["faculty_slug"], [])
         if len(partners[r["faculty_slug"]]) < 3:

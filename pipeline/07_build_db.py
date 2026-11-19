@@ -8,6 +8,9 @@ Views (count only faculty_works.status = 'keep')
   v_faculty_works, v_faculty_institution, v_faculty_faculty, v_institution_summary
 Topic tables (themes, work_themes, work_tags, work_summaries) come from
   config/topic_taxonomy.yaml + data/topic_tags.jsonl (M3).
+Institution coordinates, parent links and partner-organization rollup come from
+  data/institutions.json + data/affiliation_matches.json (M4, 06_normalize_insts.py):
+  views v_faculty_org, v_org_summary, v_theme_org.
 """
 from __future__ import annotations
 
@@ -55,11 +58,15 @@ CREATE TABLE authorships (
 );
 CREATE TABLE authorship_institutions (
   work_id TEXT, idx INTEGER, institution_id TEXT,
+  source TEXT,            -- openalex | ror-affiliation (free-text affiliation matched by ROR) | human
   PRIMARY KEY (work_id, idx, institution_id)
 );
 CREATE TABLE institutions (
   id TEXT PRIMARY KEY, name TEXT, ror TEXT, country TEXT, type TEXT, lineage TEXT,
-  is_uw INTEGER
+  is_uw INTEGER,
+  city TEXT, region TEXT, lat REAL, lon REAL,
+  parent_id TEXT,         -- direct parent institution (M4)
+  org_id TEXT             -- partner organization it rolls up to, e.g. NWFSC -> NOAA (M4)
 );
 CREATE INDEX ix_fw_work ON faculty_works(work_id);
 CREATE INDEX ix_auth_author ON authorships(author_id);
@@ -90,6 +97,25 @@ CREATE VIEW v_faculty_faculty AS
   JOIN works w ON w.id = a.work_id
   WHERE a.status = 'keep' AND b.status = 'keep'
   GROUP BY a.faculty_slug, b.faculty_slug;
+
+-- same, rolled up to partner organizations (NOAA science centers -> NOAA, etc.)
+CREATE VIEW v_faculty_org AS
+  SELECT fw.faculty_slug, o.id AS org_id, o.name, o.country, o.type, o.city, o.lat, o.lon,
+         COUNT(DISTINCT fw.work_id) AS n_works,
+         MIN(w.year) AS first_year, MAX(w.year) AS last_year
+  FROM faculty_works fw
+  JOIN works w ON w.id = fw.work_id
+  JOIN authorship_institutions ai ON ai.work_id = fw.work_id
+  JOIN institutions i ON i.id = ai.institution_id
+  JOIN institutions o ON o.id = COALESCE(i.org_id, i.id)
+  WHERE fw.status = 'keep' AND i.is_uw = 0 AND o.is_uw = 0
+  GROUP BY fw.faculty_slug, o.id;
+
+CREATE VIEW v_org_summary AS
+  SELECT org_id, name, country, type, city, lat, lon,
+         COUNT(DISTINCT faculty_slug) AS n_faculty, SUM(n_works) AS faculty_work_links,
+         MIN(first_year) AS first_year, MAX(last_year) AS last_year
+  FROM v_faculty_org GROUP BY org_id;
 
 CREATE VIEW v_institution_summary AS
   SELECT institution_id, name, country, type,
@@ -153,6 +179,17 @@ CREATE VIEW v_theme_institution AS
   JOIN institutions i ON i.id = ai.institution_id
   WHERE i.is_uw = 0
   GROUP BY a.theme_id, i.id;
+
+CREATE VIEW v_theme_org AS
+  SELECT a.theme_id, o.id AS org_id, o.name, o.country, o.type,
+         COUNT(DISTINCT a.work_id) AS n_works
+  FROM v_work_theme_any a
+  JOIN (SELECT DISTINCT work_id FROM faculty_works WHERE status = 'keep') k ON k.work_id = a.work_id
+  JOIN authorship_institutions ai ON ai.work_id = a.work_id
+  JOIN institutions i ON i.id = ai.institution_id
+  JOIN institutions o ON o.id = COALESCE(i.org_id, i.id)
+  WHERE i.is_uw = 0 AND o.is_uw = 0
+  GROUP BY a.theme_id, o.id;
 """
 
 
@@ -177,6 +214,10 @@ def main() -> None:
     overrides = yaml.safe_load((CONFIG / "faculty_overrides.yaml").read_text())
     index = json.loads((DATA / "works_index.json").read_text())
     attribution = json.loads((DATA / "attribution.json").read_text())
+    # M4 outputs (optional: without them institutions come straight from the works records)
+    norm_path, match_path = DATA / "institutions.json", DATA / "affiliation_matches.json"
+    norm = json.loads(norm_path.read_text()) if norm_path.exists() else {}
+    aff_matches = json.loads(match_path.read_text()) if match_path.exists() else {}
 
     args.out.unlink(missing_ok=True)
     con = sqlite3.connect(args.out)
@@ -234,12 +275,18 @@ def main() -> None:
                         wid, idx, aid, a["author"].get("display_name"), a.get("raw_author_name"),
                         a.get("author_position"), int(bool(a.get("is_corresponding"))),
                         author_to_slug.get(aid)))
+                    if not a.get("institutions"):
+                        for raw in a.get("raw_affiliation_strings") or []:
+                            m = aff_matches.get(" ".join(raw.split()))
+                            if m:
+                                con.execute("INSERT OR IGNORE INTO authorship_institutions VALUES (?,?,?,?)",
+                                            (wid, idx, m["openalex_id"], m["source"]))
                     for inst in a.get("institutions") or []:
                         iid = sid(inst.get("id"))
                         if not iid:
                             continue
-                        con.execute("INSERT OR IGNORE INTO authorship_institutions VALUES (?,?,?)",
-                                    (wid, idx, iid))
+                        con.execute("INSERT OR IGNORE INTO authorship_institutions VALUES (?,?,?,?)",
+                                    (wid, idx, iid, "openalex"))
                         insts.setdefault(iid, (
                             iid, inst.get("display_name"),
                             (inst.get("ror") or "").replace("https://ror.org/", "") or None,
@@ -256,7 +303,20 @@ def main() -> None:
                 int(bool(mine.get("is_corresponding"))),
                 int(any(sid(i.get("id")) == UW_OPENALEX_ID for i in mine.get("institutions") or []))))
 
-    con.executemany("INSERT INTO institutions VALUES (?,?,?,?,?,?,?)", insts.values())
+    # institutions: every one referenced by an authorship, plus the orgs they roll up to
+    used = {r[0] for r in con.execute("SELECT DISTINCT institution_id FROM authorship_institutions")}
+    need = used | {norm[i]["org_id"] for i in used if i in norm}
+    rows = []
+    for iid in need:
+        n = norm.get(iid)
+        base = insts.get(iid)
+        if n:
+            rows.append((iid, n["name"], n["ror"], n["country"], n["type"],
+                         base[5] if base else None, n["is_uw"], n["city"], n["region"],
+                         n["lat"], n["lon"], n["parent_id"], n["org_id"]))
+        elif base:
+            rows.append(base + (None, None, None, None, None, iid))
+    con.executemany("INSERT INTO institutions VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)", rows)
     n_tagged = load_topics(con, args.tags)
     con.commit()
 
@@ -268,7 +328,11 @@ def main() -> None:
     print(f"  faculty-work links   {sum(st.values())} "
           f"(keep {st.get('keep', 0)}, suspect {st.get('suspect', 0)}, drop {st.get('drop', 0)})")
     print(f"  authorships          {q('SELECT COUNT(*) FROM authorships')}")
-    print(f"  institutions         {q('SELECT COUNT(*) FROM institutions')}")
+    print(f"  institutions         {q('SELECT COUNT(*) FROM institutions')} "
+          f"(with coordinates {q('SELECT COUNT(*) FROM institutions WHERE lat IS NOT NULL')}, "
+          f"partner orgs {q('SELECT COUNT(DISTINCT org_id) FROM institutions')})")
+    n_ror = q("SELECT COUNT(*) FROM authorship_institutions WHERE source != 'openalex'")
+    print(f"  ror-matched affils   {n_ror}")
     print(f"  truncated bylines    {q('SELECT COUNT(*) FROM works WHERE authors_truncated=1')}")
     print(f"  topic-tagged works   {n_tagged}")
     con.close()
