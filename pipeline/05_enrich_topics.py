@@ -125,6 +125,7 @@ def papers_to_tag(retag: bool, tax_hash: str) -> list[dict]:
         FROM works w
         WHERE EXISTS (SELECT 1 FROM faculty_works fw WHERE fw.work_id = w.id AND fw.status != 'drop')
           AND w.title IS NOT NULL
+          AND COALESCE(w.type, '') != 'peer-review'  -- reviewer reports / author responses, not papers
         ORDER BY w.id""").fetchall()
     done = set()
     if TAGS.exists() and not retag:
