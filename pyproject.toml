@@ -1,0 +1,12 @@
+[project]
+name = "safs-connector"
+version = "0.1.0"
+description = "SAFS faculty publications database and explorer"
+requires-python = ">=3.12"
+dependencies = [
+  "httpx>=0.27",
+  "beautifulsoup4>=4.12",
+  "pyyaml>=6",
+  "anthropic>=0.70",
+  "pydantic>=2",
+]
