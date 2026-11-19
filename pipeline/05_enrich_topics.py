@@ -87,7 +87,9 @@ def system_prompt(tax: dict) -> str:
         "Aquatic and Fishery Sciences (SAFS) so they can be explored by topic.",
         "",
         "For EACH paper in the input, return one entry (same work_id) with:",
-        "- primary_theme: the single best theme id.",
+        "- primary_theme: the single best theme id for what the paper is ABOUT (its subject or question), "
+        "not the method it uses. A stock-assessment model is fisheries-management; use "
+        "quantitative-methods only when a new method, model or software is itself the main contribution.",
         "- subtopics: 1-4 subtopic ids from ANY theme, most central first. Prefer precision: "
         "only tag a subtopic the paper substantially addresses.",
         "- taxon_groups: focal organism groups ('none' if no focal organism).",

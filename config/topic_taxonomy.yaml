@@ -26,7 +26,7 @@ themes:
     subtopics:
       - {id: shellfish-aquaculture, name: Shellfish aquaculture, description: "Oyster, clam, mussel, geoduck culture and broodstock"}
       - {id: finfish-aquaculture, name: Finfish aquaculture & hatcheries, description: "Fish culture, rearing conditions, stocking density, hatchery practices"}
-      - {id: aquaculture-health, name: Aquaculture health & disease, description: "Pathogens, immunity and mortality events in cultured species"}
+      - {id: aquaculture-health, name: Aquaculture health & disease, description: "Pathogens and mortality events in cultured species"}
       - {id: aquaculture-breeding, name: Breeding & genetic improvement, description: "Selective breeding, broodstock genetics, conditioning for resilience"}
 
   - id: seafood-food-systems
@@ -39,9 +39,9 @@ themes:
   - id: population-ecology
     name: Population Ecology & Life History
     subtopics:
-      - {id: population-dynamics, name: Population dynamics & demography, description: "Survival, recruitment, density dependence, population viability"}
+      - {id: population-dynamics, name: Population dynamics & demography, description: "Survival, recruitment, density dependence, population viability (harvested stocks assessed for management go under stock-assessment)"}
       - {id: life-history-growth, name: Life history & growth, description: "Growth, maturation, age structure, life-history trade-offs, indeterminate growth"}
-      - {id: reproduction-spawning, name: Reproduction & spawning ecology, description: "Spawning timing and behavior, fecundity, mating systems, early life stages"}
+      - {id: reproduction-spawning, name: Reproduction & spawning ecology, description: "Spawning timing and behavior, fecundity, mating systems (embryo/larval biology goes under development-early-life)"}
       - {id: portfolio-diversity, name: Population diversity & portfolio effects, description: "Biocomplexity, stock diversity, asynchrony, response diversity"}
 
   - id: ecosystem-ecology
@@ -58,6 +58,7 @@ themes:
     subtopics:
       - {id: warming-heatwaves, name: Warming & marine heatwaves, description: "Temperature trends, heatwaves, thermal tolerance at population or ecosystem scale"}
       - {id: ocean-acidification, name: Ocean acidification & hypoxia, description: "Carbonate chemistry, low oxygen, multiple stressors"}
+      - {id: climate-variability-regime-shifts, name: Climate variability & regime shifts, description: "ENSO, PDO, upwelling, interannual-decadal ocean and climate variability, regime shifts (natural variability, not long-term anthropogenic trend)"}
       - {id: sea-ice-polar, name: Sea ice & polar change, description: "Arctic/Antarctic sea ice loss and its ecological effects"}
       - {id: range-phenology-shifts, name: Range & phenology shifts, description: "Distribution shifts, timing changes, climate vulnerability assessments"}
       - {id: climate-adaptation-policy, name: Climate adaptation & policy, description: "Adapting fisheries, management and communities to climate change; climate policy"}
@@ -94,8 +95,9 @@ themes:
     subtopics:
       - {id: reproductive-endocrinology, name: Reproductive physiology & endocrinology, description: "Hormones, oogenesis, maturation, smoltification"}
       - {id: stress-osmoregulation, name: Stress, osmoregulation & metabolism, description: "Cortisol, energy metabolism, salinity and environmental stress responses"}
-      - {id: immunology, name: Immunology & host defense, description: "Immune responses, host-pathogen physiology"}
+      - {id: immunology, name: Immunology & host defense, description: "Immune mechanisms and host-pathogen physiology (disease in cultured animals -> aquaculture-health; in wild populations -> wildlife-disease)"}
       - {id: development-early-life, name: Development & early life stages, description: "Embryos, larvae, settlement, developmental plasticity"}
+      - {id: symbiosis-calcification, name: Symbiosis & calcification, description: "Coral-algal symbiosis, heterotrophy in corals, calcification and biomineralization physiology"}
       - {id: feeding-energetics, name: Feeding & bioenergetics, description: "Consumption, growth energetics, suspension feeding, bioenergetics models"}
 
   - id: behavior-movement
@@ -110,7 +112,7 @@ themes:
     name: Parasites & Disease Ecology
     subtopics:
       - {id: parasite-ecology, name: Parasite ecology & conservation, description: "Parasite diversity, community roles, long-term change in parasitism"}
-      - {id: wildlife-disease, name: Wildlife & marine disease, description: "Disease outbreaks in wild populations (e.g. sea star wasting), pathogens"}
+      - {id: wildlife-disease, name: Wildlife & marine disease, description: "Disease outbreaks and pathogens in wild populations (e.g. sea star wasting)"}
       - {id: biodiversity-disease-human-health, name: Biodiversity, disease & human health, description: "Disease transmission to people, schistosomiasis, Lyme, One Health"}
 
   - id: morphology-systematics

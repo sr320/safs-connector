@@ -79,7 +79,7 @@ Note: OpenAlex lists at most 100 authors per paper in list responses, and 12 pap
 
 ## Pipeline (M3: topic tagging with Claude)
 
-The vocabulary is in **`config/topic_taxonomy.yaml`**. It has 15 themes and 66 subtopics, plus controlled lists of taxon groups, ecosystems, and methods. Claude drafted it from faculty profiles and each person's most-cited papers. **Edit it freely before tagging.** Renaming a `name` is safe, but changing an `id` means re-tagging.
+The vocabulary is in **`config/topic_taxonomy.yaml`**. It has 15 themes and 68 subtopics, plus controlled lists of taxon groups, ecosystems, and methods. Claude drafted it from faculty profiles and each person's most-cited papers. **Edit it freely before tagging.** Renaming a `name` is safe, but changing an `id` means re-tagging.
 
 ```bash
 uv run --env-file .env python pipeline/05_enrich_topics.py plan                 # no API calls: counts and cost estimate
