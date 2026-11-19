@@ -45,7 +45,8 @@ safs-connector/
 │   ├── 06_normalize_insts.py    # ROR-based institution cleanup (+ Claude)        (M4)
 │   ├── 07_build_db.py           # SQLite schema + derived views                   (M2)
 │   ├── 08_coverage_report.py    # per-faculty coverage table                      (M2)
-│   └── 09_export_site_data.py   # JSON/Parquet for the explorer                   (M5)
+│   ├── 09_spotcheck.py          # human spot-check of topic tags                  (M3)
+│   └── 10_export_site_data.py   # JSON/Parquet for the explorer                   (M5)
 ├── data/                        # safs.sqlite, raw cache (gitignored), exports
 ├── site/                        # explorer front end
 └── .github/workflows/

@@ -6,12 +6,15 @@ Core tables
   authorships, authorship_institutions, institutions
 Views (count only faculty_works.status = 'keep')
   v_faculty_works, v_faculty_institution, v_faculty_faculty, v_institution_summary
-Topic tables (themes, work_themes, work_tags) are added by the M3 enrichment step.
+Topic tables (themes, work_themes, work_tags, work_summaries) come from
+  config/topic_taxonomy.yaml + data/topic_tags.jsonl (M3).
 """
 from __future__ import annotations
 
+import argparse
 import json
 import sqlite3
+from pathlib import Path
 
 import yaml
 
@@ -92,6 +95,64 @@ CREATE VIEW v_institution_summary AS
   SELECT institution_id, name, country, type,
          COUNT(DISTINCT faculty_slug) AS n_faculty, SUM(n_works) AS faculty_work_links
   FROM v_faculty_institution GROUP BY institution_id;
+
+-- ---- topics (filled from data/topic_tags.jsonl when present)
+CREATE TABLE themes (
+  id TEXT PRIMARY KEY, name TEXT, description TEXT,
+  parent_id TEXT,          -- NULL for a theme, theme id for a subtopic
+  sort INTEGER
+);
+CREATE TABLE work_themes (
+  work_id TEXT, theme_id TEXT,
+  role TEXT,               -- primary_theme | subtopic
+  rank INTEGER,
+  PRIMARY KEY (work_id, theme_id, role)
+);
+CREATE TABLE work_tags (
+  work_id TEXT, kind TEXT, value TEXT,   -- kind: taxon_group|species|ecosystem|region|method
+  PRIMARY KEY (work_id, kind, value)
+);
+CREATE TABLE work_summaries (work_id TEXT PRIMARY KEY, summary TEXT, model TEXT);
+CREATE INDEX ix_wt_theme ON work_themes(theme_id);
+CREATE INDEX ix_tags_value ON work_tags(kind, value);
+
+-- every theme a kept paper touches (primary theme + parent themes of its subtopics)
+CREATE VIEW v_work_theme_any AS
+  SELECT work_id, theme_id FROM work_themes WHERE role = 'primary_theme'
+  UNION
+  SELECT wt.work_id, t.parent_id FROM work_themes wt JOIN themes t ON t.id = wt.theme_id
+  WHERE wt.role = 'subtopic';
+
+CREATE VIEW v_faculty_theme AS
+  SELECT fw.faculty_slug, t.id AS theme_id, t.name,
+         COUNT(*) AS n_works,
+         ROUND(1.0 * COUNT(*) / (SELECT COUNT(*) FROM faculty_works x
+                                 WHERE x.faculty_slug = fw.faculty_slug AND x.status = 'keep'), 3) AS share
+  FROM faculty_works fw
+  JOIN work_themes wt ON wt.work_id = fw.work_id AND wt.role = 'primary_theme'
+  JOIN themes t ON t.id = wt.theme_id
+  WHERE fw.status = 'keep'
+  GROUP BY fw.faculty_slug, t.id;
+
+CREATE VIEW v_faculty_subtopic AS
+  SELECT fw.faculty_slug, t.id AS subtopic_id, t.name, t.parent_id AS theme_id,
+         COUNT(*) AS n_works
+  FROM faculty_works fw
+  JOIN work_themes wt ON wt.work_id = fw.work_id AND wt.role = 'subtopic'
+  JOIN themes t ON t.id = wt.theme_id
+  WHERE fw.status = 'keep'
+  GROUP BY fw.faculty_slug, t.id;
+
+-- which outside institutions work with SAFS on which theme
+CREATE VIEW v_theme_institution AS
+  SELECT a.theme_id, i.id AS institution_id, i.name, i.country, i.type,
+         COUNT(DISTINCT a.work_id) AS n_works
+  FROM v_work_theme_any a
+  JOIN (SELECT DISTINCT work_id FROM faculty_works WHERE status = 'keep') k ON k.work_id = a.work_id
+  JOIN authorship_institutions ai ON ai.work_id = a.work_id
+  JOIN institutions i ON i.id = ai.institution_id
+  WHERE i.is_uw = 0
+  GROUP BY a.theme_id, i.id;
 """
 
 
@@ -107,13 +168,18 @@ def abstract_text(inv: dict | None) -> str | None:
 
 
 def main() -> None:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--tags", type=Path, default=DATA / "topic_tags.jsonl")
+    ap.add_argument("--out", type=Path, default=DB)
+    args = ap.parse_args()
+
     roster = json.loads((DATA / "roster.json").read_text())
     overrides = yaml.safe_load((CONFIG / "faculty_overrides.yaml").read_text())
     index = json.loads((DATA / "works_index.json").read_text())
     attribution = json.loads((DATA / "attribution.json").read_text())
 
-    DB.unlink(missing_ok=True)
-    con = sqlite3.connect(DB)
+    args.out.unlink(missing_ok=True)
+    con = sqlite3.connect(args.out)
     con.executescript(SCHEMA)
 
     # ---- faculty
@@ -191,11 +257,12 @@ def main() -> None:
                 int(any(sid(i.get("id")) == UW_OPENALEX_ID for i in mine.get("institutions") or []))))
 
     con.executemany("INSERT INTO institutions VALUES (?,?,?,?,?,?,?)", insts.values())
+    n_tagged = load_topics(con, args.tags)
     con.commit()
 
     q = lambda sql: con.execute(sql).fetchone()[0]
     st = dict(con.execute("SELECT status, COUNT(*) FROM faculty_works GROUP BY status").fetchall())
-    print(f"Built {DB.relative_to(DATA.parent)}")
+    print(f"Built {args.out}")
     print(f"  faculty              {q('SELECT COUNT(*) FROM faculty')}")
     print(f"  works                {q('SELECT COUNT(*) FROM works')}")
     print(f"  faculty-work links   {sum(st.values())} "
@@ -203,7 +270,48 @@ def main() -> None:
     print(f"  authorships          {q('SELECT COUNT(*) FROM authorships')}")
     print(f"  institutions         {q('SELECT COUNT(*) FROM institutions')}")
     print(f"  truncated bylines    {q('SELECT COUNT(*) FROM works WHERE authors_truncated=1')}")
+    print(f"  topic-tagged works   {n_tagged}")
     con.close()
+
+
+def load_topics(con: sqlite3.Connection, tags_path: Path) -> int:
+    """Themes from the taxonomy; tags from topic_tags.jsonl (only current-taxonomy rows)."""
+    tax_file = CONFIG / "topic_taxonomy.yaml"
+    if not tax_file.exists():
+        return 0
+    tax = yaml.safe_load(tax_file.read_text())
+    sort = 0
+    for t in tax["themes"]:
+        sort += 1
+        con.execute("INSERT INTO themes VALUES (?,?,?,?,?)", (t["id"], t["name"], None, None, sort))
+        for s in t["subtopics"]:
+            sort += 1
+            con.execute("INSERT INTO themes VALUES (?,?,?,?,?)",
+                        (s["id"], s["name"], s.get("description"), t["id"], sort))
+    if not tags_path.exists():
+        return 0
+    known = {r[0] for r in con.execute("SELECT id FROM works")}
+    valid = {r[0] for r in con.execute("SELECT id FROM themes")}
+    n = 0
+    for line in tags_path.open():
+        r = json.loads(line)
+        wid = r["work_id"]
+        if wid not in known or r.get("primary_theme") not in valid:
+            continue
+        n += 1
+        con.execute("INSERT OR IGNORE INTO work_themes VALUES (?,?,?,?)",
+                    (wid, r["primary_theme"], "primary_theme", 0))
+        for rank, s in enumerate(r.get("subtopics", [])):
+            if s in valid:
+                con.execute("INSERT OR IGNORE INTO work_themes VALUES (?,?,?,?)", (wid, s, "subtopic", rank))
+        for kind, key in [("taxon_group", "taxon_groups"), ("species", "species"),
+                          ("ecosystem", "ecosystems"), ("region", "regions"), ("method", "methods")]:
+            for v in r.get(key, []):
+                if v and v != "none":
+                    con.execute("INSERT OR IGNORE INTO work_tags VALUES (?,?,?)", (wid, kind, v.strip()))
+        con.execute("INSERT OR REPLACE INTO work_summaries VALUES (?,?,?)",
+                    (wid, r.get("summary"), r.get("model")))
+    return n
 
 
 if __name__ == "__main__":
