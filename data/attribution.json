@@ -1,0 +1,3470 @@
+{
+ "adam-summers": {
+  "profile": {
+   "n_anchor": 158,
+   "first_anchor_year": 2004,
+   "top_subfields": [
+    "Nature and Landscape Conservation",
+    "Aquatic Science",
+    "Anatomy",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Aerospace Engineering",
+    "Mechanics of Materials",
+    "Ecology",
+    "Biomaterials"
+   ]
+  },
+  "works": {
+   "W4416136319": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.006
+   },
+   "W4411734447": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4407208370": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.006
+   },
+   "W4403126006": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4388349128": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.006
+   },
+   "W4310286400": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.006
+   },
+   "W4281551332": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.006
+   },
+   "W3207099098": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3207722678": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3108509404": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3094837857": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2948174595": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4234374137": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2905348479": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2775466927": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.076
+   },
+   "W2781051257": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2022638331": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W416954852": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2022487870": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2591625276": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2125538508": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.215
+   },
+   "W4256697225": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W299399175": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4207027853": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1975664457": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.095
+   },
+   "W85176408": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2274100782": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2063570803": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2066646653": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.006
+   },
+   "W2278500170": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2471641456": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.006
+   }
+  }
+ },
+ "amy-van-cise": {
+  "profile": {
+   "n_anchor": 12,
+   "first_anchor_year": 2022,
+   "top_subfields": [
+    "Ecology",
+    "Oceanography",
+    "Ecology, Evolution, Behavior and Systematics"
+   ]
+  },
+  "works": {
+   "W2320996302": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2183101467": {
+    "status": "suspect",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.67,
+    "subfield_share": 0.833
+   },
+   "W2183939759": {
+    "status": "suspect",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.67,
+    "subfield_share": 0.0
+   }
+  }
+ },
+ "andre-punt": {
+  "profile": {
+   "n_anchor": 420,
+   "first_anchor_year": 1993,
+   "top_subfields": [
+    "Aquatic Science",
+    "Ecology",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Nature and Landscape Conservation",
+    "Management, Monitoring, Policy and Law",
+    "Oceanography",
+    "Genetics",
+    "Statistics and Probability"
+   ]
+  },
+  "works": {
+   "W4402135069": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2895323451": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2743466892": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4394396460": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2093477877": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.795
+   },
+   "W2563562604": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4254613686": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.33,
+    "subfield_share": 0.0
+   },
+   "W1821746591": {
+    "status": "suspect",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.67,
+    "subfield_share": 0.01
+   },
+   "W2000932237": {
+    "status": "suspect",
+    "reasons": [
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.67,
+    "subfield_share": 0.114
+   }
+  }
+ },
+ "andrea-burton": {
+  "profile": null,
+  "works": {}
+ },
+ "andrew-berdahl": {
+  "profile": {
+   "n_anchor": 37,
+   "first_anchor_year": 2018,
+   "top_subfields": [
+    "Ecology",
+    "Aquatic Science",
+    "Plant Science",
+    "Nature and Landscape Conservation",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Applied Mathematics",
+    "Statistical and Nonlinear Physics",
+    "Global and Planetary Change"
+   ]
+  },
+  "works": {
+   "W4200631711": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1791356047": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   }
+  }
+ },
+ "carter-smith": {
+  "profile": {
+   "n_anchor": 13,
+   "first_anchor_year": 2024,
+   "top_subfields": [
+    "Ecology",
+    "Management, Monitoring, Policy and Law",
+    "Earth-Surface Processes",
+    "Aquatic Science",
+    "Oceanography",
+    "Nature and Landscape Conservation"
+   ]
+  },
+  "works": {
+   "W4417343794": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3208629888": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2560697837": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4397572322": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2053122746": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2271935763": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W140935010": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W140592373": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W127830561": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   }
+  }
+ },
+ "chelsea-wood": {
+  "profile": {
+   "n_anchor": 81,
+   "first_anchor_year": 2017,
+   "top_subfields": [
+    "Parasitology",
+    "Global and Planetary Change",
+    "Public Health, Environmental and Occupational Health",
+    "Aquatic Science",
+    "Ecology",
+    "Information Systems",
+    "Animal Science and Zoology",
+    "Insect Science"
+   ]
+  },
+  "works": {
+   "W4394118099": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4394149885": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4394221096": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4394237469": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4394506105": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3165070297": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2183450751": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2186112370": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   }
+  }
+ },
+ "chris-anderson": {
+  "profile": {
+   "n_anchor": 44,
+   "first_anchor_year": 2012,
+   "top_subfields": [
+    "Aquatic Science",
+    "Economics and Econometrics",
+    "Food Science",
+    "Political Science and International Relations",
+    "Public Administration",
+    "Management Science and Operations Research",
+    "Global and Planetary Change",
+    "Law"
+   ]
+  },
+  "works": {
+   "W3037252425": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.568
+   },
+   "W2072015607": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2110191269": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2255184498": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1923838238": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3112055792": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W584478155": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3089056988": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4244406134": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1575340854": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3134607536": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3009234337": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3154014255": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3014119932": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2027925480": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3120112826": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W30981817": {
+    "status": "suspect",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.33,
+    "subfield_share": 0.023
+   },
+   "W2996110879": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3129356396": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2024294623": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3016336430": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2034365458": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2003782782": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3024845435": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3109740341": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3015301510": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3116773671": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3015702787": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1521342342": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3106381744": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3115448527": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3119458891": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2088078396": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2065740430": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2992675823": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1661187215": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3173074309": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3018613191": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3034966159": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3013821635": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1526674756": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4234962724": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4249832760": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4251680258": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1972386645": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2571109294": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2012384691": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1994858402": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2074763740": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2095338530": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2018281829": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2026167749": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2038958624": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3087321108": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1981833741": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1553577047": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2037166428": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2995746695": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2061546394": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2069089126": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   }
+  }
+ },
+ "corey-garza": {
+  "profile": {
+   "n_anchor": 13,
+   "first_anchor_year": 2021,
+   "top_subfields": [
+    "Applied Psychology",
+    "Oceanography",
+    "Sociology and Political Science",
+    "Management, Monitoring, Policy and Law",
+    "Tourism, Leisure and Hospitality Management",
+    "Management of Technology and Innovation",
+    "Education",
+    "History and Philosophy of Science"
+   ]
+  },
+  "works": {
+   "W2769140815": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2165944770": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1994832034": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2171833150": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2990501158": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2068005633": {
+    "status": "suspect",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.33,
+    "subfield_share": 0.231
+   },
+   "W2014170675": {
+    "status": "suspect",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.67,
+    "subfield_share": 0.231
+   }
+  }
+ },
+ "daniel-schindler": {
+  "profile": {
+   "n_anchor": 200,
+   "first_anchor_year": 1997,
+   "top_subfields": [
+    "Nature and Landscape Conservation",
+    "Ecology",
+    "Environmental Chemistry",
+    "Aquatic Science",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Genetics",
+    "Global and Planetary Change",
+    "Health, Toxicology and Mutagenesis"
+   ]
+  },
+  "works": {
+   "W4415594662": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3008051551": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.24
+   },
+   "W2897338954": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4250586525": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4249650899": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2966463256": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4394110897": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4394397752": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4394429684": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4394475109": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2418468994": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2504196283": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   }
+  }
+ },
+ "graham-young": {
+  "profile": {
+   "n_anchor": 35,
+   "first_anchor_year": 2005,
+   "top_subfields": [
+    "Physiology",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Health, Toxicology and Mutagenesis",
+    "Immunology",
+    "Genetics",
+    "Nature and Landscape Conservation",
+    "Pollution",
+    "Aquatic Science"
+   ]
+  },
+  "works": {
+   "W4409760443": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.714
+   },
+   "W2069686768": {
+    "status": "suspect",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.67,
+    "subfield_share": 0.029
+   },
+   "W1992410005": {
+    "status": "suspect",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.33,
+    "subfield_share": 0.029
+   },
+   "W2005244938": {
+    "status": "suspect",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.33,
+    "subfield_share": 0.714
+   },
+   "W2105978318": {
+    "status": "suspect",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.67,
+    "subfield_share": 0.0
+   },
+   "W2055497575": {
+    "status": "suspect",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.67,
+    "subfield_share": 0.714
+   },
+   "W2017073527": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1977852646": {
+    "status": "suspect",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.67,
+    "subfield_share": 0.714
+   },
+   "W2770890666": {
+    "status": "suspect",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.67,
+    "subfield_share": 0.714
+   }
+  }
+ },
+ "gregory-jensen": {
+  "profile": {
+   "n_anchor": 21,
+   "first_anchor_year": 1983,
+   "top_subfields": [
+    "Ecology",
+    "Aquatic Science",
+    "Global and Planetary Change"
+   ]
+  },
+  "works": {
+   "W3107613510": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2598524501": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2561788713": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   }
+  }
+ },
+ "heili-lowman": {
+  "profile": {
+   "n_anchor": 13,
+   "first_anchor_year": 2024,
+   "top_subfields": [
+    "Environmental Chemistry",
+    "Global and Planetary Change",
+    "Ecology",
+    "Education"
+   ]
+  },
+  "works": {
+   "W4317532309": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4315647233": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4281767717": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4397303152": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4397330552": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4397336023": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4397442013": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4397509855": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4397264184": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   }
+  }
+ },
+ "jacqueline-padilla-gamino": {
+  "profile": {
+   "n_anchor": 53,
+   "first_anchor_year": 2016,
+   "top_subfields": [
+    "Ecology",
+    "Aquatic Science",
+    "Oceanography",
+    "Pollution",
+    "Global and Planetary Change",
+    "Health, Toxicology and Mutagenesis",
+    "Molecular Biology",
+    "Environmental Chemistry"
+   ]
+  },
+  "works": {
+   "W2181454701": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W104980918": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   }
+  }
+ },
+ "jessica-gephart": {
+  "profile": {
+   "n_anchor": 39,
+   "first_anchor_year": 2020,
+   "top_subfields": [
+    "Food Science",
+    "Aquatic Science",
+    "Ecology",
+    "Nature and Landscape Conservation",
+    "General Agricultural and Biological Sciences",
+    "Global and Planetary Change",
+    "Computer Vision and Pattern Recognition",
+    "Public Health, Environmental and Occupational Health"
+   ]
+  },
+  "works": {
+   "W7212175314": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.077
+   },
+   "W7131674720": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.077
+   },
+   "W4407731062": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.077
+   },
+   "W4315647233": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4213341283": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.67,
+    "subfield_share": 0.128
+   },
+   "W3203862745": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.128
+   },
+   "W2471361093": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2060265666": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.128
+   },
+   "W2324912790": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2583866387": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2597822172": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   }
+  }
+ },
+ "john-horne": {
+  "profile": {
+   "n_anchor": 116,
+   "first_anchor_year": 2000,
+   "top_subfields": [
+    "Aquatic Science",
+    "Ecology",
+    "Oceanography",
+    "Ocean Engineering",
+    "Nature and Landscape Conservation",
+    "Atmospheric Science",
+    "Health, Toxicology and Mutagenesis",
+    "Economics and Econometrics"
+   ]
+  },
+  "works": {
+   "W2333189702": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.017
+   }
+  }
+ },
+ "jose-guzman": {
+  "profile": {
+   "n_anchor": 5,
+   "first_anchor_year": 2017,
+   "top_subfields": [
+    "Physiology",
+    "Immunology",
+    "Oceanography"
+   ]
+  },
+  "works": {
+   "W4299300271": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1594565687": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1504477185": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1928289634": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1522819750": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1972595961": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2036130458": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2071674496": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4297837095": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2011424498": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2094882642": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4254083065": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1999496138": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2152082203": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2085733708": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2135506646": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2166491544": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4244488166": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2114398399": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2083597255": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2159753440": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2056361532": {
+    "status": "suspect",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.67,
+    "subfield_share": 0.6
+   },
+   "W128554014": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2042105960": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1973094137": {
+    "status": "suspect",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.67,
+    "subfield_share": 0.0
+   },
+   "W1528365979": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1530823458": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1972424160": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2511377906": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2402777745": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   }
+  }
+ },
+ "julia-parish": {
+  "profile": {
+   "n_anchor": 85,
+   "first_anchor_year": 1990,
+   "top_subfields": [
+    "Ecology",
+    "Aquatic Science",
+    "Management, Monitoring, Policy and Law",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Information Systems",
+    "Control and Systems Engineering",
+    "Library and Information Sciences",
+    "Pollution"
+   ]
+  },
+  "works": {
+   "W4386442987": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   }
+  }
+ },
+ "julian-olden": {
+  "profile": {
+   "n_anchor": 409,
+   "first_anchor_year": 2006,
+   "top_subfields": [
+    "Nature and Landscape Conservation",
+    "Ecology",
+    "Global and Planetary Change",
+    "Water Science and Technology",
+    "Ecological Modeling",
+    "Earth-Surface Processes",
+    "Environmental Chemistry",
+    "Genetics"
+   ]
+  },
+  "works": {
+   "W4376873246": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.161
+   },
+   "W2962880589": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.562
+   },
+   "W4394279282": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4394512280": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4248803165": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.562
+   },
+   "W2921592776": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2949102427": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4394370170": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   }
+  }
+ },
+ "kenneth-sebens": {
+  "profile": {
+   "n_anchor": 28,
+   "first_anchor_year": 1976,
+   "top_subfields": [
+    "Oceanography",
+    "Aquatic Science",
+    "Ecology",
+    "Computer Vision and Pattern Recognition",
+    "Earth-Surface Processes",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Animal Science and Zoology",
+    "History"
+   ]
+  },
+  "works": {}
+ },
+ "kerry-naish": {
+  "profile": {
+   "n_anchor": 73,
+   "first_anchor_year": 2002,
+   "top_subfields": [
+    "Genetics",
+    "Immunology",
+    "Nature and Landscape Conservation",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Oceanography",
+    "Aquatic Science",
+    "Molecular Biology",
+    "Plant Science"
+   ]
+  },
+  "works": {
+   "W3081022498": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.616
+   },
+   "W2991801328": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.616
+   }
+  }
+ },
+ "kristin-laidre": {
+  "profile": {
+   "n_anchor": 149,
+   "first_anchor_year": 2002,
+   "top_subfields": [
+    "Ecology",
+    "Atmospheric Science",
+    "Genetics",
+    "Aquatic Science",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Oceanography",
+    "Molecular Biology",
+    "Anthropology"
+   ]
+  },
+  "works": {
+   "W4200260145": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.758
+   },
+   "W2901580719": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2895452701": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3027842194": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   }
+  }
+ },
+ "lorenz-hauser": {
+  "profile": {
+   "n_anchor": 92,
+   "first_anchor_year": 2002,
+   "top_subfields": [
+    "Genetics",
+    "Aquatic Science",
+    "Global and Planetary Change",
+    "Nature and Landscape Conservation",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Earth-Surface Processes",
+    "Parasitology",
+    null
+   ]
+  },
+  "works": {
+   "W4244432292": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.717
+   },
+   "W4234853691": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.717
+   }
+  }
+ },
+ "luke-tornabene": {
+  "profile": {
+   "n_anchor": 68,
+   "first_anchor_year": 2017,
+   "top_subfields": [
+    "Aquatic Science",
+    "Ecology",
+    "Parasitology",
+    "Molecular Biology",
+    "Genetics",
+    "Management, Monitoring, Policy and Law",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Information Systems"
+   ]
+  },
+  "works": {
+   "W2600341441": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.588
+   }
+  }
+ },
+ "marjorie-wonham": {
+  "profile": {
+   "n_anchor": 10,
+   "first_anchor_year": 1996,
+   "top_subfields": [
+    "Global and Planetary Change",
+    "History and Philosophy of Science",
+    "Education",
+    "Genetics",
+    "Oceanography",
+    "Nature and Landscape Conservation",
+    "Pollution"
+   ]
+  },
+  "works": {
+   "W7225718237": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4387906820": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4323666802": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4410990585": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4249640715": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1492240102": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2121792593": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1973481613": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2167473924": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   }
+  }
+ },
+ "mark-scheuerell": {
+  "profile": {
+   "n_anchor": 36,
+   "first_anchor_year": 2002,
+   "top_subfields": [
+    "Nature and Landscape Conservation",
+    "Aquatic Science",
+    "Environmental Chemistry",
+    "Ecology",
+    "Statistics and Probability",
+    "Health, Toxicology and Mutagenesis",
+    "Atmospheric Science"
+   ]
+  },
+  "works": {
+   "W2400673165": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4394136873": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2147215567": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   }
+  }
+ },
+ "ray-hilborn": {
+  "profile": {
+   "n_anchor": 290,
+   "first_anchor_year": 1988,
+   "top_subfields": [
+    "Aquatic Science",
+    "Nature and Landscape Conservation",
+    "Ecology",
+    "Oceanography",
+    "Management, Monitoring, Policy and Law",
+    "Genetics",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Applied Mathematics"
+   ]
+  },
+  "works": {
+   "W4402042133": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.007
+   },
+   "W4245704892": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.617
+   },
+   "W2066274687": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.617
+   },
+   "W2908830420": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.33,
+    "subfield_share": 0.617
+   },
+   "W2803621824": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.617
+   },
+   "W4394068972": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.007
+   },
+   "W4394348059": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4394397752": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.007
+   },
+   "W2233510342": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2092559359": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.014
+   },
+   "W4233727081": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.617
+   },
+   "W2327201691": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2018996600": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2063166078": {
+    "status": "suspect",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.67,
+    "subfield_share": 0.014
+   },
+   "W2534335737": {
+    "status": "suspect",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.67,
+    "subfield_share": 0.014
+   },
+   "W1974104519": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W626556651": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   }
+  }
+ },
+ "sarah-converse": {
+  "profile": {
+   "n_anchor": 73,
+   "first_anchor_year": 2017,
+   "top_subfields": [
+    "Ecology",
+    null,
+    "Nature and Landscape Conservation",
+    "Statistics and Probability",
+    "Management, Monitoring, Policy and Law",
+    "Insect Science",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Applied Mathematics"
+   ]
+  },
+  "works": {
+   "W4397007211": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.603
+   },
+   "W3043235468": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1800148745": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2062054491": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.67,
+    "subfield_share": 0.082
+   },
+   "W2128503958": {
+    "status": "suspect",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.33,
+    "subfield_share": 0.082
+   },
+   "W2178153171": {
+    "status": "suspect",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.67,
+    "subfield_share": 0.082
+   }
+  }
+ },
+ "sean-mcdonald": {
+  "profile": null,
+  "works": {}
+ },
+ "steven-roberts": {
+  "profile": {
+   "n_anchor": 124,
+   "first_anchor_year": 2007,
+   "top_subfields": [
+    "Molecular Biology",
+    "Aquatic Science",
+    "Oceanography",
+    "Ecology",
+    "Immunology",
+    "Genetics",
+    "Physiology",
+    "Parasitology"
+   ]
+  },
+  "works": {
+   "W7131654112": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4408528213": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.073
+   },
+   "W4386397641": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4362666224": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.145
+   },
+   "W2748333261": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.073
+   },
+   "W4394246925": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4394474887": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2019408099": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4394284338": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2058481264": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2149910826": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2027884552": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1973586639": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2014542332": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2058315223": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2081970317": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2530070949": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2163744733": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2164174999": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4410090077": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1574879965": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1988739075": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3211458164": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W188011334": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2029943539": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1859128757": {
+    "status": "suspect",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.33,
+    "subfield_share": 0.202
+   },
+   "W2320518563": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2012927495": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2070756819": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2412222431": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   }
+  }
+ },
+ "thomas-quinn": {
+  "profile": {
+   "n_anchor": 344,
+   "first_anchor_year": 1980,
+   "top_subfields": [
+    "Nature and Landscape Conservation",
+    "Aquatic Science",
+    "Ecology",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Genetics",
+    "Sensory Systems",
+    "Parasitology",
+    "Physiology"
+   ]
+  },
+  "works": {
+   "W4287211039": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4393782974": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4393686017": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4248423926": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.148
+   },
+   "W4393571661": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4244748746": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.456
+   },
+   "W4229879268": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.148
+   },
+   "W4394502612": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2263094250": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4238786686": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.116
+   },
+   "W2981349814": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.456
+   },
+   "W2070626152": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W846909222": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W747117080": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W3153709523": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   }
+  }
+ },
+ "tim-essington": {
+  "profile": {
+   "n_anchor": 163,
+   "first_anchor_year": 2005,
+   "top_subfields": [
+    "Aquatic Science",
+    "Ecology",
+    "Applied Mathematics",
+    "Oceanography",
+    "Nature and Landscape Conservation",
+    "Statistics and Probability",
+    "Management, Monitoring, Policy and Law",
+    "Ecological Modeling"
+   ]
+  },
+  "works": {
+   "W2908830420": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.33,
+    "subfield_share": 0.534
+   },
+   "W4229879268": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.534
+   },
+   "W2787956767": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W2805698191": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4394134304": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4394167995": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W4394397752": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1987459059": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1555306412": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   },
+   "W1841811957": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0
+   }
+  }
+ },
+ "trevor-branch": {
+  "profile": {
+   "n_anchor": 125,
+   "first_anchor_year": 2003,
+   "top_subfields": [
+    "Aquatic Science",
+    "Ecology",
+    "Library and Information Sciences",
+    "Computer Graphics and Computer-Aided Design",
+    "History and Philosophy of Science",
+    "Applied Mathematics",
+    "Economics and Econometrics",
+    null
+   ]
+  },
+  "works": {
+   "W2908830420": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.33,
+    "subfield_share": 0.52
+   },
+   "W2080485054": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.344
+   },
+   "W2067883717": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.52
+   }
+  }
+ }
+}

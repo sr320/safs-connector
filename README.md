@@ -9,7 +9,7 @@ uv sync
 ```
 
 Optional environment variables:
-- `ANTHROPIC_API_KEY`: turns on Claude for author disambiguation. Without it, a heuristic is used.
+- `ANTHROPIC_API_KEY`: turns on Claude for author disambiguation and for reviewing papers that may be misattributed. Without it, heuristics are used.
 - `OPENALEX_API_KEY` or `OPENALEX_MAILTO`: puts requests in OpenAlex's polite pool.
 
 ## Pipeline (M1: roster and author resolution)
@@ -40,3 +40,39 @@ HTTP responses are cached in `data/raw/` (gitignored), so reruns don't re-downlo
 - To add a missing profile, add a new candidate with `method: human`.
 
 Reruns keep all human edits. Entries with `status: needs_review` need attention.
+
+## Pipeline (M2: papers and database)
+
+```bash
+uv run python pipeline/03_harvest_works.py       # -> data/raw/works/*.jsonl, data/works_index.json
+uv run python pipeline/04_check_attribution.py   # -> data/attribution.json
+uv run python pipeline/07_build_db.py            # -> data/safs.sqlite
+uv run python pipeline/08_coverage_report.py     # -> data/coverage.md
+```
+
+| File | What it is |
+|---|---|
+| `data/safs.sqlite` | The database. It is rebuilt from scratch on every run. |
+| `data/coverage.md` | Per-faculty counts of kept, suspect, and dropped papers, year span, and top partners, with a Google Scholar link for comparison |
+| `data/attribution.json` | Flags on papers that may belong to someone else with the same name |
+| `config/work_overrides.yaml` | **Human** keep or drop decisions on individual papers |
+
+### Misattributed papers
+Even the right OpenAlex profile can contain a namesake's papers, such as 1960s urology, 1970s astronomy, or 1940s metallurgy. `04_check_attribution.py` builds an "anchor" set: the papers whose byline for that faculty member lists UW. It then flags each other paper as:
+- **off-topic**: no topic overlap with the anchor set,
+- **pre-career**: 12 or more years before the first anchor paper and a weak topic fit, or
+- **implausibly early**: 25 or more years before the first anchor paper.
+
+With Anthropic credentials, Claude makes the final keep or drop call on each suspect. Without them, suspects stay in the database with `status = 'suspect'` but are left out of every `v_*` view. Errata and retractions are dropped.
+
+### Querying
+```sql
+-- top external partner institutions for one faculty member
+SELECT name, country, n_works FROM v_faculty_institution
+WHERE faculty_slug = 'trevor-branch' ORDER BY n_works DESC LIMIT 10;
+
+-- internal SAFS co-authorship network
+SELECT * FROM v_faculty_faculty ORDER BY n_works DESC;
+```
+
+Note: OpenAlex lists at most 100 authors per paper in list responses, and 12 papers have truncated bylines. Without an API key, OpenAlex blocks cursor paging, so the harvester uses page numbers (up to 10k results per query).

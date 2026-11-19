@@ -1,0 +1,8 @@
+# Human decisions on individual papers, overriding pipeline/04_check_attribution.py.
+# Format:  <faculty-slug>:  { <OpenAlex work id>: keep | drop }
+# Work IDs are listed per faculty in data/attribution.json and in safs.sqlite (faculty_works).
+#
+# example:
+# steven-roberts:
+#   W1859128757: drop   # 1989 Xenopus paper by a different S. Roberts
+{}
