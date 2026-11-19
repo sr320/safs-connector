@@ -1,0 +1,210 @@
+{
+ "African Aquatic Conservation Fund, Chilmark, Massachusetts, USA": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I1311308879",
+  "ror": "04mxfzz97",
+  "ror_name": "The Conservation Fund",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "African Cetacean Program, African Aquatic Conservation Fund, Chilmark, Massachusetts, USA": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I1311308879",
+  "ror": "04mxfzz97",
+  "ror_name": "The Conservation Fund",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "Arctic Research Centre - Arctic Research Centre, Roskilde": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I4210088064",
+  "ror": "002egtp29",
+  "ror_name": "Arctic Research Centre",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "Channel Islands National Marine Sanctuary, Santa Barbara, CA 93101, USA": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I4405260739",
+  "ror": "046tzsh56",
+  "ror_name": "Channel Islands National Park",
+  "score": 0.97,
+  "source": "ror-affiliation"
+ },
+ "DJEnvironmental, Harpers Mill, United Kingdom": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I4210164312",
+  "ror": "058efm270",
+  "ror_name": "The Mill",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "Department of Fisheries Biology, California State Polytechnic University, Humboldt , 1 Harpst St, Arcata, CA 95521, USA": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I98947143",
+  "ror": "05by5hm18",
+  "ror_name": "California State Polytechnic University",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "Department of Fisheries and Oceans, 60 Front Street, Nanaimo, British Columbia, V9R 5K6": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I1319689352",
+  "ror": "02qa1x782",
+  "ror_name": "Fisheries and Oceans Canada",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "Department of Natural Resources, Nisqually Indian Tribe, 620 Old Pacific Hwy SE, Olympia, WA, 98513, USA": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I4210135981",
+  "ror": "03n7hja66",
+  "ror_name": "Louisiana Department of Natural Resources",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "Department of Zoology, University of California": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I2803209242",
+  "ror": "00pjdza24",
+  "ror_name": "University of California System",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "ECS Federal in Support of National Oceanic and Atmospheric Administration Office of Science & and Technology, 1315 East-West Boulevard, Silver Spring, MD 20910, USA": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I1308126019",
+  "ror": "02z5nhe81",
+  "ror_name": "National Oceanic and Atmospheric Administration",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "High Arctic Institute, Orion, IL, USA": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I4405274428",
+  "ror": "01pra7v86",
+  "ror_name": "The Arctic Institute Center for Circumpolar Security Studies",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "Institute of Physics and Mathematics, Komi Science Center UrD RAS, Syktyvkar, Russia": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I4210158548",
+  "ror": "04ggfw624",
+  "ror_name": "Institute of Chemistry, Komi Science Center",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "Mason County Public Health": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I4210115188",
+  "ror": "027v86y62",
+  "ror_name": "El Paso County Public Health",
+  "score": 0.96,
+  "source": "ror-affiliation"
+ },
+ "Native Coast Action Network, Santa Ynez, Lompoc, CA, USA": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I4210164579",
+  "ror": "058kybv57",
+  "ror_name": "Action Network",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "Newcastle Mater Misericordiae Hospital, Newcastle, NSW, Australia": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I2801568770",
+  "ror": "01k4cfw02",
+  "ror_name": "Mater Misericordiae Hospital",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "Pacific Northwest National Lab., Batelle, WA": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I142606810",
+  "ror": "05h992307",
+  "ror_name": "Pacific Northwest National Laboratory",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "Pisces Australis (Pty) Ltd Canberra Australian Capital Territory Australia": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I4387155473",
+  "ror": "03fy7b149",
+  "ror_name": "ACT Government",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "Primary Industries Research Victoria, Department of Primary Industries, P.O. Box 114, Queenscliff, Victoria 3225, Australia": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I4210164589",
+  "ror": "05s5aag36",
+  "ror_name": "Department of Primary Industries",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "School of Fisheries and Ocean Sciences, University of Alaska, 73-4338 Paiaha Street, Kailua-Kona, Hawaii 96740 USA": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I2802090665",
+  "ror": "01mtkd993",
+  "ror_name": "University of Alaska System",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "School of Fisheries and Ocean Sciences, University of Alaska, 73-4388 Paiaha Street, Kailua Kona, HI 96740, U.S.A": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I2802090665",
+  "ror": "01mtkd993",
+  "ror_name": "University of Alaska System",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "The Vieques Conservation & Historical Trust Vieques PR USA": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I4210110284",
+  "ror": "01t03c617",
+  "ror_name": "Newark Trust for Education",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "University of Alaska": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I2802090665",
+  "ror": "01mtkd993",
+  "ror_name": "University of Alaska System",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "University of California Agriculture and Natural Resources Fresno CA USA": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I2803209242",
+  "ror": "00pjdza24",
+  "ror_name": "University of California System",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "University of Nebraska": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I2802450327",
+  "ror": "0238rvs44",
+  "ror_name": "University of Nebraska System",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "Western Atlas Logging Services": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I2800150677",
+  "ror": "009kr6r15",
+  "ror_name": "Western General Hospital",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "基礎生物学研究所": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I138804964",
+  "ror": "05q8wtt20",
+  "ror_name": "National Institute for Basic Biology",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ }
+}

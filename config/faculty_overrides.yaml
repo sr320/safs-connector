@@ -20,8 +20,9 @@ adam-summers:
     decision: include
     confidence: 0.98
     method: claude:claude-opus-5-5
-    reason: Titles on stingray skeleton, clingfish adhesion, batoid morphology, and digital morphology
-      match Summers' biomechanics/cartilaginous fish research, with UW affiliation from 2004 onward.
+    reason: Titles on stingray skeletons, clingfish adhesion, shark jaw mechanics, and digital morphology
+      match Summers' functional morphology research on cartilaginous and bony fishes, and the UW years
+      from 2004 onward are plausible.
 amy-van-cise:
   name: Amy Van Cise
   orcid: 0000-0002-0613-4072
@@ -38,8 +39,8 @@ amy-van-cise:
     decision: include
     confidence: 0.97
     method: claude:claude-opus-5-5
-    reason: ORCID-linked profile with pilot whale genetics, beluga microbiome, eDNA and bioacoustics papers
-      matching her research and NOAA/Scripps history.
+    reason: ORCID-linked profile with pilot whale genetics, beluga microbiome, eDNA and bioacoustics papers,
+      plus NOAA/Scripps affiliations, matches her profile exactly.
   - id: A5048580347
     display_name: Amy Van Cise
     works_count: 9
@@ -50,7 +51,7 @@ amy-van-cise:
     confidence: 0.88
     method: claude:claude-opus-5-5
     reason: Metabarcoding, beluga calling behavior, and delphinid occurrence papers with NOAA NWFSC affiliation
-      match her eDNA and marine mammal work; early Antarctic survey reports are plausible student-era
+      fit her eDNA and marine mammal work; the early Antarctic survey reports are plausible early-career
       marine work.
 andre-punt:
   name: André Punt
@@ -69,7 +70,7 @@ andre-punt:
     confidence: 0.99
     method: claude:claude-opus-5-5
     reason: ORCID profile with fisheries stock assessment, MSE, and Bayesian methods titles plus CSIRO/NOAA
-      affiliations matches Punt exactly.
+      affiliations matching Punt's career.
   - id: A5136954314
     display_name: Andre Punt
     works_count: 18
@@ -77,11 +78,10 @@ andre-punt:
     - 2026
     - 2026
     decision: include
-    confidence: 0.93
+    confidence: 0.92
     method: claude:claude-opus-5-5
-    reason: 'The fragment''s titles are all Punt-style work: orange roughy and shark stock assessments
-      for SharkRAG, the Tiger Prawn MICE project, and the IUCN Red List paper, and it carries a CSIRO
-      affiliation.'
+    reason: Fragment of Australian stock assessments (orange roughy, school and gummy shark), tiger prawn
+      MICE, and pinniped and IUCN work with a CSIRO affiliation, all matching Punt's research.
 andrea-burton:
   name: Andrea Burton
   orcid: null
@@ -98,8 +98,9 @@ andrea-burton:
     decision: review
     confidence: 0.5
     method: claude:claude-opus-5-5
-    reason: The 2026 UW science-education paper fits her education research, but the 2017 paper on mentoring
-      of Indian women is unrelated, and the fragment contains no marine genomics work.
+    reason: The 2026 UW science-education paper on undergraduate misconceptions fits her education research,
+      but the 2017 paper on mentoring of professional Indian women looks unrelated, so the fragment appears
+      mixed.
 andrew-berdahl:
   name: Andrew Berdahl
   orcid: 0000-0002-5057-0103
@@ -116,8 +117,8 @@ andrew-berdahl:
     decision: include
     confidence: 0.98
     method: claude:claude-opus-5-5
-    reason: Same ORCID and titles (emergent sensing, salmon collective navigation, caribou migration)
-      match the faculty profile, with Princeton/Santa Fe history plausible.
+    reason: ORCID-linked profile with signature papers (Emergent Sensing, salmonid collective navigation)
+      matching the faculty's collective behavior/movement ecology research.
   - id: A5160643743
     display_name: Andrew Berdahl
     works_count: 1
@@ -125,10 +126,10 @@ andrew-berdahl:
     - 2026
     - 2026
     decision: include
-    confidence: 0.9
+    confidence: 0.85
     method: claude:claude-opus-5-5
-    reason: Shares the same ORCID (0000-0002-5057-0103), and the self-organizing trail systems paper fits
-      his collective movement and agent-based modeling work.
+    reason: Same ORCID as main profile; trail self-organization via individual route optimization fits
+      his collective movement/agent-based modeling work.
 carter-smith:
   name: Carter Smith
   orcid: 0000-0002-6652-3010
@@ -145,8 +146,8 @@ carter-smith:
     decision: exclude
     confidence: 0.98
     method: claude:claude-opus-5-5
-    reason: C. Daniel Smith publishes on gastroesophageal surgery and clinical medicine, unrelated to
-      coastal ecology.
+    reason: C. Daniel Smith publishes on surgery and gastroesophageal reflux, which is clinical medicine
+      unrelated to coastal ecology.
   - id: A5021985027
     display_name: Carter S. Smith
     works_count: 59
@@ -156,9 +157,9 @@ carter-smith:
     decision: include
     confidence: 0.95
     method: claude:claude-opus-5-5
-    reason: Carter S. Smith's titles include the faculty member's living shorelines review and shoreline
-      hardening work, his institutions are UNC and Duke, and his UW years are 2024–2026; a stray 1948
-      metallurgy title is a minor contaminant.
+    reason: Carter S. Smith's titles include the living shorelines scoping review from the faculty profile
+      and work on shoreline hardening and coastal restoration, with UW affiliation from 2024 onward; the
+      1948 metallurgy paper is a stray misattribution.
 chelsea-wood:
   name: Chelsea Wood
   orcid: 0000-0003-2738-3139
@@ -175,8 +176,9 @@ chelsea-wood:
     decision: include
     confidence: 0.98
     method: claude:claude-opus-5-5
-    reason: Topics on parasite ecology, schistosomiasis snail control, biodiversity-disease, and parasite
-      conservation match her profile exactly, with UW affiliation from 2017 onward.
+    reason: Topics on parasite ecology, schistosomiasis snail control, and biodiversity-disease match
+      her profile, with UW affiliation from 2017 and prior Hopkins/NCEAS/Michigan positions consistent
+      with her career.
 chris-anderson:
   name: Chris Anderson
   orcid: 0000-0003-0472-7218
@@ -193,7 +195,7 @@ chris-anderson:
     decision: exclude
     confidence: 0.97
     method: claude:claude-opus-5-5
-    reason: Stroke and atrial fibrillation genetics papers are clinical medicine, unrelated to fisheries
+    reason: Stroke and atrial fibrillation genetics papers, which is clinical medicine unrelated to fisheries
       economics.
   - id: A5102727589
     display_name: Christopher M. Anderson
@@ -202,10 +204,10 @@ chris-anderson:
     - 2012
     - 2025
     decision: include
-    confidence: 0.9
+    confidence: 0.85
     method: claude:claude-opus-5-5
-    reason: Fisheries management, fishery performance indicators and experimental behavioral economics
-      papers match the profile; a few astronomy papers are mixed in, but the bulk clearly fits.
+    reason: Fisheries management, fishery performance indicators and experimental economics papers with
+      NOAA/URI affiliations fit the profile, though some astronomy papers are mixed in (e.g. 1975).
   - id: A5008017730
     display_name: Christopher Anderson
     works_count: 83
@@ -215,7 +217,7 @@ chris-anderson:
     decision: exclude
     confidence: 0.95
     method: claude:claude-opus-5-5
-    reason: Influenza virology and sickle cell research are biomedical, unrelated to fisheries economics.
+    reason: Influenza and sickle cell immunology research is unrelated to fisheries economics.
   - id: A5002778302
     display_name: Christopher Todd Anderson
     works_count: 32
@@ -225,7 +227,7 @@ chris-anderson:
     decision: exclude
     confidence: 0.97
     method: claude:claude-opus-5-5
-    reason: Epilepsy and neurology clinical research is unrelated.
+    reason: Epilepsy neurology research is unrelated.
   - id: A5101991079
     display_name: Christopher Anderson
     works_count: 9
@@ -233,9 +235,9 @@ chris-anderson:
     - 2024
     - 2024
     decision: exclude
-    confidence: 0.8
+    confidence: 0.85
     method: claude:claude-opus-5-5
-    reason: Ruminant nutrition, phytomining and science journalism items do not match fisheries economics.
+    reason: Ruminant nutrition, phytomining and 1990s science journalism are not fisheries economics.
   - id: A5108758768
     display_name: Christopher Anderson
     works_count: 8
@@ -245,7 +247,7 @@ chris-anderson:
     decision: exclude
     confidence: 0.85
     method: claude:claude-opus-5-5
-    reason: Early-1990s science news journalism and pediatric pain items are not fisheries economics research.
+    reason: Early 1990s science news journalism and pediatric pain papers are not his research.
   - id: A5130815370
     display_name: Chris Anderson
     works_count: 1
@@ -253,9 +255,9 @@ chris-anderson:
     - 2026
     - 2026
     decision: exclude
-    confidence: 0.95
+    confidence: 0.97
     method: claude:claude-opus-5-5
-    reason: Single cardiology abstract is unrelated.
+    reason: A cardiology abstract is unrelated to his field.
 corey-garza:
   name: Corey Garza
   orcid: 0000-0002-4915-7776
@@ -272,8 +274,8 @@ corey-garza:
     decision: include
     confidence: 0.97
     method: claude:claude-opus-5-5
-    reason: Titles on mussel beds, rockfish distribution modeling, Monterey Bay marine debris, and diversity
-      in geosciences match Garza's marine/landscape ecology and Diversity in STEM work, with CSU Monterey
+    reason: Titles on marine debris in Monterey Bay, rockfish distribution modeling, mussel beds, and
+      diversity in geosciences match Garza's marine/landscape ecology and DEI profile, with CSU Monterey
       Bay history and recent UW affiliation.
 daniel-schindler:
   name: Daniel Schindler
@@ -291,8 +293,8 @@ daniel-schindler:
     decision: include
     confidence: 0.98
     method: claude:claude-opus-5-5
-    reason: Titles on salmon portfolio effect, lake ecosystems, and Pacific salmon nutrients match the
-      Alaska Salmon Program work, and UW years 1997-2026 are plausible for his career.
+    reason: Titles on salmon portfolio effect, lake ecosystems, Pacific salmon nutrients and climate change
+      match Schindler's Alaska Salmon Program research, with UW from 1997 onward.
 graham-young:
   name: Graham Young
   orcid: null
@@ -309,9 +311,9 @@ graham-young:
     decision: include
     confidence: 0.97
     method: claude:claude-opus-5-5
-    reason: Titles on salmon oocyte steroidogenesis, smoltification hormones, oogenesis and contaminants
-      of emerging concern match his fish reproductive endocrinology profile, with plausible affiliations
-      (NIBB, Otago, WSU, WRAC).
+    reason: Titles on salmon oocyte steroidogenesis, smoltification hormones, teleost oogenesis, and contaminants
+      of emerging concern match his fish reproductive endocrinology profile, and the affiliations include
+      WRAC and WSU.
 gregory-jensen:
   name: Gregory Jensen
   orcid: 0009-0001-8782-1105
@@ -328,8 +330,9 @@ gregory-jensen:
     decision: include
     confidence: 0.9
     method: claude:claude-opus-5-5
-    reason: Gregory C. Jensen with crab ecology papers (porcelain crabs, green crab, king crab, Pacific
-      coast crabs and shrimps) matching the profile, despite one stray quantum dot title.
+    reason: Gregory C. Jensen with crab ecology papers (porcelain crab megalopae, green crab, king crab)
+      and the Pacific coast crabs book matches the profile; one stray quantum dot title is a minor contaminant
+      in an otherwise clearly matching profile.
   - id: A5017984305
     display_name: Gregory S. Jensen
     works_count: 15
@@ -337,10 +340,10 @@ gregory-jensen:
     - 1995
     - 2006
     decision: exclude
-    confidence: 0.97
+    confidence: 0.95
     method: claude:claude-opus-5-5
-    reason: Gregory S. Jensen's work is on cyclodextrin gene delivery and pharmacology at Caltech and
-      Calando Pharmaceuticals, which is unrelated to crustacean ecology.
+    reason: Gregory S. Jensen works on gene delivery, nanoparticles, and biochemistry at Caltech/pharma,
+      unrelated to crustacean ecology.
 heili-lowman:
   name: Heili Lowman
   orcid: 0000-0002-2939-9225
@@ -355,8 +358,9 @@ heili-lowman:
     decision: include
     confidence: 0.97
     method: claude:claude-opus-5-5
-    reason: This is a large ORCID-linked profile whose titles fit the faculty member's research, including
-      the PNAS 2024 paper on river productivity recovery after floods that appears in her selected publications.
+    reason: This profile includes the 2024 PNAS paper on river productivity recovery after floods that
+      is listed in her selected publications, along with other stream biogeochemistry and aquatic ecology
+      work.
   - id: A5146422245
     display_name: Heili Lowman
     works_count: 1
@@ -364,8 +368,8 @@ heili-lowman:
     decision: include
     confidence: 0.85
     method: claude:claude-opus-5-5
-    reason: This is a single 2021 work, the 'Hacking Limnology' aquatic data science workshop archive,
-      which fits her aquatic science and data science profile; the name is also distinctive.
+    reason: Its single work is a 2021 'Hacking Limnology' aquatic data science workshop archive, which
+      fits her aquatic research and data-science focus, and the name is rare.
 jacqueline-padilla-gamino:
   name: Jacqueline Padilla-Gamiño
   orcid: 0000-0003-0478-9953
@@ -382,8 +386,8 @@ jacqueline-padilla-gamino:
     decision: include
     confidence: 0.98
     method: claude:claude-opus-5-5
-    reason: Coral reproduction, ocean acidification, and sea urchin/kelp physiology titles with UH Manoa/UCSB
-      history and UW years from 2016 match her profile exactly.
+    reason: Coral reproduction, ocean acidification, and sea urchin/kelp physiology papers with UH/UCSB
+      history and UW from 2016 match her profile exactly.
 jessica-gephart:
   name: Jessica Gephart
   orcid: 0000-0001-6836-9291
@@ -398,10 +402,11 @@ jessica-gephart:
     - 2020
     - 2026
     decision: include
-    confidence: 0.98
+    confidence: 0.97
     method: claude:claude-opus-5-5
-    reason: The record lists ORCID 0000-0001-6836-9291, and its work on blue foods, seafood trade and
-      food supply chain resilience to shocks matches her profile; the UW years from 2020 fit her career.
+    reason: This profile has the right name and a UW affiliation from 2020 on, and its works on blue foods,
+      aquatic food trade and food supply chain resilience to environmental shocks match her seafood trade
+      and sustainability research.
 john-horne:
   name: John Horne
   orcid: 0000-0002-3610-5379
@@ -418,8 +423,8 @@ john-horne:
     decision: include
     confidence: 0.97
     method: claude:claude-opus-5-5
-    reason: Fisheries acoustics, Monterey Bay pelagic fauna, and Beaufort/Chukchi fish community papers
-      match his profile, with NOAA AFSC affiliation and UW years 2000-2024.
+    reason: Fisheries acoustics, Monterey Bay pelagic fauna, Beaufort/Chukchi fish communities, and NOAA
+      AFSC affiliation match his profile, and the publication years fit his career.
   - id: A5147734483
     display_name: John Horne
     works_count: 5
@@ -429,8 +434,8 @@ john-horne:
     decision: include
     confidence: 0.9
     method: claude:claude-opus-5-5
-    reason: Works on environmental monitoring of marine animals at marine renewable energy sites match
-      his stated MRE monitoring research, with plausible UW timing.
+    reason: The works are on environmental monitoring of marine animals at marine renewable energy sites,
+      which matches his stated research on MRE monitoring.
 jose-guzman:
   name: José Guzmán
   orcid: 0000-0003-1193-8996
@@ -447,9 +452,9 @@ jose-guzman:
     decision: include
     confidence: 0.93
     method: claude:claude-opus-5-5
-    reason: Fish reproductive endocrinology and aquaculture papers (Senegalese sole, sea bream, coho salmon)
-      with NOAA NMFS affiliation and a UW period of 2017-2024 match the faculty member's sablefish gametogenesis
-      work; the few hospital affiliations are likely minor contamination.
+    reason: Fish reproductive physiology/aquaculture papers (Senegalese sole, sea bream, coho salmon oogenesis)
+      with Cádiz/NOAA affiliations match the faculty's fish reproduction and endocrinology expertise;
+      the odd hospital affiliations are minor noise.
 julia-parish:
   name: Julia Parrish
   orcid: 0000-0002-2410-3982
@@ -467,7 +472,7 @@ julia-parish:
     confidence: 0.98
     method: claude:claude-opus-5-5
     reason: Titles on citizen science, fish schooling, and common murre mortality match her COASST, group
-      behavior, and seabird research, with UW affiliation from 1990 on.
+      behavior, and seabird research, with UW affiliation since 1990.
   - id: A5025145840
     display_name: Julia E. Parrish-Novak
     works_count: 33
@@ -477,8 +482,8 @@ julia-parish:
     decision: exclude
     confidence: 0.97
     method: claude:claude-opus-5-5
-    reason: This is a different person (Parrish-Novak) whose work is in cytokine immunology and cancer
-      imaging, a field unrelated to her research.
+    reason: Julia E. Parrish-Novak's work covers interleukins, immunology, and cancer imaging at biotech
+      and medical institutions, which is unrelated to marine ecology.
 julian-olden:
   name: Julian Olden
   orcid: 0000-0003-2143-1187
@@ -495,8 +500,9 @@ julian-olden:
     decision: include
     confidence: 0.98
     method: claude:claude-opus-5-5
-    reason: Shares Olden's ORCID, and its freshwater conservation, dams and invasion work at UW since
-      2006 matches his profile.
+    reason: This ORCID-linked profile covers freshwater biodiversity, dams and environmental flows, invasion
+      biology, and biotic homogenization, with a UW affiliation from 2006 on, matching the faculty profile
+      exactly.
   - id: A5120840237
     display_name: Julian D. Olden
     works_count: 14
@@ -506,8 +512,8 @@ julian-olden:
     decision: include
     confidence: 0.95
     method: claude:claude-opus-5-5
-    reason: Same ORCID, and its titles on invasions, desert fish and beaver dams, and Mekong fish biodiversity
-      fit his research.
+    reason: It carries the same ORCID, and its titles on biological invasions, desert fish and beaver
+      dams, and Mekong fish biodiversity fit his research.
   - id: A5137913952
     display_name: Julian D. Olden
     works_count: 3
@@ -517,8 +523,8 @@ julian-olden:
     decision: include
     confidence: 0.93
     method: claude:claude-opus-5-5
-    reason: Same ORCID, and its titles on river barriers, weirs fragmenting streams and lake synchrony
-      fit his ecohydrology work.
+    reason: It carries the same ORCID, and its titles on river barrier mapping, lake synchrony, and stream
+      fragmentation by weirs fit his ecohydrology work.
   - id: A5133724166
     display_name: Julian Olden
     works_count: 2
@@ -528,8 +534,8 @@ julian-olden:
     decision: include
     confidence: 0.85
     method: claude:claude-opus-5-5
-    reason: No ORCID, but its titles on non-native species in recreational fisheries and water management
-      fit his invasion and freshwater research.
+    reason: Its titles on non-native species spread through recreational fisheries and on water scarcity
+      management match his invasion and freshwater conservation research.
 kenneth-sebens:
   name: Kenneth Sebens
   orcid: 0000-0003-3445-7933
@@ -547,7 +553,7 @@ kenneth-sebens:
     confidence: 0.98
     method: claude:claude-opus-5-5
     reason: Kenneth P. Sebens profile with coral reef, subtidal benthic ecology, and indeterminate growth
-      papers, plus Friday Harbor Labs and Northeastern affiliations, matches the faculty profile exactly.
+      papers plus Friday Harbor/Northeastern affiliations matches the faculty profile exactly.
 kerry-naish:
   name: Kerry Naish
   orcid: 0000-0002-3275-8778
@@ -564,8 +570,8 @@ kerry-naish:
     decision: include
     confidence: 0.98
     method: claude:claude-opus-5-5
-    reason: Salmon/trout genetics, hatchery effects, and SNP genomics papers at UW 2002-2025 match Naish's
-      research profile exactly.
+    reason: Salmon/trout genetics, hatchery effects, and genomics titles with UW affiliation 2002-2025
+      match Naish's evolutionary genetics research on Pacific salmon.
 kristin-laidre:
   name: Kristin Laidre
   orcid: 0000-0002-2787-650X
@@ -582,8 +588,8 @@ kristin-laidre:
     decision: include
     confidence: 0.98
     method: claude:claude-opus-5-5
-    reason: ORCID-linked profile with Arctic marine mammal, polar bear and sea ice work, plus APL and
-      Greenland Institute affiliations, matching her profile.
+    reason: ORCID-linked profile with Arctic marine mammal, polar bear, and sea ice work and affiliations
+      with APL and the Greenland Institute of Natural Resources matches her profile.
   - id: A5029670888
     display_name: K. L. Laidre
     works_count: 17
@@ -593,8 +599,8 @@ kristin-laidre:
     decision: include
     confidence: 0.93
     method: claude:claude-opus-5-5
-    reason: Titles on narwhal deep-ocean predation and West Greenland whale abundance, with Greenland
-      Institute and APL affiliations, fit her Arctic cetacean research.
+    reason: The papers on Arctic cetacean predation and West Greenland whale abundance, with Greenland
+      Institute and APL affiliations, match her research.
 lorenz-hauser:
   name: Lorenz Hauser
   orcid: 0000-0002-9238-654X
@@ -611,8 +617,8 @@ lorenz-hauser:
     decision: include
     confidence: 0.98
     method: claude:claude-opus-5-5
-    reason: Fisheries genetics titles (snapper microsatellites, sockeye parentage SNPs, sandy beach science)
-      and UW years 2002-2025 match Hauser's profile.
+    reason: Titles on fisheries genetics, sockeye parentage, New Zealand snapper, and sandy beach science
+      match his profile, with UW affiliation 2002-2025 and prior UK institutions (Hull, Swansea).
 luke-tornabene:
   name: Luke Tornabene
   orcid: 0000-0002-0673-2320
@@ -629,8 +635,8 @@ luke-tornabene:
     decision: include
     confidence: 0.98
     method: claude:claude-opus-5-5
-    reason: Coral reef fish systematics, cryptobenthic fishes, gobies, Smithsonian and Burke Museum affiliations
-      match the faculty profile, including the Science 2019 paper he lists.
+    reason: Coral reef fish systematics, gobies, cryptobenthic fishes, Smithsonian and Burke Museum affiliations,
+      and selected publications match the profile.
   - id: A5136272259
     display_name: Luke Tornabene
     works_count: 3
@@ -640,8 +646,8 @@ luke-tornabene:
     decision: include
     confidence: 0.9
     method: claude:claude-opus-5-5
-    reason: The 2026 works on reef-fish communities and a sponge-dwelling goby, with a Burke Museum affiliation,
-      fit his goby and reef-fish research.
+    reason: The 2026 works on Caribbean reef-fish functional diversity and a sponge-dwelling goby, with
+      a Burke Museum affiliation, fit his reef fish and goby research.
 marjorie-wonham:
   name: Marjorie Wonham
   orcid: 0000-0003-2867-195X
@@ -658,8 +664,8 @@ marjorie-wonham:
     decision: include
     confidence: 0.97
     method: claude:claude-opus-5-5
-    reason: Titles on marine biological invasions (including the 2005 Northeast Pacific paper listed in
-      her profile), Friday Harbor affiliation, and pedagogy topics match her profile.
+    reason: Marine invasion ecology papers (including the 2005 Northeast Pacific invasions paper listed
+      in her profile), pedagogy topics, and Friday Harbor affiliation match her profile.
 mark-scheuerell:
   name: Mark Scheuerell
   orcid: 0000-0002-8284-1254
@@ -676,8 +682,8 @@ mark-scheuerell:
     decision: include
     confidence: 0.98
     method: claude:claude-opus-5-5
-    reason: Matching ORCID-bearing profile with salmon ecology, lake ecosystems, and time-series/species
-      distribution modeling papers at UW and NOAA NWFSC, consistent with the faculty profile.
+    reason: ORCID profile with salmon ecology, lake ecosystems, and spatio-temporal statistical modeling
+      papers at UW/NOAA NWFSC matching his research.
   - id: A5136541810
     display_name: Mark D. Scheuerell
     works_count: 2
@@ -687,8 +693,8 @@ mark-scheuerell:
     decision: include
     confidence: 0.85
     method: claude:claude-opus-5-5
-    reason: Small fragment with a 2026 paper on juvenile salmon migration cues, squarely within his Pacific
-      salmon research area.
+    reason: Small 2026 fragment on juvenile salmon migration fits his Pacific salmon research focus and
+      UW affiliation.
 ray-hilborn:
   name: Ray Hilborn
   orcid: 0000-0003-2326-2305
@@ -723,9 +729,9 @@ sarah-converse:
     decision: include
     confidence: 0.98
     method: claude:claude-opus-5-5
-    reason: Exact name and middle initial, with wildlife population ecology and decision science titles
-      (value of information, polar bear demography, expert elicitation); the USGS and Colorado State history
-      and UW years from 2017 match her profile.
+    reason: Matching name and ORCID-linked profile with USGS/CSU history, and works on decision science,
+      value of information, polar bear demography, and wildlife population estimation fit her quantitative
+      conservation research; UW years from 2017 are plausible.
 sean-mcdonald:
   name: Sean McDonald
   orcid: null
@@ -742,9 +748,9 @@ sean-mcdonald:
     decision: review
     confidence: 0.6
     method: claude:claude-opus-5-5
-    reason: The 2018 European green crab citizen science paper clearly fits his research, but this small
-      fragment is mostly Nevada law case summaries and a Mekong flood-warning paper, which look like a
-      different Sean McDonald.
+    reason: Fragment includes the 2018 European green crab citizen science paper matching the faculty
+      member's Crab Team work, but most works are UNLV Nevada law case summaries and flood warning/civic
+      data papers likely by a different Sean W. McDonald.
 steven-roberts:
   name: Steven Roberts
   orcid: 0000-0001-8302-1138
@@ -759,10 +765,11 @@ steven-roberts:
     - 2007
     - 2026
     decision: include
-    confidence: 0.93
+    confidence: 0.92
     method: claude:claude-opus-5-5
-    reason: ORCID profile focused on oyster DNA methylation, bivalve aquaculture and ocean acidification,
-      matching the faculty research, though a few early outliers (1989 Xenopus) may be mixed in.
+    reason: ORCID profile with oyster DNA methylation, aquaculture genomics and ocean acidification work
+      spanning UW 2007-2026 matches the faculty profile, though a few early papers such as the 1989 Xenopus
+      paper may be mixed in.
   - id: A5100827519
     display_name: Steven Roberts
     works_count: 5
@@ -772,8 +779,8 @@ steven-roberts:
     decision: review
     confidence: 0.6
     method: claude:claude-opus-5-5
-    reason: Mixes an eelgrass wasting disease dataset (Eimd-Sswd, plausibly Roberts lab) with housing
-      economics and film studies papers by other people.
+    reason: This fragment mixes one relevant 2015 sea star wasting disease dataset (Eimd-Sswd) with housing
+      economics, cinema and history papers by others.
   - id: A5136701191
     display_name: Steven Roberts
     works_count: 3
@@ -783,8 +790,8 @@ steven-roberts:
     decision: include
     confidence: 0.8
     method: claude:claude-opus-5-5
-    reason: Includes RobertsLab GitHub repository releases (vims-resazurin, urol-e5 coral expression),
-      which are clearly this lab's outputs.
+    reason: It contains RobertsLab repository releases (vims-resazurin) and coral expression code, consistent
+      with his lab's GitHub outputs.
   - id: A5144136993
     display_name: Steven Roberts
     works_count: 1
@@ -794,8 +801,8 @@ steven-roberts:
     decision: review
     confidence: 0.5
     method: claude:claude-opus-5-5
-    reason: Single retraction notice about wastewater microbiome COVID surveillance; unrelated to marine
-      invertebrate physiology but too little evidence.
+    reason: The single item is a retraction notice for a wastewater microbiome COVID paper, which is not
+      clearly related to his research.
   - id: A5152502381
     display_name: Steven Roberts
     works_count: 1
@@ -805,8 +812,8 @@ steven-roberts:
     decision: include
     confidence: 0.85
     method: claude:claude-opus-5-5
-    reason: Sunflower sea star transcriptomic response to wasting disease fits the marine invertebrate
-      physiology/genomics research.
+    reason: The sunflower sea star transcriptomic response to wasting disease fits his marine invertebrate
+      physiology and genomics work.
 thomas-quinn:
   name: Thomas Quinn
   orcid: 0000-0003-3163-579X
@@ -833,7 +840,7 @@ thomas-quinn:
     decision: include
     confidence: 0.99
     method: claude:claude-opus-5-5
-    reason: Pacific salmon behavior, homing and ecology papers match the profile exactly.
+    reason: Pacific salmon behavior, homing, and ecology papers match the profile exactly.
   - id: A5003918379
     display_name: Thomas Quinn
     works_count: 385
@@ -843,7 +850,7 @@ thomas-quinn:
     decision: exclude
     confidence: 0.98
     method: claude:claude-opus-5-5
-    reason: Astrophysics and Sloan Digital Sky Survey work, unrelated field.
+    reason: Astrophysics/galaxy formation work, unrelated field.
   - id: A5024536385
     display_name: Tom Quinn
     works_count: 353
@@ -853,7 +860,7 @@ thomas-quinn:
     decision: exclude
     confidence: 0.98
     method: claude:claude-opus-5-5
-    reason: Cardiac arrest and emergency medicine research, unrelated field.
+    reason: Cardiac arrest and emergency medicine research.
   - id: A5109283428
     display_name: Thomas C. Quinn
     works_count: 73
@@ -863,7 +870,7 @@ thomas-quinn:
     decision: exclude
     confidence: 0.98
     method: claude:claude-opus-5-5
-    reason: HIV/STD epidemiology papers, unrelated field.
+    reason: HIV/STD epidemiology research.
   - id: A5003874628
     display_name: Thomas J. Quinn
     works_count: 33
@@ -871,9 +878,9 @@ thomas-quinn:
     - 2008
     - 2010
     decision: exclude
-    confidence: 0.97
+    confidence: 0.98
     method: claude:claude-opus-5-5
-    reason: Parkinson's and biomedical research, unrelated field.
+    reason: Parkinson's and biomedical research.
   - id: A5135867940
     display_name: Thomas Quinn
     works_count: 10
@@ -883,7 +890,7 @@ thomas-quinn:
     decision: exclude
     confidence: 0.97
     method: claude:claude-opus-5-5
-    reason: Galaxy simulation astrophysics, unrelated field.
+    reason: Dwarf galaxy simulation astrophysics.
   - id: A5101423344
     display_name: Thomas Quinn
     works_count: 5
@@ -893,7 +900,7 @@ thomas-quinn:
     decision: exclude
     confidence: 0.97
     method: claude:claude-opus-5-5
-    reason: Clinical oncology and medical papers, unrelated field.
+    reason: Clinical oncology and medicine papers.
   - id: A5126482452
     display_name: Thomas R. Quinn
     works_count: 3
@@ -903,7 +910,7 @@ thomas-quinn:
     decision: exclude
     confidence: 0.97
     method: claude:claude-opus-5-5
-    reason: Galaxy simulation astrophysics, unrelated field.
+    reason: Galaxy simulation astrophysics.
   - id: A5038221117
     display_name: T P Quinn
     works_count: 2
@@ -923,7 +930,7 @@ thomas-quinn:
     decision: exclude
     confidence: 0.97
     method: claude:claude-opus-5-5
-    reason: X-ray astrophysics simulation paper, unrelated field.
+    reason: X-ray astrophysics simulation paper.
 tim-essington:
   name: Tim Essington
   orcid: 0000-0002-9986-7100
@@ -940,8 +947,8 @@ tim-essington:
     decision: include
     confidence: 0.98
     method: claude:claude-opus-5-5
-    reason: Large profile on forage fish, marine food webs, and fisheries ecology, with UW from 2005 and
-      prior Wisconsin/Stony Brook-era institutions, matches Essington's career.
+    reason: ORCID-linked profile with forage fish, food web, and marine ecosystem papers, UW from 2005,
+      and Stony Brook/Minnesota/Wisconsin history, all matching Essington's fisheries ecology career.
   - id: A5032157661
     display_name: Tim Essington
     works_count: 15
@@ -951,8 +958,8 @@ tim-essington:
     decision: include
     confidence: 0.93
     method: claude:claude-opus-5-5
-    reason: The fragment's titles cover Hood Canal oxygen effects, ecosystem-based fishery management,
-      and Minnesota trout work, all of which fit Essington's research and training history.
+    reason: Titles cover Hood Canal oxygen effects, ecosystem-based fishery management, and Minnesota
+      trout, all consistent with Essington's research and career path.
 trevor-branch:
   name: Trevor Branch
   orcid: 0000-0003-4308-8930
@@ -970,4 +977,4 @@ trevor-branch:
     confidence: 0.98
     method: claude:claude-opus-5-5
     reason: Titles on global fisheries status, fleet dynamics, trophic fingerprint, and blue whale distribution
-      match Branch's research profile, with UW affiliation 2003-2026 and University of Cape Town history.
+      match Branch's profile exactly, with UW years 2003-2026 and University of Cape Town history.

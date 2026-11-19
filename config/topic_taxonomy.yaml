@@ -1,0 +1,201 @@
+# SAFS topic taxonomy: the vocabulary pipeline/05_enrich_topics.py tags every paper with.
+#
+# Drafted by Claude from the faculty research profiles and a sample of the most-cited
+# papers of each faculty member (2026-11-19). EDIT FREELY: ids are what gets stored, so
+# renaming a `name` is safe; renaming or removing an `id` means re-tagging (run
+# 05_enrich_topics.py with --retag).
+#
+# Each paper gets: 1 primary theme, up to 4 subtopics (any theme), plus controlled
+# taxon_groups / ecosystems / methods, free-text species and regions, and a 1-line summary.
+
+version: 1
+
+themes:
+  - id: fisheries-management
+    name: Fisheries Science & Management
+    subtopics:
+      - {id: stock-assessment, name: Stock assessment & population estimation, description: "Assessment models, abundance/biomass estimation, catch-effort standardization, survey design"}
+      - {id: management-strategy-evaluation, name: Management strategy evaluation & harvest policy, description: "MSE, harvest control rules, reference points, rebuilding plans, decision analysis for fisheries"}
+      - {id: global-fishery-status, name: Global & regional fishery status, description: "Status and trends of stocks, overfishing, rebuilding at large scales"}
+      - {id: fleet-dynamics, name: Fleet dynamics & fisher behavior, description: "Fishing effort allocation, catch shares/ITQs, compliance, fisher decision-making"}
+      - {id: bycatch-ecosystem-effects, name: Bycatch & ecosystem effects of fishing, description: "Bycatch, discards, fishing impacts on food webs and habitats, ecosystem-based fisheries management"}
+      - {id: small-scale-recreational, name: Small-scale & recreational fisheries, description: "Artisanal, subsistence, Indigenous and recreational fisheries"}
+
+  - id: aquaculture
+    name: Aquaculture
+    subtopics:
+      - {id: shellfish-aquaculture, name: Shellfish aquaculture, description: "Oyster, clam, mussel, geoduck culture and broodstock"}
+      - {id: finfish-aquaculture, name: Finfish aquaculture & hatcheries, description: "Fish culture, rearing conditions, stocking density, hatchery practices"}
+      - {id: aquaculture-health, name: Aquaculture health & disease, description: "Pathogens and mortality events in cultured species"}
+      - {id: aquaculture-breeding, name: Breeding & genetic improvement, description: "Selective breeding, broodstock genetics, conditioning for resilience"}
+
+  - id: seafood-food-systems
+    name: Seafood & Food Systems
+    subtopics:
+      - {id: seafood-trade, name: Seafood trade & supply chains, description: "International trade, supply chain shocks, traceability"}
+      - {id: blue-foods-nutrition, name: Blue foods & nutrition security, description: "Aquatic foods in diets, nutrition, food security"}
+      - {id: food-environmental-footprint, name: Environmental footprint of food production, description: "Life-cycle assessment, food-energy-water nexus, comparison with terrestrial foods"}
+
+  - id: population-ecology
+    name: Population Ecology & Life History
+    subtopics:
+      - {id: population-dynamics, name: Population dynamics & demography, description: "Survival, recruitment, density dependence, population viability (harvested stocks assessed for management go under stock-assessment)"}
+      - {id: life-history-growth, name: Life history & growth, description: "Growth, maturation, age structure, life-history trade-offs, indeterminate growth"}
+      - {id: reproduction-spawning, name: Reproduction & spawning ecology, description: "Spawning timing and behavior, fecundity, mating systems (embryo/larval biology goes under development-early-life)"}
+      - {id: portfolio-diversity, name: Population diversity & portfolio effects, description: "Biocomplexity, stock diversity, asynchrony, response diversity"}
+
+  - id: ecosystem-ecology
+    name: Community & Ecosystem Ecology
+    subtopics:
+      - {id: food-webs, name: Food webs & trophic interactions, description: "Predator-prey dynamics, trophic cascades, diet, forage species"}
+      - {id: nutrient-cycling, name: Nutrients, productivity & biogeochemistry, description: "Nutrient subsidies (e.g. salmon-derived), primary production, carbon and nitrogen cycling"}
+      - {id: community-structure, name: Community structure & species interactions, description: "Competition, facilitation, succession, zonation, biodiversity-function relationships"}
+      - {id: habitat-coupling, name: Habitat coupling & spatial ecology, description: "Cross-habitat linkages, landscape/seascape ecology, connectivity"}
+      - {id: ecosystem-services, name: Ecosystem services, description: "Benefits people derive from aquatic ecosystems, valuation of services"}
+
+  - id: climate-change
+    name: Climate & Ocean Change
+    subtopics:
+      - {id: warming-heatwaves, name: Warming & marine heatwaves, description: "Temperature trends, heatwaves, thermal tolerance at population or ecosystem scale"}
+      - {id: ocean-acidification, name: Ocean acidification & hypoxia, description: "Carbonate chemistry, low oxygen, multiple stressors"}
+      - {id: climate-variability-regime-shifts, name: Climate variability & regime shifts, description: "ENSO, PDO, upwelling, interannual-decadal ocean and climate variability, regime shifts (natural variability, not long-term anthropogenic trend)"}
+      - {id: sea-ice-polar, name: Sea ice & polar change, description: "Arctic/Antarctic sea ice loss and its ecological effects"}
+      - {id: range-phenology-shifts, name: Range & phenology shifts, description: "Distribution shifts, timing changes, climate vulnerability assessments"}
+      - {id: climate-adaptation-policy, name: Climate adaptation & policy, description: "Adapting fisheries, management and communities to climate change; climate policy"}
+
+  - id: conservation-biodiversity
+    name: Conservation & Biodiversity
+    subtopics:
+      - {id: threatened-species, name: Threatened & protected species, description: "Status of at-risk species, recovery, Endangered Species Act listings"}
+      - {id: biological-invasions, name: Biological invasions, description: "Non-native species, invasion pathways, impacts and biotic resistance"}
+      - {id: freshwater-biodiversity, name: Freshwater biodiversity, description: "Threats to and patterns of freshwater species diversity, homogenization"}
+      - {id: protected-areas, name: Protected areas & spatial planning, description: "MPAs, reserves, conservation prioritization"}
+      - {id: decision-science, name: Conservation decision science, description: "Structured decision making, adaptive management, value of information"}
+
+  - id: habitat-hydrology
+    name: Habitat, Hydrology & Restoration
+    subtopics:
+      - {id: flow-regimes-dams, name: Flow regimes & dams, description: "Hydrologic alteration, environmental flows, dams and barriers, free-flowing rivers"}
+      - {id: watershed-land-use, name: Watershed & land-use effects, description: "Land use, urbanization, sediments, water quality in catchments"}
+      - {id: coastal-habitat-modification, name: Coastal habitat modification, description: "Shoreline hardening, living shorelines, coastal development"}
+      - {id: habitat-restoration, name: Habitat restoration, description: "Restoration of rivers, wetlands, marshes, reefs, kelp and seagrass"}
+      - {id: pollution-contaminants, name: Pollution & contaminants, description: "Contaminants of emerging concern, microplastics, oil spills, toxicology"}
+
+  - id: genetics-genomics
+    name: Genetics, Genomics & Evolution
+    subtopics:
+      - {id: population-genetics, name: Population & conservation genetics, description: "Genetic structure, effective population size, stock identification, kinship/parentage"}
+      - {id: genomics-transcriptomics, name: Genomics & transcriptomics, description: "Genome sequencing, SNP discovery, gene expression, RNA-seq"}
+      - {id: epigenetics, name: Epigenetics, description: "DNA methylation and other epigenetic mechanisms, plasticity, intergenerational effects"}
+      - {id: edna-metabarcoding, name: eDNA & metabarcoding, description: "Environmental DNA, metabarcoding, molecular biodiversity surveys"}
+      - {id: adaptation-evolution, name: Adaptation & contemporary evolution, description: "Local adaptation, selection, rapid evolution, hatchery-wild genetic interactions"}
+
+  - id: physiology
+    name: Physiology & Organismal Biology
+    subtopics:
+      - {id: reproductive-endocrinology, name: Reproductive physiology & endocrinology, description: "Hormones, oogenesis, maturation, smoltification"}
+      - {id: stress-osmoregulation, name: Stress, osmoregulation & metabolism, description: "Cortisol, energy metabolism, salinity and environmental stress responses"}
+      - {id: immunology, name: Immunology & host defense, description: "Immune mechanisms and host-pathogen physiology (disease in cultured animals -> aquaculture-health; in wild populations -> wildlife-disease)"}
+      - {id: development-early-life, name: Development & early life stages, description: "Embryos, larvae, settlement, developmental plasticity"}
+      - {id: symbiosis-calcification, name: Symbiosis & calcification, description: "Coral-algal symbiosis, heterotrophy in corals, calcification and biomineralization physiology"}
+      - {id: feeding-energetics, name: Feeding & bioenergetics, description: "Consumption, growth energetics, suspension feeding, bioenergetics models"}
+
+  - id: behavior-movement
+    name: Behavior, Movement & Migration
+    subtopics:
+      - {id: migration-homing, name: Migration & homing, description: "Migratory timing, navigation, homing, dispersal"}
+      - {id: collective-behavior, name: Collective & social behavior, description: "Schooling, group decision-making, social structure, cultural transmission"}
+      - {id: movement-tracking, name: Animal movement & tracking, description: "Telemetry, tagging, movement models, habitat use"}
+      - {id: foraging-behavior, name: Foraging & predator avoidance behavior, description: "Diel vertical migration, foraging strategies, antipredator behavior"}
+
+  - id: disease-parasites
+    name: Parasites & Disease Ecology
+    subtopics:
+      - {id: parasite-ecology, name: Parasite ecology & conservation, description: "Parasite diversity, community roles, long-term change in parasitism"}
+      - {id: wildlife-disease, name: Wildlife & marine disease, description: "Disease outbreaks and pathogens in wild populations (e.g. sea star wasting)"}
+      - {id: biodiversity-disease-human-health, name: Biodiversity, disease & human health, description: "Disease transmission to people, schistosomiasis, Lyme, One Health"}
+
+  - id: morphology-systematics
+    name: Morphology, Biomechanics & Systematics
+    subtopics:
+      - {id: functional-morphology, name: Functional morphology & biomechanics, description: "Skeletal mechanics, adhesion, locomotion, bio-inspired design"}
+      - {id: taxonomy-systematics, name: Taxonomy, systematics & phylogenetics, description: "Species descriptions, phylogenies, biogeography"}
+      - {id: digital-morphology-collections, name: 3D imaging & natural history collections, description: "CT scanning, digital morphology, museum collections"}
+
+  - id: quantitative-methods
+    name: Quantitative Methods & Technology
+    subtopics:
+      - {id: statistical-methods, name: Statistical methods & Bayesian inference, description: "New statistical methods, Bayesian computation, state-space and time-series models"}
+      - {id: ecological-modeling, name: Ecological & simulation modeling, description: "Population/ecosystem models, individual-based models, theoretical ecology"}
+      - {id: acoustics-remote-sensing, name: Acoustics & remote sensing, description: "Fisheries/bioacoustics, echosounders, satellite and aerial observation"}
+      - {id: open-data-reproducibility, name: Open data, software & reproducibility, description: "Data management, open science, software tools, research datasets"}
+
+  - id: human-dimensions
+    name: Human Dimensions, Policy & Society
+    subtopics:
+      - {id: resource-economics, name: Resource economics, description: "Bioeconomics, markets, incentives, valuation"}
+      - {id: governance-policy, name: Governance & policy, description: "Institutions, co-management, law, international agreements, leadership"}
+      - {id: community-indigenous, name: Communities & Indigenous knowledge, description: "Fishing communities, Tribal and Indigenous perspectives, livelihoods"}
+      - {id: citizen-science, name: Citizen & community science, description: "Public participation in data collection and monitoring"}
+      - {id: research-culture-education, name: Research culture, DEI & education, description: "Diversity, equity and inclusion, mentoring, teaching, early-career researchers"}
+
+taxon_groups:
+  - salmonids            # salmon, trout, char, steelhead
+  - other-bony-fishes
+  - sharks-rays
+  - marine-mammals
+  - birds
+  - reptiles-amphibians
+  - bivalves             # oysters, clams, mussels, geoduck
+  - crustaceans
+  - corals-cnidarians
+  - echinoderms
+  - cephalopods
+  - other-invertebrates
+  - zooplankton
+  - phytoplankton-microalgae
+  - macroalgae-seagrass-plants
+  - microbes-pathogens
+  - parasites
+  - terrestrial-mammals
+  - humans
+  - none                 # no focal organism (e.g. methods, policy)
+
+ecosystems:
+  - open-ocean
+  - coastal-nearshore
+  - estuary-wetland
+  - coral-reef
+  - kelp-seagrass
+  - intertidal
+  - deep-sea
+  - polar-sea-ice
+  - river-stream
+  - lake
+  - aquaculture-facility
+  - laboratory
+  - terrestrial
+  - global-multiple
+  - none
+
+methods:
+  - field-survey-monitoring
+  - lab-experiment
+  - field-experiment
+  - population-assessment-model
+  - statistical-modeling
+  - simulation-theoretical-model
+  - meta-analysis-synthesis
+  - review-perspective
+  - genomic-sequencing
+  - edna-metabarcoding
+  - telemetry-tagging
+  - acoustics
+  - remote-sensing-gis
+  - stable-isotopes-chemistry
+  - morphology-imaging
+  - economic-analysis
+  - social-science-methods
+  - long-term-dataset
+  - citizen-science
+  - dataset-software-release

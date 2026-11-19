@@ -1,0 +1,3742 @@
+{
+ "adam-summers": {
+  "profile": {
+   "n_anchor": 158,
+   "first_anchor_year": 2004,
+   "top_subfields": [
+    "Nature and Landscape Conservation",
+    "Aquatic Science",
+    "Anatomy",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Aerospace Engineering",
+    "Mechanics of Materials",
+    "Ecology",
+    "Biomaterials"
+   ]
+  },
+  "works": {
+   "W4416136319": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.006,
+    "note": "Sandia power systems cybersecurity, different person."
+   },
+   "W4411734447": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "NMSU beef cattle reproduction, different person."
+   },
+   "W4407208370": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.006,
+    "note": "Energy systems cybersecurity, matches Sandia namesake."
+   },
+   "W4403126006": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Sandia electrical engineering, different person."
+   },
+   "W4388349128": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.006,
+    "note": "Sandia IoT security report, different person."
+   },
+   "W4310286400": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.006,
+    "note": "Sandia relay protection report, different person."
+   },
+   "W4281551332": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.006,
+    "note": "Sandia inverter security, different person."
+   },
+   "W3207099098": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Beef heifer reproduction at NMSU, different person."
+   },
+   "W3207722678": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Beef heifer reproduction at NMSU, different person."
+   },
+   "W3108509404": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Beef heifer reproduction at NMSU, different person."
+   },
+   "W3094837857": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Music therapy psychology at Belmont, different person."
+   },
+   "W2948174595": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Cattle fertility at NMSU, different person."
+   },
+   "W4234374137": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "MorphoSource 3D media fits his oVert scanning work."
+   },
+   "W2905348479": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Heifer development at NMSU, different person."
+   },
+   "W2775466927": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.076
+   },
+   "W2781051257": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "OSF morphology data item consistent with his open data work."
+   },
+   "W2022638331": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Cattle nutrition at Utah State, different person."
+   },
+   "W416954852": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Bovine oocyte fertility at Nebraska, the animal science namesake."
+   },
+   "W2022487870": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "History archive work at Birkbeck, different person."
+   },
+   "W2591625276": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Cattle reproduction at Nebraska, different person."
+   },
+   "W2125538508": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.215
+   },
+   "W4256697225": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Editorial in Zoology fits his editorial roles."
+   },
+   "W299399175": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Beef cow extension article, different person."
+   },
+   "W4207027853": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Morphology chapter by Adam P. Summers fits his field."
+   },
+   "W1975664457": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.095
+   },
+   "W85176408": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "He wrote the Biomechanics column in Natural History."
+   },
+   "W2274100782": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Natural History biomechanics column by him."
+   },
+   "W2063570803": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Tendon biomechanics at UC Irvine matches his earlier position."
+   },
+   "W2066646653": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.006,
+    "note": "British Library archivist, different person."
+   },
+   "W2278500170": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Natural History column by Adam P. Summers."
+   },
+   "W2471641456": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.006,
+    "note": "Nursing history by a historian, different person."
+   }
+  }
+ },
+ "amy-van-cise": {
+  "profile": {
+   "n_anchor": 12,
+   "first_anchor_year": 2022,
+   "top_subfields": [
+    "Ecology",
+    "Oceanography",
+    "Ecology, Evolution, Behavior and Systematics"
+   ]
+  },
+  "works": {
+   "W2320996302": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Early-career oceanography work on tsunami debris plausibly from her pre-PhD research period; the name is distinctive."
+   },
+   "W2183101467": {
+    "status": "keep",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.67,
+    "subfield_share": 0.833,
+    "note": "A seabird and marine mammal at-sea survey from 2009 fits her early marine mammal fieldwork, likely an Antarctic AMLR cruise report."
+   },
+   "W2183939759": {
+    "status": "keep",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.67,
+    "subfield_share": 0.0,
+    "note": "This krill section appears to come from the same 2009 Antarctic survey report as her seabird and mammal work, so it is likely from the same early-career period."
+   }
+  }
+ },
+ "andre-punt": {
+  "profile": {
+   "n_anchor": 420,
+   "first_anchor_year": 1993,
+   "top_subfields": [
+    "Aquatic Science",
+    "Ecology",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Nature and Landscape Conservation",
+    "Management, Monitoring, Policy and Law",
+    "Oceanography",
+    "Genetics",
+    "Statistics and Probability"
+   ]
+  },
+  "works": {
+   "W4402135069": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Toxicology/sunscreen risk assessment at Unilever is a different A. Punt (Ans Punt)."
+   },
+   "W2895323451": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Art theory dissertation at Utrecht is an unrelated discipline."
+   },
+   "W2743466892": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Japanese translation of his Management strategy evaluation: best practices paper."
+   },
+   "W4394396460": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Kalman filter likelihood appendix fits his stock assessment modeling work."
+   },
+   "W2093477877": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.795
+   },
+   "W2563562604": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "QSAR-PBK toxicology modeling belongs to a Dutch toxicologist namesake."
+   },
+   "W4254613686": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.33,
+    "subfield_share": 0.0
+   },
+   "W1821746591": {
+    "status": "drop",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.67,
+    "subfield_share": 0.01,
+    "note": "1968 limpet ecology predates his career; a different Punt."
+   },
+   "W2000932237": {
+    "status": "drop",
+    "reasons": [
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.67,
+    "subfield_share": 0.114,
+    "note": "1946 fish physiology at Utrecht is impossible timing."
+   }
+  }
+ },
+ "andrea-burton": {
+  "profile": null,
+  "works": {}
+ },
+ "andrew-berdahl": {
+  "profile": {
+   "n_anchor": 37,
+   "first_anchor_year": 2018,
+   "top_subfields": [
+    "Ecology",
+    "Aquatic Science",
+    "Plant Science",
+    "Nature and Landscape Conservation",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Applied Mathematics",
+    "Statistical and Nonlinear Physics",
+    "Global and Planetary Change"
+   ]
+  },
+  "works": {
+   "W4200631711": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Spatio-temporal statistical modeling fits his quantitative/epidemic modeling side work, and the byline name matches."
+   },
+   "W1791356047": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "A 2012 Princeton byline matches his PhD period with Couzin and Levin, and he has known complex-systems side projects."
+   }
+  }
+ },
+ "carter-smith": {
+  "profile": {
+   "n_anchor": 13,
+   "first_anchor_year": 2024,
+   "top_subfields": [
+    "Ecology",
+    "Management, Monitoring, Policy and Law",
+    "Earth-Surface Processes",
+    "Aquatic Science",
+    "Oceanography",
+    "Nature and Landscape Conservation"
+   ]
+  },
+  "works": {
+   "W4417343794": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Cancer genomics preprint from the Broad Institute is unrelated to coastal ecology."
+   },
+   "W3208629888": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Nature-based infrastructure piece from Duke, where Smith trained, fits their research on shorelines and nature-based solutions."
+   },
+   "W2560697837": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Pitcher plant moth ecology from Western Kentucky could be early undergraduate work, but it is in a different system."
+   },
+   "W4397572322": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "A crystal structure dataset is unrelated chemistry work."
+   },
+   "W2053122746": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "A 1974 solid-state physics paper predates this faculty member's career."
+   },
+   "W2271935763": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "A 1969 physics report predates this faculty member's career."
+   },
+   "W140935010": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "A 1958 metals physics report predates this faculty member's career."
+   },
+   "W140592373": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "A 1953 physics report predates this faculty member's career."
+   },
+   "W127830561": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "A 1948 metallurgy paper belongs to a different person."
+   }
+  }
+ },
+ "chelsea-wood": {
+  "profile": {
+   "n_anchor": 81,
+   "first_anchor_year": 2017,
+   "top_subfields": [
+    "Parasitology",
+    "Global and Planetary Change",
+    "Public Health, Environmental and Occupational Health",
+    "Aquatic Science",
+    "Ecology",
+    "Information Systems",
+    "Animal Science and Zoology",
+    "Insect Science"
+   ]
+  },
+  "works": {
+   "W4394118099": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Ecological Archives appendix from 2016 figshare, consistent with Wood's island/fishing parasite meta-analysis work."
+   },
+   "W4394149885": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Same set of ecological appendices, likely from her Line Islands parasite studies."
+   },
+   "W4394221096": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Same appendix set, plausibly her ecology paper supplement."
+   },
+   "W4394237469": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Sampling sites within islands matches her Line Islands parasite research."
+   },
+   "W4394506105": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Same appendix set with meta-analysis, consistent with her work."
+   },
+   "W3165070297": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Microbiology education conference abstract collection; possibly she contributed an abstract as a grad student but ambiguous."
+   },
+   "W2183450751": {
+    "status": "keep",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "2004 undergraduate essay with matching full name; plausible early student writing."
+   },
+   "W2186112370": {
+    "status": "keep",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "2004 student piece on farmed salmon toxins fits early aquatic/fisheries interests."
+   }
+  }
+ },
+ "chris-anderson": {
+  "profile": {
+   "n_anchor": 44,
+   "first_anchor_year": 2012,
+   "top_subfields": [
+    "Aquatic Science",
+    "Economics and Econometrics",
+    "Food Science",
+    "Political Science and International Relations",
+    "Public Administration",
+    "Management Science and Operations Research",
+    "Global and Planetary Change",
+    "Law"
+   ]
+  },
+  "works": {
+   "W3037252425": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.568
+   },
+   "W2072015607": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Chris Anderson was at URI before UW; port economics fits economist's applied work."
+   },
+   "W2110191269": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Game-theoretic port competition at URI matches his game theory economics background."
+   },
+   "W2255184498": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Same port competition research line with Korean collaborators."
+   },
+   "W1923838238": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Strategic modeling of port competition fits his game theory work."
+   },
+   "W3112055792": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a Wisconsin astronomer."
+   },
+   "W584478155": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W3089056988": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Planetary science by a different person."
+   },
+   "W4244406134": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Wisconsin astronomer."
+   },
+   "W1575340854": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W3134607536": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Planetary science by a different person."
+   },
+   "W3009234337": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W3154014255": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W3014119932": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W2027925480": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W3120112826": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W30981817": {
+    "status": "drop",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.33,
+    "subfield_share": 0.023,
+    "note": "1992 Nature item by a journalist namesake, predates his career."
+   },
+   "W2996110879": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W3129356396": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W2024294623": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Wisconsin astronomer."
+   },
+   "W3016336430": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W2034365458": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W2003782782": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W3024845435": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W3109740341": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W3015301510": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W3116773671": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W3015702787": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W1521342342": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W3106381744": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W3115448527": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W3119458891": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W2088078396": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W2065740430": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W2992675823": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W1661187215": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy instrumentation at Wisconsin."
+   },
+   "W3173074309": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W3018613191": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy instrumentation at Wisconsin."
+   },
+   "W3034966159": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W3013821635": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W1526674756": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Wisconsin astronomer."
+   },
+   "W4234962724": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Wisconsin astronomer."
+   },
+   "W4249832760": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Wisconsin astronomer."
+   },
+   "W4251680258": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Wisconsin astronomer."
+   },
+   "W1972386645": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W2571109294": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Wisconsin astronomer."
+   },
+   "W2012384691": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W1994858402": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Wisconsin astronomer."
+   },
+   "W2074763740": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W2095338530": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W2018281829": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W2026167749": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W2038958624": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W3087321108": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W1981833741": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W1553577047": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W2037166428": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W2995746695": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "1968 Caltech astronomy thesis, different person."
+   },
+   "W2061546394": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   },
+   "W2069089126": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Astronomy by a different person."
+   }
+  }
+ },
+ "corey-garza": {
+  "profile": {
+   "n_anchor": 13,
+   "first_anchor_year": 2021,
+   "top_subfields": [
+    "Applied Psychology",
+    "Oceanography",
+    "Sociology and Political Science",
+    "Management, Monitoring, Policy and Law",
+    "Tourism, Leisure and Hospitality Management",
+    "Management of Technology and Innovation",
+    "Education",
+    "History and Philosophy of Science"
+   ]
+  },
+  "works": {
+   "W2769140815": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "CSU Monterey Bay marine habitat associations fit his prior affiliation and spatial ecology work."
+   },
+   "W2165944770": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Landscape covariates and species distribution modeling fits his landscape ecology approach; a plausible collaboration."
+   },
+   "W1994832034": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Monterey Bay coastal study at CSU Monterey Bay matches his earlier affiliation."
+   },
+   "W2171833150": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "GIS and bathymetry-based distribution modeling at CSUMB fits his research."
+   },
+   "W2990501158": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Salmon climate topic is less typical, and a fisheries geneticist named Carlos Garza works on Chinook, so the byline is ambiguous."
+   },
+   "W2068005633": {
+    "status": "keep",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.33,
+    "subfield_share": 0.231,
+    "note": "Spatial scale and polychaete diversity is landscape ecology of marine invertebrates, consistent with his early career."
+   },
+   "W2014170675": {
+    "status": "keep",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.67,
+    "subfield_share": 0.231,
+    "note": "Mussel predator ecology at UCSB fits his PhD-era marine invertebrate ecology."
+   }
+  }
+ },
+ "daniel-schindler": {
+  "profile": {
+   "n_anchor": 200,
+   "first_anchor_year": 1997,
+   "top_subfields": [
+    "Nature and Landscape Conservation",
+    "Ecology",
+    "Environmental Chemistry",
+    "Aquatic Science",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Genetics",
+    "Global and Planetary Change",
+    "Health, Toxicology and Mutagenesis"
+   ]
+  },
+  "works": {
+   "W4415594662": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Radar engineering at Bosch, unrelated discipline."
+   },
+   "W3008051551": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.24
+   },
+   "W2897338954": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Archaeology excavation report by a different Daniel Schindler."
+   },
+   "W4250586525": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "CMOS radar transmitter at Bosch, different person."
+   },
+   "W4249650899": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Radar systems engineering at Bosch, different person."
+   },
+   "W2966463256": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "UNC archaeology dissertation on Roman pottery, different person."
+   },
+   "W4394110897": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Ecological appendix with fatty acid PCA, typical of Ecological Society data supplements; byline Daniel E. Schindler."
+   },
+   "W4394397752": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Fishery effort appendix under Daniel E. Schindler, fits fisheries research."
+   },
+   "W4394429684": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Bayesian metabolic model appendix matches his ecosystem metabolism work."
+   },
+   "W4394475109": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Ecological journal appendix under Daniel E. Schindler, plausibly his."
+   },
+   "W2418468994": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Archaeology of Roman Galilee, different person."
+   },
+   "W2504196283": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Ancient lamps archaeology, different person."
+   }
+  }
+ },
+ "graham-young": {
+  "profile": {
+   "n_anchor": 35,
+   "first_anchor_year": 2005,
+   "top_subfields": [
+    "Physiology",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Health, Toxicology and Mutagenesis",
+    "Immunology",
+    "Genetics",
+    "Nature and Landscape Conservation",
+    "Pollution",
+    "Aquatic Science"
+   ]
+  },
+  "works": {
+   "W4409760443": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.714
+   },
+   "W2069686768": {
+    "status": "keep",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.67,
+    "subfield_share": 0.029,
+    "note": "Fish endocrinology at UC Berkeley fits his early career (Bern lab)."
+   },
+   "W1992410005": {
+    "status": "suspect",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.33,
+    "subfield_share": 0.029,
+    "note": "Fish toxicology of a pesticide in striped bass; plausible Berkeley-era collaboration but no affiliation given."
+   },
+   "W2005244938": {
+    "status": "keep",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.33,
+    "subfield_share": 0.714,
+    "note": "Coho interrenal and thyroxine work at Berkeley matches his stress and smolt research."
+   },
+   "W2105978318": {
+    "status": "keep",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.67,
+    "subfield_share": 0.0,
+    "note": "Teleost pituitary endocrinology at Berkeley fits his training."
+   },
+   "W2055497575": {
+    "status": "keep",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.67,
+    "subfield_share": 0.714,
+    "note": "Salmon thyroxine surge during smoltification fits his parr-smolt interests."
+   },
+   "W2017073527": {
+    "status": "keep",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Obituary of a Japanese reproductive biologist, consistent with his NIBB connections."
+   },
+   "W1977852646": {
+    "status": "keep",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.67,
+    "subfield_share": 0.714,
+    "note": "Salmon oocyte maturation at NIBB matches his reproductive endocrinology arc."
+   },
+   "W2770890666": {
+    "status": "keep",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.67,
+    "subfield_share": 0.714,
+    "note": "Salmon ovarian steroidogenesis at NIBB fits his core research."
+   }
+  }
+ },
+ "gregory-jensen": {
+  "profile": {
+   "n_anchor": 21,
+   "first_anchor_year": 1983,
+   "top_subfields": [
+    "Ecology",
+    "Aquatic Science",
+    "Global and Planetary Change"
+   ]
+  },
+  "works": {
+   "W3107613510": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Materials chemistry at Ohio University is unrelated to crustacean ecology."
+   },
+   "W2598524501": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Nanoscale photoluminescence spectroscopy at Bowling Green is a different person."
+   },
+   "W2561788713": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Quantum dot energy transfer at Bowling Green is unrelated to marine biology."
+   }
+  }
+ },
+ "heili-lowman": {
+  "profile": {
+   "n_anchor": 13,
+   "first_anchor_year": 2024,
+   "top_subfields": [
+    "Environmental Chemistry",
+    "Global and Planetary Change",
+    "Ecology",
+    "Education"
+   ]
+  },
+  "works": {
+   "W4317532309": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Aquatic sciences community piece with UNR affiliation, consistent with her postdoc."
+   },
+   "W4315647233": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Ecology synthesis paper with UNR affiliation fits her synthesis and LTER work."
+   },
+   "W4281767717": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "SCCWRP and UNR affiliations match her known career path in aquatic research."
+   },
+   "W4397303152": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Rare name, but these are inorganic crystal structures with no affiliation; possibly undergraduate chemistry work, but unverifiable."
+   },
+   "W4397330552": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Rare name, but these are inorganic crystal structures with no affiliation; possibly undergraduate chemistry work, but unverifiable."
+   },
+   "W4397336023": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Rare name, but these are inorganic crystal structures with no affiliation; possibly undergraduate chemistry work, but unverifiable."
+   },
+   "W4397442013": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Rare name, but these are inorganic crystal structures with no affiliation; possibly undergraduate chemistry work, but unverifiable."
+   },
+   "W4397509855": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Rare name, but these are inorganic crystal structures with no affiliation; possibly undergraduate chemistry work, but unverifiable."
+   },
+   "W4397264184": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Rare name, but these are inorganic crystal structures with no affiliation; possibly undergraduate chemistry work, but unverifiable."
+   }
+  }
+ },
+ "jacqueline-padilla-gamino": {
+  "profile": {
+   "n_anchor": 53,
+   "first_anchor_year": 2016,
+   "top_subfields": [
+    "Ecology",
+    "Aquatic Science",
+    "Oceanography",
+    "Pollution",
+    "Global and Planetary Change",
+    "Health, Toxicology and Mutagenesis",
+    "Molecular Biology",
+    "Environmental Chemistry"
+   ]
+  },
+  "works": {
+   "W2181454701": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "C-MORE is a University of Hawaii oceanography center where she did graduate/postdoc work, so this education outreach fits her training period."
+   },
+   "W104980918": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "A 2010 science-education outreach piece on microbes fits her C-MORE-era Hawaii outreach, and her name is distinctive."
+   }
+  }
+ },
+ "jessica-gephart": {
+  "profile": {
+   "n_anchor": 39,
+   "first_anchor_year": 2020,
+   "top_subfields": [
+    "Food Science",
+    "Aquatic Science",
+    "Ecology",
+    "Nature and Landscape Conservation",
+    "General Agricultural and Biological Sciences",
+    "Global and Planetary Change",
+    "Computer Vision and Pattern Recognition",
+    "Public Health, Environmental and Occupational Health"
+   ]
+  },
+  "works": {
+   "W7212175314": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.077
+   },
+   "W7131674720": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.077
+   },
+   "W4407731062": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.077
+   },
+   "W4315647233": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Gephart was at American University before UW and works on environmental synthesis research."
+   },
+   "W4213341283": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.67,
+    "subfield_share": 0.128
+   },
+   "W3203862745": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.128
+   },
+   "W2471361093": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Her PhD was at University of Virginia in environmental sciences, so this ecology modeling chapter fits that training."
+   },
+   "W2060265666": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.128
+   },
+   "W2324912790": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "It is a UVA-era paper on water resources, matching her PhD research on virtual water and trade."
+   },
+   "W2583866387": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "This looks like her Miami University undergraduate work on environmental themes, and the name and timing are consistent."
+   },
+   "W2597822172": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "This appears to be the Miami University thesis version of the same green advertising work, consistent with her early training."
+   }
+  }
+ },
+ "john-horne": {
+  "profile": {
+   "n_anchor": 116,
+   "first_anchor_year": 2000,
+   "top_subfields": [
+    "Aquatic Science",
+    "Ecology",
+    "Oceanography",
+    "Ocean Engineering",
+    "Nature and Landscape Conservation",
+    "Atmospheric Science",
+    "Health, Toxicology and Mutagenesis",
+    "Economics and Econometrics"
+   ]
+  },
+  "works": {
+   "W2333189702": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.017,
+    "note": "Horne & Schneider 1995 Oikos on spatial variance fits John K. Horne's early quantitative ecology work on spatial scale."
+   }
+  }
+ },
+ "jose-guzman": {
+  "profile": {
+   "n_anchor": 5,
+   "first_anchor_year": 2017,
+   "top_subfields": [
+    "Physiology",
+    "Immunology",
+    "Oceanography"
+   ]
+  },
+  "works": {
+   "W4299300271": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Urology case by a Spanish urologist (Pastor Guzmán)."
+   },
+   "W1594565687": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Urologic oncology by a different person."
+   },
+   "W1504477185": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Clinical urology, different person."
+   },
+   "W1928289634": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Albacete hospital urology case report."
+   },
+   "W1522819750": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Renal graft urology paper, different person."
+   },
+   "W1972595961": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Albacete urology paper."
+   },
+   "W2036130458": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Albacete urology paper."
+   },
+   "W2071674496": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Albacete urology paper."
+   },
+   "W4297837095": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Albacete urologic oncology."
+   },
+   "W2011424498": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Albacete urology paper."
+   },
+   "W2094882642": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Albacete urology paper."
+   },
+   "W4254083065": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Albacete urology paper."
+   },
+   "W1999496138": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Albacete urology paper."
+   },
+   "W2152082203": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Albacete urologic oncology."
+   },
+   "W2085733708": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Albacete urologic oncology."
+   },
+   "W2135506646": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Albacete urology paper."
+   },
+   "W2166491544": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Albacete urology paper."
+   },
+   "W4244488166": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Albacete urology paper."
+   },
+   "W2114398399": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Albacete urology paper."
+   },
+   "W2083597255": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Urology teaching at Castilla-La Mancha by the urologist."
+   },
+   "W2159753440": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Albacete urology paper."
+   },
+   "W2056361532": {
+    "status": "keep",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.67,
+    "subfield_share": 0.6,
+    "note": "Fish endocrine physiology at Cádiz fits his early training."
+   },
+   "W128554014": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Clinical oncology by the urologist."
+   },
+   "W2042105960": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Albacete urology paper."
+   },
+   "W1973094137": {
+    "status": "keep",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.67,
+    "subfield_share": 0.0,
+    "note": "Sea bream osmoregulation matches his Cádiz PhD work."
+   },
+   "W1528365979": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Urology pharmacology, different person."
+   },
+   "W1530823458": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Argentine urology paper."
+   },
+   "W1972424160": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Albacete urology paper."
+   },
+   "W2511377906": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "1981 Argentine urology, impossible timing."
+   },
+   "W2402777745": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "1968 clinical paper, impossible timing."
+   }
+  }
+ },
+ "julia-parish": {
+  "profile": {
+   "n_anchor": 85,
+   "first_anchor_year": 1990,
+   "top_subfields": [
+    "Ecology",
+    "Aquatic Science",
+    "Management, Monitoring, Policy and Law",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Information Systems",
+    "Control and Systems Engineering",
+    "Library and Information Sciences",
+    "Pollution"
+   ]
+  },
+  "works": {
+   "W4386442987": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Generic 'Introduction' in BAMS with no byline info; could relate to marine heatwave/climate reports she contributes to, but ambiguous."
+   }
+  }
+ },
+ "julian-olden": {
+  "profile": {
+   "n_anchor": 409,
+   "first_anchor_year": 2006,
+   "top_subfields": [
+    "Nature and Landscape Conservation",
+    "Ecology",
+    "Global and Planetary Change",
+    "Water Science and Technology",
+    "Ecological Modeling",
+    "Earth-Surface Processes",
+    "Environmental Chemistry",
+    "Genetics"
+   ]
+  },
+  "works": {
+   "W4376873246": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.161
+   },
+   "W2962880589": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.562
+   },
+   "W4394279282": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Figshare dataset with opaque title and no affiliation; cannot tie to his research."
+   },
+   "W4394512280": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Duplicate opaque Figshare dataset with no affiliation or topical signal."
+   },
+   "W4248803165": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.562
+   },
+   "W2921592776": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Supplement to Schriever et al. on hydrology shaping invertebrate community structure, a known Olden collaboration."
+   },
+   "W2949102427": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Supplement to Lytle et al. large-scale flow study, consistent with Olden's environmental flows work."
+   },
+   "W4394370170": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Figshare appendix with case studies and models fits his quantitative ecology publications, and the name matches exactly."
+   }
+  }
+ },
+ "kenneth-sebens": {
+  "profile": {
+   "n_anchor": 28,
+   "first_anchor_year": 1976,
+   "top_subfields": [
+    "Oceanography",
+    "Aquatic Science",
+    "Ecology",
+    "Computer Vision and Pattern Recognition",
+    "Earth-Surface Processes",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Animal Science and Zoology",
+    "History"
+   ]
+  },
+  "works": {}
+ },
+ "kerry-naish": {
+  "profile": {
+   "n_anchor": 73,
+   "first_anchor_year": 2002,
+   "top_subfields": [
+    "Genetics",
+    "Immunology",
+    "Nature and Landscape Conservation",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Oceanography",
+    "Aquatic Science",
+    "Molecular Biology",
+    "Plant Science"
+   ]
+  },
+  "works": {
+   "W3081022498": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.616
+   },
+   "W2991801328": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.616
+   }
+  }
+ },
+ "kristin-laidre": {
+  "profile": {
+   "n_anchor": 149,
+   "first_anchor_year": 2002,
+   "top_subfields": [
+    "Ecology",
+    "Atmospheric Science",
+    "Genetics",
+    "Aquatic Science",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Oceanography",
+    "Molecular Biology",
+    "Anthropology"
+   ]
+  },
+  "works": {
+   "W4200260145": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.758
+   },
+   "W2901580719": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "UW GIS symposium fits her stated GIS interest and UW affiliation."
+   },
+   "W2895452701": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Supplementary appendix from Animal Conservation (acv) fits her 2016 polar bear conservation work."
+   },
+   "W3027842194": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Nature news item 'UK recruitment drive' is likely a misattributed news snippet, though it may mention her."
+   }
+  }
+ },
+ "lorenz-hauser": {
+  "profile": {
+   "n_anchor": 92,
+   "first_anchor_year": 2002,
+   "top_subfields": [
+    "Genetics",
+    "Aquatic Science",
+    "Global and Planetary Change",
+    "Nature and Landscape Conservation",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Earth-Surface Processes",
+    "Parasitology",
+    null
+   ]
+  },
+  "works": {
+   "W4244432292": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.717
+   },
+   "W4234853691": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.717
+   }
+  }
+ },
+ "luke-tornabene": {
+  "profile": {
+   "n_anchor": 68,
+   "first_anchor_year": 2017,
+   "top_subfields": [
+    "Aquatic Science",
+    "Ecology",
+    "Parasitology",
+    "Molecular Biology",
+    "Genetics",
+    "Management, Monitoring, Policy and Law",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Information Systems"
+   ]
+  },
+  "works": {
+   "W2600341441": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.588
+   }
+  }
+ },
+ "marjorie-wonham": {
+  "profile": {
+   "n_anchor": 10,
+   "first_anchor_year": 1996,
+   "top_subfields": [
+    "Global and Planetary Change",
+    "History and Philosophy of Science",
+    "Education",
+    "Genetics",
+    "Oceanography",
+    "Nature and Landscape Conservation",
+    "Pollution"
+   ]
+  },
+  "works": {
+   "W7225718237": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Poetry and conservation pedagogy matches her ecopoetics and teaching focus."
+   },
+   "W4387906820": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Ecopoetic analysis of mollusc poetry fits her arts-science interests."
+   },
+   "W4323666802": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Molluscs and Neruda poetry with STEAM framing fits her; Quest University teaching role is plausible."
+   },
+   "W4410990585": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Neruda biology-poetry work matches her ecopoetics research line."
+   },
+   "W4249640715": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Wildlife disease dynamics continues her Alberta West Nile modeling postdoc work."
+   },
+   "W1492240102": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "West Nile modeling at Alberta fits her invasion-ecology postdoc period."
+   },
+   "W2121792593": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Same Alberta West Nile modeling series, consistent with invasion analysis."
+   },
+   "W1973481613": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Same Alberta West Nile modeling series."
+   },
+   "W2167473924": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Invasion analysis of West Nile, with Great Lakes invasion institute coauthors, fits her invasions background."
+   }
+  }
+ },
+ "mark-scheuerell": {
+  "profile": {
+   "n_anchor": 36,
+   "first_anchor_year": 2002,
+   "top_subfields": [
+    "Nature and Landscape Conservation",
+    "Aquatic Science",
+    "Environmental Chemistry",
+    "Ecology",
+    "Statistics and Probability",
+    "Health, Toxicology and Mutagenesis",
+    "Atmospheric Science"
+   ]
+  },
+  "works": {
+   "W2400673165": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Scheuerell worked at NOAA NWFSC before UW and co-developed spatiotemporal ecological models."
+   },
+   "W4394136873": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Ecological modeling dataset appendix consistent with his NOAA-era work."
+   },
+   "W2147215567": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Spatial factor analysis with NOAA NWFSC matches his statistical modeling career at NOAA."
+   }
+  }
+ },
+ "ray-hilborn": {
+  "profile": {
+   "n_anchor": 290,
+   "first_anchor_year": 1988,
+   "top_subfields": [
+    "Aquatic Science",
+    "Nature and Landscape Conservation",
+    "Ecology",
+    "Oceanography",
+    "Management, Monitoring, Policy and Law",
+    "Genetics",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Applied Mathematics"
+   ]
+  },
+  "works": {
+   "W4402042133": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.007
+   },
+   "W4245704892": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.617
+   },
+   "W2066274687": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.617
+   },
+   "W2908830420": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.33,
+    "subfield_share": 0.617
+   },
+   "W2803621824": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.617
+   },
+   "W4394068972": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.007,
+    "note": "Figshare data archive from 2016 likely tied to his ecological papers."
+   },
+   "W4394348059": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Ecological Archives appendix, likely from a co-authored ecology paper despite the odd subfield tag."
+   },
+   "W4394397752": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.007,
+    "note": "Fishing effort appendix fits his fisheries work."
+   },
+   "W2233510342": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Regulatory effort across fish stocks fits his management research."
+   },
+   "W2092559359": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.014
+   },
+   "W4233727081": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.617
+   },
+   "W2327201691": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "A 1996 Science News piece is plausibly about fisheries or science debates he engaged in."
+   },
+   "W2018996600": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "UBC fisheries simulation teaching tools match his early career."
+   },
+   "W2063166078": {
+    "status": "keep",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.67,
+    "subfield_share": 0.014,
+    "note": "Vole population work at UBC/Berkeley fits his PhD-era ecology with the Krebs lab."
+   },
+   "W2534335737": {
+    "status": "keep",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.67,
+    "subfield_share": 0.014,
+    "note": "IIASA resource management modeling matches his early career."
+   },
+   "W1974104519": {
+    "status": "keep",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "UBC simulation programming fits his early modeling work."
+   },
+   "W626556651": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "A 1964 construction-tendering paper predates his career and comes from a different field."
+   }
+  }
+ },
+ "sarah-converse": {
+  "profile": {
+   "n_anchor": 73,
+   "first_anchor_year": 2017,
+   "top_subfields": [
+    "Ecology",
+    null,
+    "Nature and Landscape Conservation",
+    "Statistics and Probability",
+    "Management, Monitoring, Policy and Law",
+    "Insect Science",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Applied Mathematics"
+   ]
+  },
+  "works": {
+   "W4397007211": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.603
+   },
+   "W3043235468": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Risk analysis introduction fits her decision science focus; exact name match."
+   },
+   "W1800148745": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "USGS affiliation matches her prior career and adaptive management decision-making work."
+   },
+   "W2062054491": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.67,
+    "subfield_share": 0.082
+   },
+   "W2128503958": {
+    "status": "keep",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.33,
+    "subfield_share": 0.082,
+    "note": "Early-career herpetology work at Nebraska consistent with her training and reptile research."
+   },
+   "W2178153171": {
+    "status": "keep",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.67,
+    "subfield_share": 0.082,
+    "note": "Same Nebraska box turtle project from her early training; exact full name match."
+   }
+  }
+ },
+ "sean-mcdonald": {
+  "profile": null,
+  "works": {}
+ },
+ "steven-roberts": {
+  "profile": {
+   "n_anchor": 124,
+   "first_anchor_year": 2007,
+   "top_subfields": [
+    "Molecular Biology",
+    "Aquatic Science",
+    "Oceanography",
+    "Ecology",
+    "Immunology",
+    "Genetics",
+    "Physiology",
+    "Parasitology"
+   ]
+  },
+  "works": {
+   "W7131654112": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Gender studies report unrelated to marine physiology."
+   },
+   "W4408528213": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.073
+   },
+   "W4386397641": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Numerical analysis at LLNL, different person."
+   },
+   "W4362666224": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.145
+   },
+   "W2748333261": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.073
+   },
+   "W4394246925": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Untitled-ish Figshare dataset; Roberts lab uses Figshare but content unclear."
+   },
+   "W4394474887": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "HIF-1a time course dataset on Figshare fits Roberts lab open-data practice and hypoxia physiology."
+   },
+   "W2019408099": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Physical oceanography at UAF, different person."
+   },
+   "W4394284338": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Manchester temperature data, likely the UK Steven Roberts."
+   },
+   "W2058481264": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Endodontics, different person."
+   },
+   "W2149910826": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Endodontics, different person."
+   },
+   "W2027884552": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Endodontics, different person."
+   },
+   "W1973586639": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Endodontics, different person."
+   },
+   "W2014542332": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Endodontics, different person."
+   },
+   "W2058315223": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Army endodontics, different person."
+   },
+   "W2081970317": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Army endodontics, different person."
+   },
+   "W2530070949": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Manchester fungi education piece, different person."
+   },
+   "W2163744733": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Army endodontics, different person."
+   },
+   "W2164174999": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Comparative molecular physiology with Notre Dame/OSU/MBL fits his early training."
+   },
+   "W4410090077": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "USGS geology, different person."
+   },
+   "W1574879965": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Human obesity research, different person."
+   },
+   "W1988739075": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Urology, different person."
+   },
+   "W3211458164": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Tufts human nutrition, different person."
+   },
+   "W188011334": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "USGS coal resources, different person."
+   },
+   "W2029943539": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "NIH folate receptor cell biology, unlikely him."
+   },
+   "W1859128757": {
+    "status": "drop",
+    "reasons": [
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.33,
+    "subfield_share": 0.202,
+    "note": "1989 Xenopus developmental biology predates his career."
+   },
+   "W2320518563": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Literary work, different person."
+   },
+   "W2012927495": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Urology 1981, different person."
+   },
+   "W2070756819": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Urology 1979, different person."
+   },
+   "W2412222431": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Urology 1965, impossible timing."
+   }
+  }
+ },
+ "thomas-quinn": {
+  "profile": {
+   "n_anchor": 344,
+   "first_anchor_year": 1980,
+   "top_subfields": [
+    "Nature and Landscape Conservation",
+    "Aquatic Science",
+    "Ecology",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Genetics",
+    "Sensory Systems",
+    "Parasitology",
+    "Physiology"
+   ]
+  },
+  "works": {
+   "W4287211039": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Compositional data/bioinformatics work by a Deakin University Thomas P. Quinn, a different person."
+   },
+   "W4393782974": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "The mmvec response is microbiome bioinformatics data from the Deakin researcher."
+   },
+   "W4393686017": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Molecular biology dataset from the bioinformatics Thomas P. Quinn."
+   },
+   "W4248423926": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.148
+   },
+   "W4393571661": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "DeepTRIAGE is a machine learning cancer classifier, outside salmon ecology."
+   },
+   "W4244748746": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.456
+   },
+   "W4229879268": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.148
+   },
+   "W4394502612": {
+    "status": "suspect",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Generic GLM appendix from an Ecological Society-style Figshare deposit could be a salmon ecology paper, but nothing in the record confirms it."
+   },
+   "W2263094250": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Paper on environmental education field trips for teachers is unrelated to his research."
+   },
+   "W4238786686": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.116
+   },
+   "W2981349814": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.456
+   },
+   "W2070626152": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Petroleum oil-field engineering paper is a different discipline."
+   },
+   "W846909222": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Local history piece from 1974 predates his career and is unrelated."
+   },
+   "W747117080": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "pre_career"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Ionospheric physics paper from 1963 has impossible timing and an unrelated subject."
+   },
+   "W3153709523": {
+    "status": "drop",
+    "reasons": [
+     "off_topic",
+     "implausibly_early"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Article published in 1923 has impossible timing."
+   }
+  }
+ },
+ "tim-essington": {
+  "profile": {
+   "n_anchor": 163,
+   "first_anchor_year": 2005,
+   "top_subfields": [
+    "Aquatic Science",
+    "Ecology",
+    "Applied Mathematics",
+    "Oceanography",
+    "Nature and Landscape Conservation",
+    "Statistics and Probability",
+    "Management, Monitoring, Policy and Law",
+    "Ecological Modeling"
+   ]
+  },
+  "works": {
+   "W2908830420": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.33,
+    "subfield_share": 0.534
+   },
+   "W4229879268": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.534
+   },
+   "W2787956767": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Hunsicker CEOAS top-down supplementary material matches Essington's collaboration with Mary Hunsicker on predator effects."
+   },
+   "W2805698191": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Accepted manuscript of the Hunsicker top-down paper, an Essington collaboration."
+   },
+   "W4394134304": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Forage species model appendix fits his forage fish modeling work."
+   },
+   "W4394167995": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Model appendix from an Ecological Society dataset fits his quantitative fisheries work."
+   },
+   "W4394397752": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Fishing effort comparison appendix fits his fisheries research."
+   },
+   "W1987459059": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Whale conservation markets paper in Ecological Applications fits his marine conservation work."
+   },
+   "W1555306412": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Calcium signaling cell biology at Michigan is unrelated to fisheries ecology."
+   },
+   "W1841811957": {
+    "status": "drop",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "claude:claude-opus-5-5",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Pancreatic cell physiology is a different discipline."
+   }
+  }
+ },
+ "trevor-branch": {
+  "profile": {
+   "n_anchor": 125,
+   "first_anchor_year": 2003,
+   "top_subfields": [
+    "Aquatic Science",
+    "Ecology",
+    "Library and Information Sciences",
+    "Computer Graphics and Computer-Aided Design",
+    "History and Philosophy of Science",
+    "Applied Mathematics",
+    "Economics and Econometrics",
+    null
+   ]
+  },
+  "works": {
+   "W2908830420": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.33,
+    "subfield_share": 0.52
+   },
+   "W2080485054": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.344
+   },
+   "W2067883717": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.52
+   }
+  }
+ }
+}

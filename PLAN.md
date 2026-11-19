@@ -37,13 +37,16 @@ safs-connector/
 │   ├── faculty_overrides.yaml   # hand-curated: slug → OpenAlex IDs / ORCID, merges, exclusions
 │   └── topic_taxonomy.yaml      # SAFS topic vocabulary (Claude-drafted, human-edited)
 ├── pipeline/
-│   ├── 01_roster.py             # scrape faculty list + profile metadata
-│   ├── 02_resolve_authors.py    # map faculty → OpenAlex author IDs
-│   ├── 03_harvest_works.py      # pull all works + authorships + institutions
-│   ├── 04_enrich_topics.py      # Claude batch topic tagging
-│   ├── 05_normalize_insts.py    # ROR-based institution cleanup (+ Claude fallback)
-│   ├── 06_build_db.py           # SQLite schema + derived tables
-│   └── 07_export_site_data.py   # JSON/Parquet for the explorer
+│   ├── 01_roster.py             # scrape faculty list + profile metadata          (M1)
+│   ├── 02_resolve_authors.py    # map faculty → OpenAlex author IDs               (M1)
+│   ├── 03_harvest_works.py      # pull all works + authorships + institutions     (M2)
+│   ├── 04_check_attribution.py  # flag papers by namesakes (heuristic + Claude)   (M2)
+│   ├── 05_enrich_topics.py      # Claude batch topic tagging                      (M3)
+│   ├── 06_normalize_insts.py    # ROR-based institution cleanup (+ Claude)        (M4)
+│   ├── 07_build_db.py           # SQLite schema + derived views                   (M2)
+│   ├── 08_coverage_report.py    # per-faculty coverage table                      (M2)
+│   ├── 09_spotcheck.py          # human spot-check of topic tags                  (M3)
+│   └── 10_export_site_data.py   # JSON/Parquet for the explorer                   (M5)
 ├── data/                        # safs.sqlite, raw cache (gitignored), exports
 ├── site/                        # explorer front end
 └── .github/workflows/
@@ -73,7 +76,7 @@ safs-connector/
 - Use an OpenAlex API key or the `mailto` polite pool (a project contact address in an env var, not committed). Cache raw JSON so reruns are incremental (`from_updated_date`).
 - *Optional cross-checks:* Crossref and ORCID works lists catch papers OpenAlex missed. A per-faculty coverage report compares the count against Scholar's total.
 
-### Step 4: Topic enrichment with the Claude API (`04_enrich_topics.py`)
+### Step 4: Topic enrichment with the Claude API (`05_enrich_topics.py`)
 OpenAlex `topics` are generic (for example, "Fish Ecology and Management"). SAFS needs a sharper vocabulary that matches how the school actually describes its work.
 1. **Build the taxonomy, once.** Send Claude a sample of about 400 titles and abstracts plus all 33 faculty research blurbs. Ask it to propose a 2-level taxonomy of about 12 themes and about 60 subtopics, such as *Fisheries Management → Stock assessment*, *Aquaculture → Shellfish physiology*, *Conservation genetics*, *Climate & ocean change*, *Marine mammals*, *Freshwater ecology*, and *Seafood trade & food systems*. A person edits the result in `topic_taxonomy.yaml`.
 2. **Tag each paper.** Use the **Message Batches API** (50% cheaper and async) with **structured outputs** that return:
@@ -87,13 +90,13 @@ Other good uses of Claude:
 - Normalizing institutions that have no ROR ID (Step 5).
 - Writing a short "research portrait" for each faculty member and each theme for the explorer's side panels.
 
-### Step 5: Institution normalization (`05_normalize_insts.py`)
+### Step 5: Institution normalization (`06_normalize_insts.py`)
 - Prefer the OpenAlex institution ID with ROR. Roll child institutions up to a parent where that helps (for example, NOAA NWFSC → NOAA), using the ROR `relationships` field.
 - For affiliation strings with no ID, send batches to Claude. It maps the raw string to a ROR candidate (looked up through the ROR API) or flags it as unknown.
 - Add type (education, government, nonprofit, company, and so on), country, and lat/lon from ROR for the map.
 - Exclude UW itself from "external collaborator" metrics, but keep it as a node.
 
-### Step 6: Database schema (`06_build_db.py`)
+### Step 6: Database schema (`07_build_db.py`)
 ```sql
 faculty(id, slug, name, rank, status, profile_url, orcid, research_blurb)
 faculty_author_ids(faculty_id, openalex_author_id, verified_by, verified_at)
