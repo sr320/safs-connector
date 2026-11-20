@@ -116,7 +116,7 @@ function mapPanel() {
 /* ------------------------------------------------------------------ theme map */
 async function renderThemeMap() {
   if (!T.xy) {
-    T.loading ||= d3.json("data/theme_map.json").then((d) => { T.xy = new Map(d.rows.map((r) => [r[0], [r[1], r[2]]])); });
+    T.loading ||= d3.json("data/theme_map.json?v=" + window.V).then((d) => { T.xy = new Map(d.rows.map((r) => [r[0], [r[1], r[2]]])); });
     await T.loading;
   }
   if (!T.ready) setupThemeCanvas();
@@ -220,6 +220,7 @@ function drawThemeMap() {
     let [x, y] = T.t.apply([l.x, l.y]);
     if (x < 0 || x > T.w || y < 0 || y > T.h) continue;
     const w = c.measureText(l.text).width + 6, h = 15;
+    x = Math.max(w / 2 + 2, Math.min(T.w - w / 2 - 2, x));   // keep the whole label inside the canvas
     // nudge up/down until the label no longer overlaps one already drawn
     for (const dy of [0, -h, h, -2 * h, 2 * h, -3 * h, 3 * h]) {
       const b = { x0: x - w / 2, x1: x + w / 2, y0: y + dy - h / 2, y1: y + dy + h / 2 };
