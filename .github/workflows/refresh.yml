@@ -1,4 +1,4 @@
-# Monthly data refresh: re-scrape the roster, harvest new papers, have Claude review new
+# Monthly data refresh: re-scrape the roster, harvest new papers, cross-check ORCID, have Claude review new
 # suspect papers and tag new papers, rebuild the database and site data, then open a PR.
 #
 # One-time setup (repo Settings):
@@ -60,6 +60,7 @@ jobs:
       - name: Harvest papers and check attribution
         run: |
           uv run python pipeline/03_harvest_works.py --refresh
+          uv run python pipeline/03b_orcid.py --refresh
           uv run python pipeline/04_check_attribution.py
           uv run python pipeline/07_build_db.py
 

@@ -11781,5 +11781,69 @@
    "output": 357
   },
   "retry": []
+ },
+ {
+  "batch_id": "msgbatch_01MnNm8kvMCXd5juE2DDXjqW",
+  "created": "2026-11-20T03:30:13+00:00",
+  "status": "collected",
+  "taxonomy_hash": "dec0ce992e",
+  "model": "claude-opus-5-5",
+  "requests": {
+   "t-4b79754d1920f3b7bcbe": [
+    "W16584875",
+    "W2099447686",
+    "W7106830179",
+    "W7114986130"
+   ]
+  },
+  "work_ids": [
+   "W16584875",
+   "W2099447686",
+   "W7106830179",
+   "W7114986130"
+  ],
+  "usage": {
+   "input": 2036,
+   "cache_read": 0,
+   "cache_write": 6845,
+   "output": 717
+  },
+  "retry": []
+ },
+ {
+  "batch_id": "msgbatch_01QNB5sBCKqvv5TnsjTaPzTR",
+  "created": "2026-11-20T04:17:49+00:00",
+  "status": "collected",
+  "taxonomy_hash": "dec0ce992e",
+  "model": "claude-opus-5-5",
+  "requests": {
+   "t-0f7e92fa3a7226d60cab": [
+    "W2092214233",
+    "W2096340036",
+    "W2115960718",
+    "W2122505518",
+    "W2145044786",
+    "W2148311895",
+    "W2168789329",
+    "W4252015574"
+   ]
+  },
+  "work_ids": [
+   "W2092214233",
+   "W2096340036",
+   "W2115960718",
+   "W2122505518",
+   "W2145044786",
+   "W2148311895",
+   "W2168789329",
+   "W4252015574"
+  ],
+  "usage": {
+   "input": 2935,
+   "cache_read": 0,
+   "cache_write": 6845,
+   "output": 1386
+  },
+  "retry": []
  }
 ]

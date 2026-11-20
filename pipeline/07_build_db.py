@@ -48,7 +48,13 @@ CREATE TABLE faculty_works (
   status TEXT,            -- keep | suspect | drop
   reasons TEXT, method TEXT, note TEXT,
   author_position TEXT, is_corresponding INTEGER, byline_has_uw INTEGER,
+  source TEXT,            -- openalex (author profile) | orcid (found only through ORCID)
+  in_orcid INTEGER,       -- 1 listed in their ORCID record, 0 not listed, NULL no ORCID iD
   PRIMARY KEY (faculty_slug, work_id)
+);
+-- ORCID works OpenAlex could not supply (no DOI, or a DOI OpenAlex lacks)
+CREATE TABLE orcid_missing (
+  faculty_slug TEXT REFERENCES faculty(slug), title TEXT, year INTEGER, doi TEXT, type TEXT
 );
 CREATE TABLE authorships (
   work_id TEXT REFERENCES works(id), idx INTEGER, author_id TEXT, display_name TEXT,
@@ -218,6 +224,15 @@ def main() -> None:
     norm_path, match_path = DATA / "institutions.json", DATA / "affiliation_matches.json"
     norm = json.loads(norm_path.read_text()) if norm_path.exists() else {}
     aff_matches = json.loads(match_path.read_text()) if match_path.exists() else {}
+    con_rows_missing: list[tuple] = []
+    orcid_path = DATA / "orcid.json"
+    orcid = json.loads(orcid_path.read_text()) if orcid_path.exists() else {}
+    # byline slot of the faculty member in works found only through ORCID
+    for slug, o in orcid.items():
+        o["confirmed_set"] = set(o["confirmed"])
+        for r in o["not_in_openalex"] + o["no_doi"]:
+            con_rows_missing.append((slug, r["title"], r["year"], (r["dois"] or [None])[0], r["type"]))
+    orcid_slot = {(wid, idx): slug for slug, o in orcid.items() for wid, idx in o["added"].items()}
 
     args.out.unlink(missing_ok=True)
     con = sqlite3.connect(args.out)
@@ -274,7 +289,7 @@ def main() -> None:
                     con.execute("INSERT INTO authorships VALUES (?,?,?,?,?,?,?,?)", (
                         wid, idx, aid, a["author"].get("display_name"), a.get("raw_author_name"),
                         a.get("author_position"), int(bool(a.get("is_corresponding"))),
-                        author_to_slug.get(aid)))
+                        author_to_slug.get(aid) or orcid_slot.get((wid, idx))))
                     if not a.get("institutions"):
                         for raw in a.get("raw_affiliation_strings") or []:
                             m = aff_matches.get(" ".join(raw.split()))
@@ -295,13 +310,19 @@ def main() -> None:
                             int(f"https://openalex.org/{UW_OPENALEX_ID}" in (inst.get("lineage") or [])
                                 or iid == UW_OPENALEX_ID)))
 
+            o = orcid.get(slug)
+            added = (o or {}).get("added", {})
             mine = next((a for a in auths if sid(a["author"].get("id")) in my_ids), {})
+            if not mine and added.get(wid, -1) >= 0:
+                mine = auths[added[wid]]
+            in_orcid = None if o is None else int(wid in added or wid in o["confirmed_set"])
             flag = flags.get(wid, {})
-            con.execute("INSERT OR REPLACE INTO faculty_works VALUES (?,?,?,?,?,?,?,?,?)", (
+            con.execute("INSERT OR REPLACE INTO faculty_works VALUES (?,?,?,?,?,?,?,?,?,?,?)", (
                 slug, wid, flag.get("status", "keep"), json.dumps(flag.get("reasons", [])),
                 flag.get("method"), flag.get("note"), mine.get("author_position"),
                 int(bool(mine.get("is_corresponding"))),
-                int(any(sid(i.get("id")) == UW_OPENALEX_ID for i in mine.get("institutions") or []))))
+                int(any(sid(i.get("id")) == UW_OPENALEX_ID for i in mine.get("institutions") or [])),
+                "orcid" if wid in added else "openalex", in_orcid))
 
     # institutions: every one referenced by an authorship, plus the orgs they roll up to
     used = {r[0] for r in con.execute("SELECT DISTINCT institution_id FROM authorship_institutions")}
@@ -316,6 +337,7 @@ def main() -> None:
                          n["lat"], n["lon"], n["parent_id"], n["org_id"]))
         elif base:
             rows.append(base + (None, None, None, None, None, iid))
+    con.executemany("INSERT INTO orcid_missing VALUES (?,?,?,?,?)", con_rows_missing)
     con.executemany("INSERT INTO institutions VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)", rows)
     n_tagged = load_topics(con, args.tags)
     con.commit()
@@ -335,6 +357,11 @@ def main() -> None:
     print(f"  ror-matched affils   {n_ror}")
     print(f"  truncated bylines    {q('SELECT COUNT(*) FROM works WHERE authors_truncated=1')}")
     print(f"  topic-tagged works   {n_tagged}")
+    if orcid:
+        n_listed = q("SELECT COUNT(*) FROM faculty_works WHERE in_orcid=1")
+        n_only = q("SELECT COUNT(*) FROM faculty_works WHERE source='orcid'")
+        print(f"  ORCID                {len(orcid)} faculty; {n_listed} links listed in ORCID, "
+              f"{n_only} found only through ORCID, {len(con_rows_missing)} ORCID works missing from OpenAlex")
     con.close()
 
 

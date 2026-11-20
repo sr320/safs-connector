@@ -29,7 +29,7 @@ def _throttle(host: str, min_interval: float) -> None:
 
 
 def cached_get(url: str, params: dict | None = None, *, min_interval: float = 0.15,
-               refresh: bool = False, as_json: bool = True):
+               refresh: bool = False, as_json: bool = True, headers: dict | None = None):
     """GET with a disk cache under data/raw/http/. Returns parsed JSON or text."""
     key_src = url + "?" + json.dumps(params or {}, sort_keys=True)
     key = hashlib.sha1(key_src.encode()).hexdigest()
@@ -49,8 +49,14 @@ def cached_get(url: str, params: dict | None = None, *, min_interval: float = 0.
     host = httpx.URL(url).host
     for attempt in range(5):
         _throttle(host, min_interval)
-        r = httpx.get(url, params=params, headers={"User-Agent": USER_AGENT},
-                      timeout=60, follow_redirects=True)
+        try:
+            r = httpx.get(url, params=params, headers={"User-Agent": USER_AGENT, **(headers or {})},
+                          timeout=60, follow_redirects=True)
+        except httpx.TransportError:  # dropped connection, DNS or TLS hiccup: back off and retry
+            if attempt == 4:
+                raise
+            time.sleep(2 ** (attempt + 1))
+            continue
         if r.status_code in (429, 500, 502, 503, 504):
             time.sleep(2 ** attempt)
             continue
