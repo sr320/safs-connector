@@ -1,8 +1,31 @@
 # Human decisions on individual papers, overriding pipeline/04_check_attribution.py.
 # Format:  <faculty-slug>:  { <OpenAlex work id>: keep | drop }
 # Work IDs are listed per faculty in data/attribution.json and in safs.sqlite (faculty_works).
-#
-# example:
-# steven-roberts:
-#   W1859128757: drop   # 1989 Xenopus paper by a different S. Roberts
-{}
+
+# Reviewed 2026-11-19: the 16 papers left as "suspect" by the Claude attribution review.
+carter-smith:
+  W2560697837: drop   # 2016 pitcher-plant moth paper; no shared co-authors, different field
+chelsea-wood:
+  W3165070297: drop   # 2013 ASM education conference program (96 names), not a paper
+corey-garza:
+  W2990501158: drop   # 2009 AGU Chinook abstract; almost certainly Carlos Garza (NOAA)
+graham-young:
+  W1992410005: keep   # 1989 striped bass toxicology with Howard Bern, his Berkeley mentor
+heili-lowman:         # Cambridge Structural Database crystal structures (undergrad chemistry; unverifiable, off-field)
+  W4397303152: drop
+  W4397330552: drop
+  W4397336023: drop
+  W4397442013: drop
+  W4397509855: drop
+  W4397264184: drop
+julia-parish:
+  W4386442987: drop   # BAMS State of the Climate 2023 front matter; her Arctic chapter is kept
+julian-olden:
+  W4394279282: drop   # Figshare "Network23_test16_2025", apparent test upload
+  W4394512280: drop   # duplicate of the above
+kristin-laidre:
+  W3027842194: drop   # 2014 Nature jobs-section item, misattributed
+steven-roberts:
+  W4394246925: keep   # 2015 Figshare "Theshold data" with Halley Froehlich
+thomas-quinn:
+  W4394502612: keep   # 2016 Figshare GLM appendix with McLean and Bentzen
