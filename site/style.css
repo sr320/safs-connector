@@ -74,10 +74,10 @@ h3 { font-size: 14px; margin: 0 0 8px; color: var(--text-secondary); font-weight
   padding: 16px 24px 8px; max-width: 1400px; margin: 0 auto;
 }
 .sub { margin: 2px 0 0; color: var(--text-secondary); }
-.tabs { display: flex; gap: 4px; }
+.tabs { display: flex; flex-wrap: wrap; gap: 4px; max-width: 100%; }
 .tabs button {
   font: inherit; border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary);
-  padding: 6px 14px; border-radius: 8px; cursor: pointer;
+  padding: 6px 14px; border-radius: 8px; cursor: pointer; white-space: nowrap;
 }
 .tabs button[aria-selected="true"] { background: var(--text-primary); color: var(--surface-1); }
 

@@ -12,7 +12,7 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "
 const fmt = d3.format(",");
 
 /* ------------------------------------------------------------------ load */
-Promise.all([d3.json("data/meta.json"), d3.json("data/works.json")]).then(([meta, w]) => {
+Promise.all([d3.json("data/meta.json?v=" + window.V), d3.json("data/works.json?v=" + window.V)]).then(([meta, w]) => {
   S.meta = meta;
   S.works = w.rows.map((r) => Object.fromEntries(w.cols.map((c, i) => [c, r[i]])));
   meta.faculty.forEach((f) => S.fac.set(f.slug, f));
