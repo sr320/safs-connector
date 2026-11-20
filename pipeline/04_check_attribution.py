@@ -221,7 +221,17 @@ def main() -> None:
         by_id = {sid(w["id"]): w for w in works}
         flags, profile = assess(works, meta["author_ids"])
 
-        suspects = [k for k, v in flags.items() if v["status"] == "suspect"]
+        # Reuse earlier Claude decisions so reruns only send new suspects (stable + cheap).
+        prev_flags = (previous.get(slug) or {}).get("works", {})
+        for k, v in flags.items():
+            pv = prev_flags.get(k) or {}
+            if v["status"] == "suspect" and str(pv.get("method", "")).startswith("claude") \
+                    and pv.get("status") in ("keep", "drop", "suspect"):
+                v.update({key: pv[key] for key in ("status", "method", "note", "confidence") if key in pv})
+                v["reviewed"] = True
+        suspects = [k for k, v in flags.items() if v["status"] == "suspect" and not v.get("reviewed")]
+        for v in flags.values():
+            v.pop("reviewed", None)
         if use_llm and suspects:
             import anthropic
             try:
