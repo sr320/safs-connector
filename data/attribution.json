@@ -550,11 +550,11 @@
     "note": "Nature-based infrastructure piece from Duke, where Smith trained, fits their research on shorelines and nature-based solutions."
    },
    "W2560697837": {
-    "status": "suspect",
+    "status": "drop",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
     "note": "Pitcher plant moth ecology from Western Kentucky could be early undergraduate work, but it is in a different system."
@@ -694,11 +694,11 @@
     "note": "Same appendix set with meta-analysis, consistent with her work."
    },
    "W3165070297": {
-    "status": "suspect",
+    "status": "drop",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
     "note": "Microbiology education conference abstract collection; possibly she contributed an abstract as a grad student but ambiguous."
@@ -1450,11 +1450,11 @@
     "note": "GIS and bathymetry-based distribution modeling at CSUMB fits his research."
    },
    "W2990501158": {
-    "status": "suspect",
+    "status": "drop",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
     "note": "Salmon climate topic is less typical, and a fisheries geneticist named Carlos Garza works on Chinook, so the byline is ambiguous."
@@ -1654,11 +1654,11 @@
     "note": "Fish endocrinology at UC Berkeley fits his early career (Bern lab)."
    },
    "W1992410005": {
-    "status": "suspect",
+    "status": "keep",
     "reasons": [
      "pre_career"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.33,
     "subfield_share": 0.029,
     "note": "Fish toxicology of a pesticide in striped bass; plausible Berkeley-era collaboration but no affiliation given."
@@ -1812,61 +1812,61 @@
     "note": "SCCWRP and UNR affiliations match her known career path in aquatic research."
    },
    "W4397303152": {
-    "status": "suspect",
+    "status": "drop",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
     "note": "Rare name, but these are inorganic crystal structures with no affiliation; possibly undergraduate chemistry work, but unverifiable."
    },
    "W4397330552": {
-    "status": "suspect",
+    "status": "drop",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
     "note": "Rare name, but these are inorganic crystal structures with no affiliation; possibly undergraduate chemistry work, but unverifiable."
    },
    "W4397336023": {
-    "status": "suspect",
+    "status": "drop",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
     "note": "Rare name, but these are inorganic crystal structures with no affiliation; possibly undergraduate chemistry work, but unverifiable."
    },
    "W4397442013": {
-    "status": "suspect",
+    "status": "drop",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
     "note": "Rare name, but these are inorganic crystal structures with no affiliation; possibly undergraduate chemistry work, but unverifiable."
    },
    "W4397509855": {
-    "status": "suspect",
+    "status": "drop",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
     "note": "Rare name, but these are inorganic crystal structures with no affiliation; possibly undergraduate chemistry work, but unverifiable."
    },
    "W4397264184": {
-    "status": "suspect",
+    "status": "drop",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
     "note": "Rare name, but these are inorganic crystal structures with no affiliation; possibly undergraduate chemistry work, but unverifiable."
@@ -2398,11 +2398,11 @@
   },
   "works": {
    "W4386442987": {
-    "status": "suspect",
+    "status": "drop",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
     "note": "Generic 'Introduction' in BAMS with no byline info; could relate to marine heatwave/climate reports she contributes to, but ambiguous."
@@ -2444,21 +2444,21 @@
     "subfield_share": 0.562
    },
    "W4394279282": {
-    "status": "suspect",
+    "status": "drop",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
     "note": "Figshare dataset with opaque title and no affiliation; cannot tie to his research."
    },
    "W4394512280": {
-    "status": "suspect",
+    "status": "drop",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
     "note": "Duplicate opaque Figshare dataset with no affiliation or topical signal."
@@ -2603,11 +2603,11 @@
     "note": "Supplementary appendix from Animal Conservation (acv) fits her 2016 polar bear conservation work."
    },
    "W3027842194": {
-    "status": "suspect",
+    "status": "drop",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
     "note": "Nature news item 'UK recruitment drive' is likely a misattributed news snippet, though it may mention her."
@@ -3158,11 +3158,11 @@
     "subfield_share": 0.073
    },
    "W4394246925": {
-    "status": "suspect",
+    "status": "keep",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
     "note": "Untitled-ish Figshare dataset; Roberts lab uses Figshare but content unclear."
@@ -3497,11 +3497,11 @@
     "subfield_share": 0.148
    },
    "W4394502612": {
-    "status": "suspect",
+    "status": "keep",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
     "note": "Generic GLM appendix from an Ecological Society-style Figshare deposit could be a salmon ecology paper, but nothing in the record confirms it."
