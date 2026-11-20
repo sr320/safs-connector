@@ -45,6 +45,7 @@ Reruns keep all human edits. Entries with `status: needs_review` need attention.
 
 ```bash
 uv run python pipeline/03_harvest_works.py       # -> data/raw/works/*.jsonl, data/works_index.json
+uv run python pipeline/03b_orcid.py              # -> data/orcid.json (+ ORCID-only works appended)
 uv run python pipeline/04_check_attribution.py   # -> data/attribution.json
 uv run python pipeline/07_build_db.py            # -> data/safs.sqlite
 uv run python pipeline/08_coverage_report.py     # -> data/coverage.md
@@ -56,6 +57,15 @@ uv run python pipeline/08_coverage_report.py     # -> data/coverage.md
 | `data/coverage.md` | Per-faculty counts of kept, suspect, and dropped papers, year span, and top partners, with a Google Scholar link for comparison |
 | `data/attribution.json` | Flags on papers that may belong to someone else with the same name |
 | `config/work_overrides.yaml` | **Human** keep or drop decisions on individual papers |
+| `data/orcid.json` | Per-faculty ORCID cross-check: confirmed, added, and missing works |
+
+### ORCID cross-check
+Researchers curate their own ORCID records, so `03b_orcid.py` uses them to check OpenAlex in both directions (faculty without an ORCID iD, or with an empty record, are skipped):
+- **Confirmed**: a harvested paper whose DOI, or exact title, is in the person's ORCID record. `04_check_attribution.py` keeps these without review (errata excepted), and `faculty_works.in_orcid = 1`.
+- **Added**: an ORCID DOI that OpenAlex has but did not credit to the person's profile, usually a split OpenAlex profile or a byline OpenAlex truncated to the first author. The work is fetched and treated like any harvested paper, with `faculty_works.source = 'orcid'`.
+- **Missing**: ORCID works OpenAlex cannot supply (no DOI, or a DOI it does not index). They are listed in the `orcid_missing` table and at the end of `data/coverage.md`.
+
+A preprint DOI in ORCID is mapped to the published version when OpenAlex has merged the two.
 
 ### Misattributed papers
 Even the right OpenAlex profile can contain a namesake's papers, such as 1960s urology, 1970s astronomy, or 1940s metallurgy. `04_check_attribution.py` builds an "anchor" set: the papers whose byline for that faculty member lists UW. It then flags each other paper as:

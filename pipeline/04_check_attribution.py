@@ -14,7 +14,9 @@ urology or 1940s metallurgy by a namesake). For each faculty member:
        paratext         erratum / paratext / retracted
   3. Suspects (any reason except paratext) go to Claude for a keep/drop call when
      credentials are available; otherwise they stay `suspect`.
-  4. config/work_overrides.yaml (human) beats everything.
+  4. Works listed in the faculty member's ORCID record (data/orcid.json, from
+     03b_orcid.py) are kept without review, except errata/paratext.
+  5. config/work_overrides.yaml (human) beats everything.
 
 Writes data/attribution.json: {slug: {work_id: {status, reasons, method, note}}}
   status: keep | suspect | drop     (works not listed are `keep`)
@@ -205,6 +207,8 @@ def main() -> None:
     index = json.loads((DATA / "works_index.json").read_text())
     human = (yaml.safe_load(WORK_OVERRIDES.read_text()) if WORK_OVERRIDES.exists() else None) or {}
     previous = json.loads(OUT.read_text()) if OUT.exists() else {}
+    orcid_path = DATA / "orcid.json"
+    orcid = json.loads(orcid_path.read_text()) if orcid_path.exists() else {}
     use_llm = not args.no_llm and have_claude_credentials()
     print(f"Decider for suspects: {'Claude (' + CLAUDE_MODEL + ')' if use_llm else 'none (heuristic flags only)'}")
 
@@ -220,6 +224,12 @@ def main() -> None:
         works = [json.loads(line) for line in path.open()]
         by_id = {sid(w["id"]): w for w in works}
         flags, profile = assess(works, meta["author_ids"])
+        # The person lists these in their own ORCID record: keep without asking Claude.
+        o = orcid.get(slug) or {}
+        for wid in set(o.get("confirmed") or []) | set(o.get("added") or {}):
+            if wid in flags and "paratext" not in flags[wid]["reasons"]:
+                flags[wid].update({"status": "keep", "method": "orcid",
+                                   "note": "Listed in the faculty member's ORCID record."})
 
         # Reuse earlier Claude decisions so reruns only send new suspects (stable + cheap).
         prev_flags = (previous.get(slug) or {}).get("works", {})

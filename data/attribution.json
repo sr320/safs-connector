@@ -228,10 +228,10 @@
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Editorial in Zoology fits his editorial roles."
+    "note": "Listed in the faculty member's ORCID record."
    },
    "W299399175": {
     "status": "drop",
@@ -267,30 +267,30 @@
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "He wrote the Biomechanics column in Natural History."
+    "note": "Listed in the faculty member's ORCID record."
    },
    "W2274100782": {
     "status": "keep",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Natural History biomechanics column by him."
+    "note": "Listed in the faculty member's ORCID record."
    },
    "W2063570803": {
     "status": "keep",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Tendon biomechanics at UC Irvine matches his earlier position."
+    "note": "Listed in the faculty member's ORCID record."
    },
    "W2066646653": {
     "status": "drop",
@@ -498,10 +498,10 @@
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Spatio-temporal statistical modeling fits his quantitative/epidemic modeling side work, and the byline name matches."
+    "note": "Listed in the faculty member's ORCID record."
    },
    "W1791356047": {
     "status": "keep",
@@ -550,14 +550,14 @@
     "note": "Nature-based infrastructure piece from Duke, where Smith trained, fits their research on shorelines and nature-based solutions."
    },
    "W2560697837": {
-    "status": "suspect",
+    "status": "drop",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Pitcher plant moth ecology from Western Kentucky could be early undergraduate work, but it is in a different system."
+    "note": "Pitcher plant moth smoke response from Western Kentucky University is an entomology topic outside coastal ecology, but it could conceivably be early student work; not clearly theirs or not."
    },
    "W4397572322": {
     "status": "drop",
@@ -694,14 +694,14 @@
     "note": "Same appendix set with meta-analysis, consistent with her work."
    },
    "W3165070297": {
-    "status": "suspect",
+    "status": "drop",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Microbiology education conference abstract collection; possibly she contributed an abstract as a grad student but ambiguous."
+    "note": "Conference abstract collection for undergraduate microbiology educators; Chelsea L. Wood (Stanford PhD, then Michigan fellow in 2013) could plausibly have an education abstract there, but the subject is far from her research and no affiliation is given."
    },
    "W2183450751": {
     "status": "keep",
@@ -1414,70 +1414,70 @@
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "CSU Monterey Bay marine habitat associations fit his prior affiliation and spatial ecology work."
+    "note": "Listed in the faculty member's ORCID record."
    },
    "W2165944770": {
     "status": "keep",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Landscape covariates and species distribution modeling fits his landscape ecology approach; a plausible collaboration."
+    "note": "Listed in the faculty member's ORCID record."
    },
    "W1994832034": {
     "status": "keep",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Monterey Bay coastal study at CSU Monterey Bay matches his earlier affiliation."
+    "note": "Listed in the faculty member's ORCID record."
    },
    "W2171833150": {
     "status": "keep",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "GIS and bathymetry-based distribution modeling at CSUMB fits his research."
+    "note": "Listed in the faculty member's ORCID record."
    },
    "W2990501158": {
-    "status": "suspect",
+    "status": "drop",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Salmon climate topic is less typical, and a fisheries geneticist named Carlos Garza works on Chinook, so the byline is ambiguous."
+    "note": "A 2009 AGU abstract on Chinook salmon climate variability is a plausible marine-science collaboration for Garza (then at CSU Monterey Bay), but the topic is outside his spatial ecology focus and the byline lists no affiliation, so authorship cannot be confirmed."
    },
    "W2068005633": {
     "status": "keep",
     "reasons": [
      "pre_career"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.33,
     "subfield_share": 0.231,
-    "note": "Spatial scale and polychaete diversity is landscape ecology of marine invertebrates, consistent with his early career."
+    "note": "Listed in the faculty member's ORCID record."
    },
    "W2014170675": {
     "status": "keep",
     "reasons": [
      "pre_career"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.67,
     "subfield_share": 0.231,
-    "note": "Mussel predator ecology at UCSB fits his PhD-era marine invertebrate ecology."
+    "note": "Listed in the faculty member's ORCID record."
    }
   }
  },
@@ -1654,14 +1654,14 @@
     "note": "Fish endocrinology at UC Berkeley fits his early career (Bern lab)."
    },
    "W1992410005": {
-    "status": "suspect",
+    "status": "keep",
     "reasons": [
      "pre_career"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.33,
     "subfield_share": 0.029,
-    "note": "Fish toxicology of a pesticide in striped bass; plausible Berkeley-era collaboration but no affiliation given."
+    "note": "Fish hepatic metabolism in fresh- vs saltwater striped bass fits early-career comparative fish physiology/osmoregulation work and later contaminant interests."
    },
    "W2005244938": {
     "status": "keep",
@@ -1786,90 +1786,90 @@
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Aquatic sciences community piece with UNR affiliation, consistent with her postdoc."
+    "note": "Listed in the faculty member's ORCID record."
    },
    "W4315647233": {
     "status": "keep",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Ecology synthesis paper with UNR affiliation fits her synthesis and LTER work."
+    "note": "Listed in the faculty member's ORCID record."
    },
    "W4281767717": {
     "status": "keep",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "SCCWRP and UNR affiliations match her known career path in aquatic research."
+    "note": "Listed in the faculty member's ORCID record."
    },
    "W4397303152": {
-    "status": "suspect",
+    "status": "drop",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Rare name, but these are inorganic crystal structures with no affiliation; possibly undergraduate chemistry work, but unverifiable."
+    "note": "Very rare name and pre-PhD timing could fit undergraduate chemistry work, but crystallography is far from her field."
    },
    "W4397330552": {
-    "status": "suspect",
+    "status": "drop",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Rare name, but these are inorganic crystal structures with no affiliation; possibly undergraduate chemistry work, but unverifiable."
+    "note": "Very rare name and pre-PhD timing could fit undergraduate chemistry work, but crystallography is far from her field."
    },
    "W4397336023": {
-    "status": "suspect",
+    "status": "drop",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Rare name, but these are inorganic crystal structures with no affiliation; possibly undergraduate chemistry work, but unverifiable."
+    "note": "Very rare name and pre-PhD timing could fit undergraduate chemistry work, but crystallography is far from her field."
    },
    "W4397442013": {
-    "status": "suspect",
+    "status": "drop",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Rare name, but these are inorganic crystal structures with no affiliation; possibly undergraduate chemistry work, but unverifiable."
+    "note": "Very rare name and pre-PhD timing could fit undergraduate chemistry work, but crystallography is far from her field."
    },
    "W4397509855": {
-    "status": "suspect",
+    "status": "drop",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Rare name, but these are inorganic crystal structures with no affiliation; possibly undergraduate chemistry work, but unverifiable."
+    "note": "Very rare name and pre-PhD timing could fit undergraduate chemistry work, but crystallography is far from her field."
    },
    "W4397264184": {
-    "status": "suspect",
+    "status": "drop",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Rare name, but these are inorganic crystal structures with no affiliation; possibly undergraduate chemistry work, but unverifiable."
+    "note": "Very rare name and pre-PhD timing could fit undergraduate chemistry work, but crystallography is far from her field."
    }
   }
  },
@@ -1959,10 +1959,10 @@
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Gephart was at American University before UW and works on environmental synthesis research."
+    "note": "Listed in the faculty member's ORCID record."
    },
    "W4213341283": {
     "status": "drop",
@@ -2030,6 +2030,33 @@
     "topic_fit": 0.0,
     "subfield_share": 0.0,
     "note": "This appears to be the Miami University thesis version of the same green advertising work, consistent with her early training."
+   },
+   "W7147616997": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.231
+   },
+   "W4416507857": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.67,
+    "subfield_share": 0.231
+   },
+   "W3094628875": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 1.0,
+    "subfield_share": 0.128
    }
   }
  },
@@ -2054,10 +2081,10 @@
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.0,
     "subfield_share": 0.017,
-    "note": "Horne & Schneider 1995 Oikos on spatial variance fits John K. Horne's early quantitative ecology work on spatial scale."
+    "note": "Listed in the faculty member's ORCID record."
    }
   }
  },
@@ -2378,6 +2405,16 @@
     "topic_fit": 0.0,
     "subfield_share": 0.0,
     "note": "1968 clinical paper, impossible timing."
+   },
+   "W4389352918": {
+    "status": "keep",
+    "reasons": [
+     "off_topic"
+    ],
+    "method": "orcid",
+    "topic_fit": 0.0,
+    "subfield_share": 0.0,
+    "note": "Listed in the faculty member's ORCID record."
    }
   }
  },
@@ -2398,14 +2435,14 @@
   },
   "works": {
    "W4386442987": {
-    "status": "suspect",
+    "status": "drop",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Generic 'Introduction' in BAMS with no byline info; could relate to marine heatwave/climate reports she contributes to, but ambiguous."
+    "note": "Generic 'Introduction' in BAMS with no byline info; could relate to marine heatwave reports but cannot be verified."
    }
   }
  },
@@ -2444,24 +2481,24 @@
     "subfield_share": 0.562
    },
    "W4394279282": {
-    "status": "suspect",
+    "status": "drop",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Figshare dataset with opaque title and no affiliation; cannot tie to his research."
+    "note": "Figshare dataset with a cryptic title and no affiliation; the name matches, but the topic is unverifiable."
    },
    "W4394512280": {
-    "status": "suspect",
+    "status": "drop",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Duplicate opaque Figshare dataset with no affiliation or topical signal."
+    "note": "Duplicate Figshare dataset with a cryptic title and no affiliation; the name matches, but the topic is unverifiable."
    },
    "W4248803165": {
     "status": "drop",
@@ -2554,6 +2591,15 @@
     "method": "heuristic",
     "topic_fit": 1.0,
     "subfield_share": 0.616
+   },
+   "W4240983653": {
+    "status": "drop",
+    "reasons": [
+     "paratext"
+    ],
+    "method": "heuristic",
+    "topic_fit": 0.67,
+    "subfield_share": 0.616
    }
   }
  },
@@ -2603,14 +2649,14 @@
     "note": "Supplementary appendix from Animal Conservation (acv) fits her 2016 polar bear conservation work."
    },
    "W3027842194": {
-    "status": "suspect",
+    "status": "drop",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Nature news item 'UK recruitment drive' is likely a misattributed news snippet, though it may mention her."
+    "note": "A brief Nature correspondence piece with no affiliation listed; the topic does not clearly match her Arctic ecology work, but there is no clear evidence it belongs to someone else."
    }
   }
  },
@@ -2707,80 +2753,80 @@
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Ecopoetic analysis of mollusc poetry fits her arts-science interests."
+    "note": "Listed in the faculty member's ORCID record."
    },
    "W4323666802": {
     "status": "keep",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Molluscs and Neruda poetry with STEAM framing fits her; Quest University teaching role is plausible."
+    "note": "Listed in the faculty member's ORCID record."
    },
    "W4410990585": {
     "status": "keep",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Neruda biology-poetry work matches her ecopoetics research line."
+    "note": "Listed in the faculty member's ORCID record."
    },
    "W4249640715": {
     "status": "keep",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Wildlife disease dynamics continues her Alberta West Nile modeling postdoc work."
+    "note": "Listed in the faculty member's ORCID record."
    },
    "W1492240102": {
     "status": "keep",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "West Nile modeling at Alberta fits her invasion-ecology postdoc period."
+    "note": "Listed in the faculty member's ORCID record."
    },
    "W2121792593": {
     "status": "keep",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Same Alberta West Nile modeling series, consistent with invasion analysis."
+    "note": "Listed in the faculty member's ORCID record."
    },
    "W1973481613": {
     "status": "keep",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Same Alberta West Nile modeling series."
+    "note": "Listed in the faculty member's ORCID record."
    },
    "W2167473924": {
     "status": "keep",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Invasion analysis of West Nile, with Great Lakes invasion institute coauthors, fits her invasions background."
+    "note": "Listed in the faculty member's ORCID record."
    }
   }
  },
@@ -2804,10 +2850,10 @@
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Scheuerell worked at NOAA NWFSC before UW and co-developed spatiotemporal ecological models."
+    "note": "Listed in the faculty member's ORCID record."
    },
    "W4394136873": {
     "status": "keep",
@@ -2824,10 +2870,10 @@
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Spatial factor analysis with NOAA NWFSC matches his statistical modeling career at NOAA."
+    "note": "Listed in the faculty member's ORCID record."
    }
   }
  },
@@ -3054,10 +3100,10 @@
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "USGS affiliation matches her prior career and adaptive management decision-making work."
+    "note": "Listed in the faculty member's ORCID record."
    },
    "W2062054491": {
     "status": "drop",
@@ -3073,20 +3119,20 @@
     "reasons": [
      "pre_career"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.33,
     "subfield_share": 0.082,
-    "note": "Early-career herpetology work at Nebraska consistent with her training and reptile research."
+    "note": "Listed in the faculty member's ORCID record."
    },
    "W2178153171": {
     "status": "keep",
     "reasons": [
      "pre_career"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.67,
     "subfield_share": 0.082,
-    "note": "Same Nebraska box turtle project from her early training; exact full name match."
+    "note": "Listed in the faculty member's ORCID record."
    }
   }
  },
@@ -3158,14 +3204,14 @@
     "subfield_share": 0.073
    },
    "W4394246925": {
-    "status": "suspect",
+    "status": "keep",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Untitled-ish Figshare dataset; Roberts lab uses Figshare but content unclear."
+    "note": "Generic Figshare dataset with no affiliation or topic info; Roberts does share data on Figshare but this cannot be confirmed."
    },
    "W4394474887": {
     "status": "keep",
@@ -3292,10 +3338,10 @@
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "orcid",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Comparative molecular physiology with Notre Dame/OSU/MBL fits his early training."
+    "note": "Listed in the faculty member's ORCID record."
    },
    "W4410090077": {
     "status": "drop",
@@ -3497,14 +3543,14 @@
     "subfield_share": 0.148
    },
    "W4394502612": {
-    "status": "suspect",
+    "status": "keep",
     "reasons": [
      "off_topic"
     ],
-    "method": "claude:claude-opus-5-5",
+    "method": "human",
     "topic_fit": 0.0,
     "subfield_share": 0.0,
-    "note": "Generic GLM appendix from an Ecological Society-style Figshare deposit could be a salmon ecology paper, but nothing in the record confirms it."
+    "note": "Generic Figshare appendix (likely an ESA journal supplement) with matching name including middle initial but no topic or affiliation information to confirm."
    },
    "W2263094250": {
     "status": "drop",
