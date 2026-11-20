@@ -57,10 +57,16 @@ def main() -> None:
             cache[k] = np.asarray(v, dtype=np.float32)
         CACHE.parent.mkdir(parents=True, exist_ok=True)
         np.savez_compressed(CACHE, **{k: cache[k] for k in keys})
+    # UMAP output differs slightly between machines, so keep the current layout unless the papers changed
+    if not todo and OUT.exists():
+        old = {r[0] for r in json.loads(OUT.read_text())["rows"]}
+        if old == {wid for wid, _ in items}:
+            print(f"No paper changes; keeping {OUT.relative_to(ROOT)}")
+            return
     X = np.stack([cache[k] for k in keys])
 
     print(f"UMAP on {len(X)} papers ...")
-    xy = umap.UMAP(n_neighbors=20, min_dist=0.15, metric="cosine", random_state=42).fit_transform(X)
+    xy = umap.UMAP(n_neighbors=20, min_dist=0.15, metric="cosine", random_state=42, compatibility_layout=True).fit_transform(X)
     # scale to 0..1 on the 0.5-99.5 percentile range so a few outliers don't squeeze the map
     lo, hi = np.percentile(xy, 0.5, axis=0), np.percentile(xy, 99.5, axis=0)
     xy = np.clip((xy - lo) / (hi - lo), 0, 1)

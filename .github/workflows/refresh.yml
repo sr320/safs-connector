@@ -94,13 +94,17 @@ jobs:
             --notes "SQLite database from the monthly refresh. Unzip with: gunzip safs.sqlite.gz" \
             || gh release upload "$tag" data/safs.sqlite.gz --clobber
 
+      - name: Today's date
+        id: today
+        run: echo "date=$(date -u +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+
       - name: Open pull request
         uses: peter-evans/create-pull-request@v7
         with:
           branch: data-refresh
           delete-branch: true
           commit-message: "Monthly data refresh"
-          title: "Monthly data refresh (${{ github.run_started_at }})"
+          title: "Monthly data refresh (${{ steps.today.outputs.date }})"
           body: |
             Automated refresh by `.github/workflows/refresh.yml`.
 
