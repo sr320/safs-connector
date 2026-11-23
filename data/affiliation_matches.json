@@ -23,12 +23,76 @@
   "score": 1.0,
   "source": "ror-affiliation"
  },
+ "Blue Whale Study Narrawong Victoria Australia": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I4405290517",
+  "ror": "02y7nhj98",
+  "ror_name": "Blue Whale Study",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "Canadian Fisheries Research Network, St. Andrews Biological Station, St. Andrews NB E5B 2L9, Canada": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I4405289752",
+  "ror": "023ys8f14",
+  "ror_name": "St. Andrews Biological Station",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "Centre for Conservation Research, Calgary Zoological Society, 1300 Zoo Road NE, Calgary, AB T2E 7V6, Canada": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I4405291836",
+  "ror": "04bpc2y50",
+  "ror_name": "Calgary Zoo",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "Centre for Conservation Research, Calgary Zoological Society, Calgary, AB, Canada": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I4405291836",
+  "ror": "04bpc2y50",
+  "ror_name": "Calgary Zoo",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "Centre for Whale Research (WA) Inc., Fremantle, Western Australia, Australia": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I4405288911",
+  "ror": "017evdz63",
+  "ror_name": "Centre for Whale Research",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "Centre for Whale Research (Western Australia) Inc., Fremantle, Western Australia, Australia": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I4405288911",
+  "ror": "017evdz63",
+  "ror_name": "Centre for Whale Research",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "Centre for Whale Research Fremantle Western Australia Australia": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I4405288911",
+  "ror": "017evdz63",
+  "ror_name": "Centre for Whale Research",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
  "Channel Islands National Marine Sanctuary, Santa Barbara, CA 93101, USA": {
   "matching_type": "SINGLE SEARCH",
   "openalex_id": "I4405260739",
   "ror": "046tzsh56",
   "ror_name": "Channel Islands National Park",
   "score": 0.97,
+  "source": "ror-affiliation"
+ },
+ "Conservation and Research Department Assiniboine Park Conservancy Winnipeg Manitoba Canada": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I4405289818",
+  "ror": "026a7pm49",
+  "ror_name": "Assiniboine Park Conservancy",
+  "score": 1.0,
   "source": "ror-affiliation"
  },
  "DJEnvironmental, Harpers Mill, United Kingdom": {
@@ -87,6 +151,14 @@
   "score": 1.0,
   "source": "ror-affiliation"
  },
+ "Hornsby Shire Council Hornsby New South Wales Australia": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I4405292075",
+  "ror": "04m8hwe45",
+  "ror_name": "Hornsby Shire Council",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
  "Institute of Physics and Mathematics, Komi Science Center UrD RAS, Syktyvkar, Russia": {
   "matching_type": "SINGLE SEARCH",
   "openalex_id": "I4210158548",
@@ -116,6 +188,14 @@
   "openalex_id": "I2801568770",
   "ror": "01k4cfw02",
   "ror_name": "Mater Misericordiae Hospital",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "Pacific Biological Station": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I4405292734",
+  "ror": "05bbwpz88",
+  "ror_name": "Pacific Biological Station",
   "score": 1.0,
   "source": "ror-affiliation"
  },
@@ -156,6 +236,22 @@
   "openalex_id": "I2802090665",
   "ror": "01mtkd993",
   "ror_name": "University of Alaska System",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "Teton Raptor Center, Jackson Hole, WY, USA": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I4405288831",
+  "ror": "014gxf578",
+  "ror_name": "Teton Raptor Center",
+  "score": 1.0,
+  "source": "ror-affiliation"
+ },
+ "The Calgary Zoo Foundation Calgary AB Canada": {
+  "matching_type": "SINGLE SEARCH",
+  "openalex_id": "I4405291836",
+  "ror": "04bpc2y50",
+  "ror_name": "Calgary Zoo",
   "score": 1.0,
   "source": "ror-affiliation"
  },

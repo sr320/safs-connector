@@ -1,1 +1,270 @@
-{}
+{
+ "custom_id": "t-185c17f57f4a5ca018a3",
+ "work_ids": [
+  "W1522727408",
+  "W7236763803"
+ ],
+ "params": {
+  "model": "claude-opus-5-5",
+  "max_tokens": 8000,
+  "system": [
+   {
+    "type": "text",
+    "text": "You tag scientific papers by faculty of the University of Washington School of Aquatic and Fishery Sciences (SAFS) so they can be explored by topic.\n\nFor EACH paper in the input, return one entry (same work_id) with:\n- primary_theme: the single best theme id for what the paper is ABOUT (its subject or question), not the method it uses. A stock-assessment model is fisheries-management; use quantitative-methods only when a new method, model or software is itself the main contribution.\n- subtopics: 1-4 subtopic ids from ANY theme, most central first. Prefer precision: only tag a subtopic the paper substantially addresses.\n- taxon_groups: focal organism groups ('none' if no focal organism).\n- species: up to 5 focal species by common name (empty if none or many).\n- ecosystems: where the work is set ('laboratory' for lab-only, 'global-multiple' for syntheses spanning many systems, 'none' if not applicable).\n- regions: up to 3 specific geographic places studied, as they'd appear on a map ('Global' for global analyses, empty if not place-based).\n- methods: main approaches used.\n- summary: one plain-language sentence (max 25 words) saying what the paper found or did.\nBase tags on the title, abstract and keywords. When there is no abstract, tag conservatively from the title and venue. Datasets, software and errata still get tags describing their subject.\n\nTHEMES AND SUBTOPICS (id: name - description)\n[fisheries-management] Fisheries Science & Management\n  - stock-assessment: Stock assessment & population estimation - Assessment models, abundance/biomass estimation, catch-effort standardization, survey design\n  - management-strategy-evaluation: Management strategy evaluation & harvest policy - MSE, harvest control rules, reference points, rebuilding plans, decision analysis for fisheries\n  - global-fishery-status: Global & regional fishery status - Status and trends of stocks, overfishing, rebuilding at large scales\n  - fleet-dynamics: Fleet dynamics & fisher behavior - Fishing effort allocation, catch shares/ITQs, compliance, fisher decision-making\n  - bycatch-ecosystem-effects: Bycatch & ecosystem effects of fishing - Bycatch, discards, fishing impacts on food webs and habitats, ecosystem-based fisheries management\n  - small-scale-recreational: Small-scale & recreational fisheries - Artisanal, subsistence, Indigenous and recreational fisheries\n[aquaculture] Aquaculture\n  - shellfish-aquaculture: Shellfish aquaculture - Oyster, clam, mussel, geoduck culture and broodstock\n  - finfish-aquaculture: Finfish aquaculture & hatcheries - Fish culture, rearing conditions, stocking density, hatchery practices\n  - aquaculture-health: Aquaculture health & disease - Pathogens and mortality events in cultured species\n  - aquaculture-breeding: Breeding & genetic improvement - Selective breeding, broodstock genetics, conditioning for resilience\n[seafood-food-systems] Seafood & Food Systems\n  - seafood-trade: Seafood trade & supply chains - International trade, supply chain shocks, traceability\n  - blue-foods-nutrition: Blue foods & nutrition security - Aquatic foods in diets, nutrition, food security\n  - food-environmental-footprint: Environmental footprint of food production - Life-cycle assessment, food-energy-water nexus, comparison with terrestrial foods\n[population-ecology] Population Ecology & Life History\n  - population-dynamics: Population dynamics & demography - Survival, recruitment, density dependence, population viability (harvested stocks assessed for management go under stock-assessment)\n  - life-history-growth: Life history & growth - Growth, maturation, age structure, life-history trade-offs, indeterminate growth\n  - reproduction-spawning: Reproduction & spawning ecology - Spawning timing and behavior, fecundity, mating systems (embryo/larval biology goes under development-early-life)\n  - portfolio-diversity: Population diversity & portfolio effects - Biocomplexity, stock diversity, asynchrony, response diversity\n[ecosystem-ecology] Community & Ecosystem Ecology\n  - food-webs: Food webs & trophic interactions - Predator-prey dynamics, trophic cascades, diet, forage species\n  - nutrient-cycling: Nutrients - Nutrient subsidies (e.g. salmon-derived), primary production, carbon and nitrogen cycling\n  - community-structure: Community structure & species interactions - Competition, facilitation, succession, zonation, biodiversity-function relationships\n  - habitat-coupling: Habitat coupling & spatial ecology - Cross-habitat linkages, landscape/seascape ecology, connectivity\n  - ecosystem-services: Ecosystem services - Benefits people derive from aquatic ecosystems, valuation of services\n[climate-change] Climate & Ocean Change\n  - warming-heatwaves: Warming & marine heatwaves - Temperature trends, heatwaves, thermal tolerance at population or ecosystem scale\n  - ocean-acidification: Ocean acidification & hypoxia - Carbonate chemistry, low oxygen, multiple stressors\n  - climate-variability-regime-shifts: Climate variability & regime shifts - ENSO, PDO, upwelling, interannual-decadal ocean and climate variability, regime shifts (natural variability, not long-term anthropogenic trend)\n  - sea-ice-polar: Sea ice & polar change - Arctic/Antarctic sea ice loss and its ecological effects\n  - range-phenology-shifts: Range & phenology shifts - Distribution shifts, timing changes, climate vulnerability assessments\n  - climate-adaptation-policy: Climate adaptation & policy - Adapting fisheries, management and communities to climate change; climate policy\n[conservation-biodiversity] Conservation & Biodiversity\n  - threatened-species: Threatened & protected species - Status of at-risk species, recovery, Endangered Species Act listings\n  - biological-invasions: Biological invasions - Non-native species, invasion pathways, impacts and biotic resistance\n  - freshwater-biodiversity: Freshwater biodiversity - Threats to and patterns of freshwater species diversity, homogenization\n  - protected-areas: Protected areas & spatial planning - MPAs, reserves, conservation prioritization\n  - decision-science: Conservation decision science - Structured decision making, adaptive management, value of information\n[habitat-hydrology] Habitat, Hydrology & Restoration\n  - flow-regimes-dams: Flow regimes & dams - Hydrologic alteration, environmental flows, dams and barriers, free-flowing rivers\n  - watershed-land-use: Watershed & land-use effects - Land use, urbanization, sediments, water quality in catchments\n  - coastal-habitat-modification: Coastal habitat modification - Shoreline hardening, living shorelines, coastal development\n  - habitat-restoration: Habitat restoration - Restoration of rivers, wetlands, marshes, reefs, kelp and seagrass\n  - pollution-contaminants: Pollution & contaminants - Contaminants of emerging concern, microplastics, oil spills, toxicology\n[genetics-genomics] Genetics, Genomics & Evolution\n  - population-genetics: Population & conservation genetics - Genetic structure, effective population size, stock identification, kinship/parentage\n  - genomics-transcriptomics: Genomics & transcriptomics - Genome sequencing, SNP discovery, gene expression, RNA-seq\n  - epigenetics: Epigenetics - DNA methylation and other epigenetic mechanisms, plasticity, intergenerational effects\n  - edna-metabarcoding: eDNA & metabarcoding - Environmental DNA, metabarcoding, molecular biodiversity surveys\n  - adaptation-evolution: Adaptation & contemporary evolution - Local adaptation, selection, rapid evolution, hatchery-wild genetic interactions\n[physiology] Physiology & Organismal Biology\n  - reproductive-endocrinology: Reproductive physiology & endocrinology - Hormones, oogenesis, maturation, smoltification\n  - stress-osmoregulation: Stress - Cortisol, energy metabolism, salinity and environmental stress responses\n  - immunology: Immunology & host defense - Immune mechanisms and host-pathogen physiology (disease in cultured animals -> aquaculture-health; in wild populations -> wildlife-disease)\n  - development-early-life: Development & early life stages - Embryos, larvae, settlement, developmental plasticity\n  - symbiosis-calcification: Symbiosis & calcification - Coral-algal symbiosis, heterotrophy in corals, calcification and biomineralization physiology\n  - feeding-energetics: Feeding & bioenergetics - Consumption, growth energetics, suspension feeding, bioenergetics models\n[behavior-movement] Behavior, Movement & Migration\n  - migration-homing: Migration & homing - Migratory timing, navigation, homing, dispersal\n  - collective-behavior: Collective & social behavior - Schooling, group decision-making, social structure, cultural transmission\n  - movement-tracking: Animal movement & tracking - Telemetry, tagging, movement models, habitat use\n  - foraging-behavior: Foraging & predator avoidance behavior - Diel vertical migration, foraging strategies, antipredator behavior\n[disease-parasites] Parasites & Disease Ecology\n  - parasite-ecology: Parasite ecology & conservation - Parasite diversity, community roles, long-term change in parasitism\n  - wildlife-disease: Wildlife & marine disease - Disease outbreaks and pathogens in wild populations (e.g. sea star wasting)\n  - biodiversity-disease-human-health: Biodiversity - Disease transmission to people, schistosomiasis, Lyme, One Health\n[morphology-systematics] Morphology, Biomechanics & Systematics\n  - functional-morphology: Functional morphology & biomechanics - Skeletal mechanics, adhesion, locomotion, bio-inspired design\n  - taxonomy-systematics: Taxonomy - Species descriptions, phylogenies, biogeography\n  - digital-morphology-collections: 3D imaging & natural history collections - CT scanning, digital morphology, museum collections\n[quantitative-methods] Quantitative Methods & Technology\n  - statistical-methods: Statistical methods & Bayesian inference - New statistical methods, Bayesian computation, state-space and time-series models\n  - ecological-modeling: Ecological & simulation modeling - Population/ecosystem models, individual-based models, theoretical ecology\n  - acoustics-remote-sensing: Acoustics & remote sensing - Fisheries/bioacoustics, echosounders, satellite and aerial observation\n  - open-data-reproducibility: Open data - Data management, open science, software tools, research datasets\n[human-dimensions] Human Dimensions, Policy & Society\n  - resource-economics: Resource economics - Bioeconomics, markets, incentives, valuation\n  - governance-policy: Governance & policy - Institutions, co-management, law, international agreements, leadership\n  - community-indigenous: Communities & Indigenous knowledge - Fishing communities, Tribal and Indigenous perspectives, livelihoods\n  - citizen-science: Citizen & community science - Public participation in data collection and monitoring\n  - research-culture-education: Research culture - Diversity, equity and inclusion, mentoring, teaching, early-career researchers\n\nTAXON GROUPS: salmonids, other-bony-fishes, sharks-rays, marine-mammals, birds, reptiles-amphibians, bivalves, crustaceans, corals-cnidarians, echinoderms, cephalopods, other-invertebrates, zooplankton, phytoplankton-microalgae, macroalgae-seagrass-plants, microbes-pathogens, parasites, terrestrial-mammals, humans, none\nECOSYSTEMS: open-ocean, coastal-nearshore, estuary-wetland, coral-reef, kelp-seagrass, intertidal, deep-sea, polar-sea-ice, river-stream, lake, aquaculture-facility, laboratory, terrestrial, global-multiple, none\nMETHODS: field-survey-monitoring, lab-experiment, field-experiment, population-assessment-model, statistical-modeling, simulation-theoretical-model, meta-analysis-synthesis, review-perspective, genomic-sequencing, edna-metabarcoding, telemetry-tagging, acoustics, remote-sensing-gis, stable-isotopes-chemistry, morphology-imaging, economic-analysis, social-science-methods, long-term-dataset, citizen-science, dataset-software-release",
+    "cache_control": {
+     "type": "ephemeral"
+    }
+   }
+  ],
+  "output_config": {
+   "effort": "low",
+   "format": {
+    "type": "json_schema",
+    "schema": {
+     "$defs": {
+      "PaperTags": {
+       "type": "object",
+       "title": "PaperTags",
+       "properties": {
+        "work_id": {
+         "type": "string",
+         "title": "Work Id"
+        },
+        "primary_theme": {
+         "enum": [
+          "fisheries-management",
+          "aquaculture",
+          "seafood-food-systems",
+          "population-ecology",
+          "ecosystem-ecology",
+          "climate-change",
+          "conservation-biodiversity",
+          "habitat-hydrology",
+          "genetics-genomics",
+          "physiology",
+          "behavior-movement",
+          "disease-parasites",
+          "morphology-systematics",
+          "quantitative-methods",
+          "human-dimensions"
+         ],
+         "title": "Primary Theme"
+        },
+        "subtopics": {
+         "type": "array",
+         "description": "1-4 subtopic ids, most central first",
+         "title": "Subtopics",
+         "items": {
+          "enum": [
+           "stock-assessment",
+           "management-strategy-evaluation",
+           "global-fishery-status",
+           "fleet-dynamics",
+           "bycatch-ecosystem-effects",
+           "small-scale-recreational",
+           "shellfish-aquaculture",
+           "finfish-aquaculture",
+           "aquaculture-health",
+           "aquaculture-breeding",
+           "seafood-trade",
+           "blue-foods-nutrition",
+           "food-environmental-footprint",
+           "population-dynamics",
+           "life-history-growth",
+           "reproduction-spawning",
+           "portfolio-diversity",
+           "food-webs",
+           "nutrient-cycling",
+           "community-structure",
+           "habitat-coupling",
+           "ecosystem-services",
+           "warming-heatwaves",
+           "ocean-acidification",
+           "climate-variability-regime-shifts",
+           "sea-ice-polar",
+           "range-phenology-shifts",
+           "climate-adaptation-policy",
+           "threatened-species",
+           "biological-invasions",
+           "freshwater-biodiversity",
+           "protected-areas",
+           "decision-science",
+           "flow-regimes-dams",
+           "watershed-land-use",
+           "coastal-habitat-modification",
+           "habitat-restoration",
+           "pollution-contaminants",
+           "population-genetics",
+           "genomics-transcriptomics",
+           "epigenetics",
+           "edna-metabarcoding",
+           "adaptation-evolution",
+           "reproductive-endocrinology",
+           "stress-osmoregulation",
+           "immunology",
+           "development-early-life",
+           "symbiosis-calcification",
+           "feeding-energetics",
+           "migration-homing",
+           "collective-behavior",
+           "movement-tracking",
+           "foraging-behavior",
+           "parasite-ecology",
+           "wildlife-disease",
+           "biodiversity-disease-human-health",
+           "functional-morphology",
+           "taxonomy-systematics",
+           "digital-morphology-collections",
+           "statistical-methods",
+           "ecological-modeling",
+           "acoustics-remote-sensing",
+           "open-data-reproducibility",
+           "resource-economics",
+           "governance-policy",
+           "community-indigenous",
+           "citizen-science",
+           "research-culture-education"
+          ]
+         }
+        },
+        "taxon_groups": {
+         "type": "array",
+         "title": "Taxon Groups",
+         "items": {
+          "enum": [
+           "salmonids",
+           "other-bony-fishes",
+           "sharks-rays",
+           "marine-mammals",
+           "birds",
+           "reptiles-amphibians",
+           "bivalves",
+           "crustaceans",
+           "corals-cnidarians",
+           "echinoderms",
+           "cephalopods",
+           "other-invertebrates",
+           "zooplankton",
+           "phytoplankton-microalgae",
+           "macroalgae-seagrass-plants",
+           "microbes-pathogens",
+           "parasites",
+           "terrestrial-mammals",
+           "humans",
+           "none"
+          ]
+         }
+        },
+        "species": {
+         "type": "array",
+         "description": "Focal species, common names, max 5",
+         "title": "Species",
+         "items": {
+          "type": "string"
+         }
+        },
+        "ecosystems": {
+         "type": "array",
+         "title": "Ecosystems",
+         "items": {
+          "enum": [
+           "open-ocean",
+           "coastal-nearshore",
+           "estuary-wetland",
+           "coral-reef",
+           "kelp-seagrass",
+           "intertidal",
+           "deep-sea",
+           "polar-sea-ice",
+           "river-stream",
+           "lake",
+           "aquaculture-facility",
+           "laboratory",
+           "terrestrial",
+           "global-multiple",
+           "none"
+          ]
+         }
+        },
+        "regions": {
+         "type": "array",
+         "description": "Specific places studied, max 3, e.g. 'Puget Sound', 'Bristol Bay, Alaska', 'Global'",
+         "title": "Regions",
+         "items": {
+          "type": "string"
+         }
+        },
+        "methods": {
+         "type": "array",
+         "title": "Methods",
+         "items": {
+          "enum": [
+           "field-survey-monitoring",
+           "lab-experiment",
+           "field-experiment",
+           "population-assessment-model",
+           "statistical-modeling",
+           "simulation-theoretical-model",
+           "meta-analysis-synthesis",
+           "review-perspective",
+           "genomic-sequencing",
+           "edna-metabarcoding",
+           "telemetry-tagging",
+           "acoustics",
+           "remote-sensing-gis",
+           "stable-isotopes-chemistry",
+           "morphology-imaging",
+           "economic-analysis",
+           "social-science-methods",
+           "long-term-dataset",
+           "citizen-science",
+           "dataset-software-release"
+          ]
+         }
+        },
+        "summary": {
+         "type": "string",
+         "description": "One plain-language sentence, max 25 words",
+         "title": "Summary"
+        }
+       },
+       "additionalProperties": false,
+       "required": [
+        "work_id",
+        "primary_theme",
+        "subtopics",
+        "taxon_groups",
+        "species",
+        "ecosystems",
+        "regions",
+        "methods",
+        "summary"
+       ]
+      }
+     },
+     "type": "object",
+     "title": "PaperBatchTags",
+     "properties": {
+      "papers": {
+       "type": "array",
+       "title": "Papers",
+       "items": {
+        "$ref": "#/$defs/PaperTags"
+       }
+      }
+     },
+     "additionalProperties": false,
+     "required": [
+      "papers"
+     ]
+    }
+   }
+  },
+  "messages": [
+   {
+    "role": "user",
+    "content": "{\"papers\": [{\"work_id\": \"W1522727408\", \"title\": \"Animal Groups in Three Dimensions: How Species Aggregate\", \"year\": 1997, \"type\": \"book\", \"venue\": \"Cambridge University Press eBooks\", \"keywords\": [\"collective behavior\", \"fish schools\", \"bird flocks\", \"insect swarms\", \"behavioral ecology\"], \"abstract\": \"This book is about the ways in which many animals form groups; for instance, schools of fish, flocks of birds, and swarms of insects. Covering both invertebrate and vertebrate species, the authors investigate three-dimensional animal aggregations from a variety of disciplines, from physics to mathematics to biology. The first section is devoted to the various methods, mainly optical and acoustic, used to collect three-dimensional data over time. The second section focuses on analytical methods used to quantify pattern, group kinetics, and interindividual interactions within the group. The section on behavioural ecology and evolution deals with the functions of aggregative behaviour from the point of view of an inherently selfish individual member. The final section uses models to elucidate how group dynamics at the individual level creates emergent pattern at the level of the group.\"}, {\"work_id\": \"W7236763803\", \"title\": \"Syndromes of multidimensional beta diversity change in invaded metacommunities\", \"year\": 2026, \"type\": \"article\", \"venue\": \"NeoBiota\", \"keywords\": [\"biological invasions\", \"introduced species\", \"metacommunity structure\", \"community reassembly\", \"homogenization\", \"taxonomic beta diversity\"], \"abstract\": \"Beta diversity change Δβ caused by nonnative species introductions is multifaceted (taxonomic, functional, and phylogenetic) and is comprised of three components (total beta diversity, replacement, and richness difference). As such, community change due to species invasions represents a nine-dimensional phenomenon. These complementary dimensions can be simplified by delineating Δβ syndromes—groups of local communities within a broader metacommunity that experience correlated changes in the nine diversity dimensions due to nonnative species occurrences. We introduce the concept of Δβ syndromes to provide insight into invasion-driven community reassembly and identify scenarios in which nonnative species cause community changes that are not detectable in single dimensions (e.g., taxonomic Δβ). Using 1,023 stream fish communities across the conterminous United States, we quantified community-level Δβ using changes in nine dimensions of local contribution to beta diversity (ΔLCBD)—the distinctness of a community’s composition relative to all others across the metacommunity. We calculated null model standardized effect sizes for each ΔLCBD value, and retained the 437 communities that had a statistically significant ΔLCBD effect size in at least one dimension. We then used model-based clustering them into syndromes based on correlated changes in the nine dimensions of ΔLCBD effect sizes. We identified six Δβ syndromes that differed in magnitude and direction of multidimensional Δβ. No syndromes were characterized by communities that contributed to homogenization in each of the three diversity facets, illustrating that taxonomic Δβ alone is insufficient to understand the consequences of invasions. Syndromes also differed in native and nonnative species compositions; these commu …\"}]}"
+   }
+  ]
+ }
+}
