@@ -62,6 +62,7 @@ function renderAll() {
   if (S.tab === "search") renderSearch();
   if (S.tab === "map") renderMap();        // maps.js
   if (S.tab === "themes") renderThemeMap(); // maps.js
+  if (S.tab === "blog") renderBlog();
 }
 
 /* ------------------------------------------------------------------ tabs & hash */
@@ -74,13 +75,14 @@ function setTab(tab, push = true) {
   S.tab = tab;
   document.querySelectorAll(".tabs button").forEach((b) => b.setAttribute("aria-selected", b.dataset.tab === tab));
   document.querySelectorAll(".tab").forEach((s) => { s.hidden = s.id !== `tab-${tab}`; });
+  $(".filters").hidden = tab === "blog"; // the year/theme filters don't apply to the blog
   if (push) history.replaceState(null, "", tab === "faculty" && S.facSlug ? `#faculty/${S.facSlug}` : `#${tab}`);
   renderAll();
 }
 function readHash() {
   const [tab, slug] = location.hash.slice(1).split("/");
   if (tab === "faculty" && slug && S.fac.has(slug)) S.facSlug = slug;
-  if (["network", "map", "themes", "faculty", "search"].includes(tab)) setTab(tab, false);
+  if (["network", "map", "themes", "faculty", "search", "blog"].includes(tab)) setTab(tab, false);
 }
 function openFaculty(slug) {
   S.facSlug = slug;
@@ -410,4 +412,52 @@ function downloadCsv() {
   a.download = "safs-papers.csv";
   a.click();
   URL.revokeObjectURL(a.href);
+}
+
+/* ------------------------------------------------------------------ blog */
+let blogData = null; // loaded on first visit to the tab
+function renderBlog() {
+  if (blogData === null) {
+    blogData = "loading";
+    $("#b-status").textContent = "Loading posts…";
+    d3.json("data/blog.json?v=" + window.V)
+      .then((b) => { blogData = b; renderBlog(); })
+      .catch(() => { blogData = { posts: [] }; renderBlog(); });
+    return;
+  }
+  if (blogData === "loading") return;
+  const posts = blogData.posts || [];
+  if (!posts.length) {
+    $("#b-status").textContent = "No posts yet. The first ones appear after the next weekly run.";
+    $("#b-posts").innerHTML = "";
+    return;
+  }
+  const cycle = d3.max(posts, (p) => p.cycle);
+  const done = new Set(posts.filter((p) => p.cycle === cycle).map((p) => p.faculty)).size;
+  $("#b-status").textContent = blogData.eligible
+    ? `Round ${cycle}: ${done} of ${blogData.eligible} faculty featured so far.` : "";
+  const dateFmt = d3.timeFormat("%B %-d, %Y"), parse = d3.timeParse("%Y-%m-%d");
+  const weeks = d3.groups(posts, (p) => p.week); // posts are stored newest first
+  $("#b-posts").innerHTML = weeks.map(([, ps]) => `
+    <section class="blog-week">
+      <h3>Week of ${esc(dateFmt(parse(ps[0].date)))}</h3>
+      <div class="blog-grid">${ps.map(blogPost).join("")}</div>
+    </section>`).join("");
+  $("#b-posts").querySelectorAll("[data-fac]").forEach((a) =>
+    a.addEventListener("click", (e) => { e.preventDefault(); openFaculty(a.dataset.fac); }));
+}
+function blogPost(p) {
+  const f = S.fac.get(p.faculty);
+  const link = p.doi ? `https://doi.org/${p.doi}` : `https://openalex.org/${p.work_id}`;
+  const theme = S.theme.get(p.theme)?.name;
+  return `<article class="card blog-post">
+    <p class="kind">${theme ? esc(theme) : "Research"}</p>
+    <h2>${esc(p.headline)}</h2>
+    <p class="dek">${esc(p.dek)}</p>
+    <p class="byline">Featuring <a href="#faculty/${esc(p.faculty)}" data-fac="${esc(p.faculty)}">${esc(f?.name ?? p.faculty)}</a></p>
+    ${p.paragraphs.map((t) => `<p>${esc(t)}</p>`).join("")}
+    <p class="why"><strong>Why it matters.</strong> ${esc(p.why_it_matters)}</p>
+    <p class="cite muted"><a href="${esc(link)}" target="_blank" rel="noopener">${esc(p.title)}</a>
+      ${p.venue ? ` · <em>${esc(p.venue)}</em>` : ""} · ${esc(p.publication_date || p.year)}</p>
+  </article>`;
 }

@@ -19,6 +19,7 @@
     <button role="tab" data-tab="themes" aria-selected="false">Theme map</button>
     <button role="tab" data-tab="faculty" aria-selected="false">Faculty</button>
     <button role="tab" data-tab="search" aria-selected="false">Search</button>
+    <button role="tab" data-tab="blog" aria-selected="false">Blog</button>
   </nav>
 </header>
 
@@ -97,6 +98,16 @@
       <tbody></tbody>
     </table></div>
     <button id="s-more" class="btn" hidden>Show more</button>
+  </section>
+
+  <!-- BLOG -->
+  <section id="tab-blog" class="tab" role="tabpanel" hidden>
+    <div class="blog-intro">
+      <h2>Paper of the week</h2>
+      <p class="muted">Every week two SAFS faculty members are picked at random, and Claude writes a plain-language summary of each one's most recent paper. Everyone gets a turn before anyone is featured again. Summaries are written by AI from the paper's abstract, so check the paper itself before citing it.</p>
+      <p id="b-status" class="muted"></p>
+    </div>
+    <div id="b-posts" class="blog-posts"></div>
   </section>
 </main>
 
