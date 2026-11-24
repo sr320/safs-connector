@@ -1,1 +1,51 @@
-{"posts": []}
+{
+ "posts": [
+  {
+   "week": "2026-W48",
+   "date": "2026-11-23",
+   "cycle": 1,
+   "faculty": "john-horne",
+   "work_id": "W4401008547",
+   "title": "Field comparison of Antarctic krill (Euphausia superba) backscatter and aggregation types using NORTEK and SIMRAD echosounders",
+   "year": 2024,
+   "venue": "ICES Journal of Marine Science",
+   "doi": "10.1093/icesjms/fsae093",
+   "publication_date": "2024-07-24",
+   "theme": "quantitative-methods",
+   "headline": "Two underwater sonars, one krill swarm: do they see the same thing?",
+   "dek": "A field comparison of two moored echosounders finds both can track Antarctic krill, but one picked up far more noise and far fewer krill swarms.",
+   "paragraphs": [
+    "Antarctic krill, small shrimp-like animals at the heart of the Southern Ocean food web, are increasingly monitored by instruments left on moorings for long periods. These upward-looking echosounders send sound pulses toward the surface and record the echoes, or backscatter, from animals in the water. But are different instruments interchangeable? A study in the ICES Journal of Marine Science, led by Pavanee Angelee Annasawmy with contributions from SAFS professor John Horne and colleagues, put two commercial echosounders side by side to find out.",
+    "The team compared a Nortek Signature100 and a SIMRAD Wideband Autonomous Transceiver (WBAT), looking at how krill density and the types of krill aggregations changed over time. They first had to clean the data: the Signature100 needed corrections for background, brief transient, and sharp impulse noise, while the WBAT needed correction for background noise only. They then described krill vertical distribution using a set of measures, including average depth, center of mass, and how spread out or clumped the krill were.",
+    "Some results matched. In regions with no visible backscatter, the signal-to-noise ratio was similar for both instruments, surface echoes looked alike over similar periods, and both placed krill at similar average depths. But the measured krill density differed between the two. Krill aggregations sorted into three shape-based types at each mooring, and while each type had similar acoustic density, the Signature100 detected 133 aggregations compared with 707 for the WBAT.",
+    "The authors conclude that both instruments can be used for long-term, unattended krill sampling, but they attach a strong caveat to the Signature100 because of its noise characteristics and its lower krill detection."
+   ],
+   "why_it_matters": "Krill monitoring informs how scientists and managers understand a species that feeds whales, seals, penguins and fish. Knowing that instruments can give different answers helps ensure long-term records are compared fairly and interpreted correctly.",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "week": "2026-W48",
+   "date": "2026-11-23",
+   "cycle": 1,
+   "faculty": "mark-scheuerell",
+   "work_id": "W4409922507",
+   "title": "Improving restoration heuristics to support anadromous fish passage",
+   "year": 2026,
+   "venue": "PLoS ONE",
+   "doi": "10.1371/journal.pone.0348150",
+   "publication_date": "2026-06-03",
+   "theme": "habitat-hydrology",
+   "headline": "Simple rules for fixing fish barriers work, until habitat quality enters",
+   "dek": "A study of fish passage restoration in western Washington tests common rules of thumb for choosing which river barriers to fix against optimized plans.",
+   "paragraphs": [
+    "Culverts, dams and other barriers can block anadromous fish, species such as salmon that migrate between rivers and the sea, from reaching upstream habitat. Spending on reconnecting rivers is growing worldwide, but deciding which barriers to fix first is not simple. Computer optimization methods can identify cost-effective sets of projects, yet in practice managers often rely on simpler rules of thumb, or heuristics. One example is prioritizing barriers that block the most high-quality upstream habitat, without accounting for where other barriers sit in the same river network.",
+    "A team led by Sunny Jardine, with co-authors including Mark Scheuerell of UW's School of Aquatic and Fishery Sciences, asked how well these common heuristics actually perform. Using fish passage restoration in western Washington as a case study, they compared the outcomes of widely used rules against the results of optimization.",
+    "When the only goal was to increase the amount of habitat available to fish, heuristics based on total upstream habitat did well, reaching 93 percent of the optimal gains. But when the rules also included common stand-ins for habitat quality, such as the percent of natural land cover upstream, performance dropped by nearly half.",
+    "The authors conclude that heuristics can be redesigned to more directly target gains in high-quality habitat. Doing so could make restoration spending more efficient and help narrow the gap between optimization research and on-the-ground decisions."
+   ],
+   "why_it_matters": "Restoration budgets are limited, and the rules used to rank projects shape where that money goes. Better rules of thumb could deliver more benefit for fish from the same investment, without requiring every agency to run complex optimization models.",
+   "model": "claude-opus-5-5"
+  }
+ ],
+ "eligible": 31
+}
