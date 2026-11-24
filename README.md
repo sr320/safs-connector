@@ -161,3 +161,14 @@ The SQLite database is no longer committed; at 26 MB per monthly change it would
 **One-time setup** (in repo Settings):
 - Add `ANTHROPIC_API_KEY` as an Actions secret. `OPENALEX_API_KEY` is optional.
 - Under Actions → General → Workflow permissions, allow GitHub Actions to create pull requests.
+
+## Weekly blog (Claude)
+
+```bash
+uv run python pipeline/12_blog.py --dry-run   # show this week's picks
+uv run python pipeline/12_blog.py             # write this week's two posts -> site/data/blog.json
+```
+
+Each week two faculty are picked at random from those not yet featured in the current round, and Claude (`claude-opus-5-5`) writes a plain-language post about each one's most recent paper, based on its title and its OpenAlex abstract. Once every faculty member with papers has been featured, a new round begins. A paper is never featured twice. `site/data/blog.json` holds the posts and is also the rotation state, so to remove a post, delete its entry.
+
+`.github/workflows/blog.yml` runs this every Monday. It commits `blog.json` to `main` and starts the Pages deploy. It uses the same `ANTHROPIC_API_KEY` secret as the monthly refresh. To post right away, use **Actions → Weekly blog → Run workflow**.

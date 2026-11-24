@@ -1,0 +1,63 @@
+# Weekly blog: Claude summarizes the most recent paper of two randomly picked faculty,
+# commits site/data/blog.json to main, then redeploys the explorer.
+#
+# Uses the same ANTHROPIC_API_KEY repository secret as the monthly refresh.
+# Cost: two Claude requests a week (well under a dollar a month).
+#
+# Pushes made with the workflow's own token don't trigger other workflows, so this job
+# starts the Pages deploy itself with `gh workflow run`.
+name: Weekly blog
+
+on:
+  schedule:
+    - cron: "23 15 * * 1"   # Mondays 15:23 UTC (morning in Seattle)
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Replace this week's posts if they already exist"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: blog
+  cancel-in-progress: false
+
+jobs:
+  blog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: uv sync --frozen
+
+      - name: Write this week's posts
+        run: uv run python pipeline/12_blog.py ${{ inputs.force && '--force' || '' }}
+
+      - name: Commit and deploy
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -z "$(git status --porcelain -- site/data/blog.json)" ]; then
+            echo "No new posts."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data/blog.json
+          git commit -m "Blog: posts for week $(date -u +%G-W%V)"
+          git pull --rebase
+          git push
+          gh workflow run pages.yml --ref main
